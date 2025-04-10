@@ -1,0 +1,36 @@
+{
+  "equipment_type": "53FT Dry Van",
+  "reference_number": "8299332",
+  "booking_confirmation_number": "8299332",
+  "total_rate": null,
+  "freight_rate": null,
+  "additional_rate": null,
+  "shipper_section": [
+    {
+      "ship_from_company": "Solo Furniture Warehouse",
+      "ship_from_address": "10925 Pump House Road, Annapolis Junction, MD 20701, USA",
+      "pickup_number": null,
+      "pickup_instructions": null,
+      "pickup_appointment_start_datetime": "02/12/25 08:00",
+      "pickup_appointment_end_datetime": null
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "Prime Hospitality",
+      "receiver_address": "321 Turner Industrial, Saltillo, MS 38866, USA",
+      "receiver_delivery_number": null,
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "02/13/25 08:00",
+      "receiver_appointment_end_datetime": "02/13/25 15:00"
+    }
+  ],
+  "customer_name": null,
+  "email_domain": "ntgfreight.com",
+  "customer_address": "244 Perimeter Center Pkwy NE Fourth Floor, Atlanta, GA 30346",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": false,
+  "additional_rates": []
+}

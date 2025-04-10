@@ -1,0 +1,36 @@
+{
+  "equipment_type": "Van",
+  "reference_number": "14342080",
+  "booking_confirmation_number": "14342080",
+  "total_rate": 1650.0,
+  "freight_rate": 1650.0,
+  "additional_rate": null,
+  "shipper_section": [
+    {
+      "ship_from_company": "FXI",
+      "ship_from_address": "1205 Prudential Blvd, Longview, WA 98632",
+      "pickup_number": "191-243",
+      "pickup_instructions": "Macro point is required with this customer. A fee of -250.00 will be charged for not accepting throughout the entire trip. Please send over POD within 48hrs. Failure to do so will result in $50.00 fee per day after that.",
+      "pickup_appointment_start_datetime": "01/15/25 06:00",
+      "pickup_appointment_end_datetime": "01/15/25 10:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "FXI",
+      "receiver_address": "1620 S Empre Rd, Salt Lake City, UT 84104",
+      "receiver_delivery_number": null,
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "01/17/25 08:00",
+      "receiver_appointment_end_datetime": "01/17/25 10:00"
+    }
+  ],
+  "customer_name": "Sunteck Transport Co., LLC",
+  "email_domain": "modeglobal.com",
+  "customer_address": "14785 Preston Rd, Suite 850, Dallas, TX 75254",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

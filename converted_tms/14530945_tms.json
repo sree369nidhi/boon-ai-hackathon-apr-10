@@ -1,0 +1,129 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "14530945",
+  "customer_id": "ST",
+  "equipment_type_id": "V",
+  "freight_charge": 1650.0,
+  "freight_charge_n": 1650.0,
+  "freight_charge_r": 1,
+  "rate": 1650.0,
+  "rate_type": "F",
+  "rate_units": 1,
+  "otherchargetotal": 0,
+  "otherchargetotal_n": 0,
+  "otherchargetotal_r": 1,
+  "total_charge": 1650.0,
+  "total_charge_n": 1650.0,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": 1650.0,
+  "totalcharge_and_excisetax_n": 1650.0,
+  "totalcharge_and_excisetax_r": 1,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zz6b8c3931b33c41a4ifgAPP2",
+  "consignee_stop_id": "zz6ac7a59556534ca7ifgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz6b8c3931b33c41a4ifgAPP2",
+      "address": "1205 PRUDENTIAL BLVD",
+      "city_name": "",
+      "state": "WA",
+      "zip_code": "98632",
+      "location_name": "FXI",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "14530945",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20250303060000-0700",
+      "sched_arrive_late": "20250303100000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "Macro point is required with this customer. A fee of -250.00 will be charged for not accepting throughout the entire trip. Please send over POD within 48hrs. Failure to do so will result in $50.00 fee per day after that.",
+          "sequence": 1,
+          "stop_id": "zz6b8c3931b33c41a4ifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__loadingInstructions": "Macro point is required with this customer. A fee of -250.00 will be charged for not accepting throughout the entire trip. Please send over POD within 48hrs. Failure to do so will result in $50.00 fee per day after that.",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "191-255",
+          "reference_qual": "POL",
+          "send_to_driver": true,
+          "stop_id": "zz6b8c3931b33c41a4ifgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz6ac7a59556534ca7ifgAPP2",
+      "address": "1620 S EMPIRE RD",
+      "city_name": "",
+      "state": "UT",
+      "zip_code": "84104",
+      "location_name": "Salt Lake Mattress Co/ Serta",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "14530945",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20250305080000-0700",
+      "sched_arrive_late": "20250305100000-0700"
+    }
+  ],
+  "bill_distance": 100,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "15530945",
+      "origin_stop_id": "zz6b8c3931b33c41a4ifgAPP2",
+      "dest_stop_id": "zz6ac7a59556534ca7ifgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 100,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "14530945"
+    }
+  ],
+  "curr_movement_id": "15530945",
+  "otherCharges": [
+    {
+      "__type": "other_charge",
+      "company_id": "TMS",
+      "charge_code": "MISC",
+      "charge_description": "Miscellaneous Charge",
+      "charge_amount": 0,
+      "charge_amount_c": "USD",
+      "charge_amount_n": 0,
+      "charge_amount_r": 1,
+      "sequence": 1
+    }
+  ]
+}

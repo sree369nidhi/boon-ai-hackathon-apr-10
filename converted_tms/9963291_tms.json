@@ -1,0 +1,139 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "9963291",
+  "customer_id": "UNKNOWN",
+  "equipment_type_id": "V",
+  "freight_charge": 1277.38,
+  "freight_charge_n": 1277.38,
+  "freight_charge_r": 1,
+  "rate": 1277.38,
+  "rate_type": "M",
+  "rate_units": 1,
+  "otherchargetotal": 331.39,
+  "otherchargetotal_n": 331.39,
+  "otherchargetotal_r": 1,
+  "total_charge": 1608.77,
+  "total_charge_n": 1608.77,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": 1608.77,
+  "totalcharge_and_excisetax_n": 1608.77,
+  "totalcharge_and_excisetax_r": 1,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zz443433b8735643fcifgAPP2",
+  "consignee_stop_id": "zzd27d8f00091d43d0ifgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz443433b8735643fcifgAPP2",
+      "address": "300 SOUTHWEST 27TH STREET",
+      "city_name": "",
+      "state": "WA",
+      "zip_code": "98055",
+      "location_name": "RENTON WAREHOUSE",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "9963291",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20250131000000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "Appointments pending",
+          "sequence": 1,
+          "stop_id": "zz443433b8735643fcifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__loadingInstructions": "Appointments pending"
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zzd27d8f00091d43d0ifgAPP2",
+      "address": "12634 S 265 W",
+      "city_name": "",
+      "state": "UT",
+      "zip_code": "12634",
+      "location_name": "SWIRE DRAPER",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "9963291",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20250203000000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "Appointments pending",
+          "sequence": 1,
+          "stop_id": "zzd27d8f00091d43d0ifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__unloadingInstructions": "Appointments pending",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "309952723, 4506004854",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zzd27d8f00091d43d0ifgAPP2"
+        }
+      ]
+    }
+  ],
+  "bill_distance": 100,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "10963291",
+      "origin_stop_id": "zz443433b8735643fcifgAPP2",
+      "dest_stop_id": "zzd27d8f00091d43d0ifgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 100,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "9963291"
+    }
+  ],
+  "curr_movement_id": "10963291",
+  "otherCharges": [
+    {
+      "__type": "other_charge",
+      "company_id": "TMS",
+      "charge_code": "MISC",
+      "charge_description": "Miscellaneous Charge",
+      "charge_amount": 331.39,
+      "charge_amount_c": "USD",
+      "charge_amount_n": 331.39,
+      "charge_amount_r": 1,
+      "sequence": 1
+    }
+  ]
+}

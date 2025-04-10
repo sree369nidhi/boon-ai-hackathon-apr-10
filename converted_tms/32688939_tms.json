@@ -1,0 +1,152 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "32688939",
+  "customer_id": "ST",
+  "equipment_type_id": "R",
+  "freight_charge": 1697.72,
+  "freight_charge_n": 1697.72,
+  "freight_charge_r": 1,
+  "rate": 1697.72,
+  "rate_type": "F",
+  "rate_units": 1,
+  "otherchargetotal": 302.28,
+  "otherchargetotal_n": 302.28,
+  "otherchargetotal_r": 1,
+  "total_charge": 2000.0,
+  "total_charge_n": 2000.0,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": 2000.0,
+  "totalcharge_and_excisetax_n": 2000.0,
+  "totalcharge_and_excisetax_r": 1,
+  "temperature_min": 35.0,
+  "temperature_max": 35.0,
+  "setpoint_temp": 35.0,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zz09b0dc57574841c7ifgAPP2",
+  "consignee_stop_id": "zz6992f271ca3b41ccifgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz09b0dc57574841c7ifgAPP2",
+      "address": "489 N PRATT RD Monticello",
+      "city_name": "",
+      "state": "WI",
+      "zip_code": "53570",
+      "location_name": "Sugar River Cold Storage",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "32688939",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20250122130000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "Pickup is set for 1PM",
+          "sequence": 1,
+          "stop_id": "zz09b0dc57574841c7ifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__loadingInstructions": "Pickup is set for 1PM",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "38229",
+          "reference_qual": "POL",
+          "send_to_driver": true,
+          "stop_id": "zz09b0dc57574841c7ifgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz6992f271ca3b41ccifgAPP2",
+      "address": "331 JOINT PARK BLVD Tullahoma",
+      "city_name": "",
+      "state": "TN",
+      "zip_code": "37388",
+      "location_name": "MDS Foods",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "32688939",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20250123110000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "Delivery Appointment set for 11AM",
+          "sequence": 1,
+          "stop_id": "zz6992f271ca3b41ccifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__unloadingInstructions": "Delivery Appointment set for 11AM",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "38229",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zz6992f271ca3b41ccifgAPP2"
+        }
+      ]
+    }
+  ],
+  "bill_distance": 100,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "33688939",
+      "origin_stop_id": "zz09b0dc57574841c7ifgAPP2",
+      "dest_stop_id": "zz6992f271ca3b41ccifgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 100,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "32688939"
+    }
+  ],
+  "curr_movement_id": "33688939",
+  "otherCharges": [
+    {
+      "__type": "other_charge",
+      "company_id": "TMS",
+      "charge_code": "MISC",
+      "charge_description": "Miscellaneous Charge",
+      "charge_amount": 302.28,
+      "charge_amount_c": "USD",
+      "charge_amount_n": 302.28,
+      "charge_amount_r": 1,
+      "sequence": 1
+    }
+  ]
+}

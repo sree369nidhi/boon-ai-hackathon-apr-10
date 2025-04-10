@@ -1,0 +1,41 @@
+{
+  "equipment_type": "Van",
+  "reference_number": "505151336",
+  "booking_confirmation_number": "505151336",
+  "total_rate": 1255.0,
+  "freight_rate": 1255.0,
+  "additional_rate": 312.01,
+  "shipper_section": [
+    {
+      "ship_from_company": "Albea Washington",
+      "ship_from_address": "191 RT 31 North, Washington, NJ 07882",
+      "pickup_number": "56530331",
+      "pickup_instructions": "TRAILER MUST BE CLEAN, DRY & ODOR FREE. DRIVER MUST HAVE LOAD BARS OR STRAPS TO SECURE LOAD.",
+      "pickup_appointment_start_datetime": "02/11/25 09:00",
+      "pickup_appointment_end_datetime": "02/11/25 14:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "Chattem",
+      "receiver_address": "960 Wauhatchie Pike, CHATTANOOGA, TN 37419-2432",
+      "receiver_delivery_number": "DR25798",
+      "receiver_instructions": "TRAILER MUST BE CLEAN, DRY & ODOR FREE. DRIVER MUST HAVE LOAD BARS OR STRAPS TO SECURE LOAD.",
+      "receiver_appointment_start_datetime": "02/13/25 08:00",
+      "receiver_appointment_end_datetime": null
+    }
+  ],
+  "customer_name": null,
+  "email_domain": "chrobinson@sharptrucking.com",
+  "customer_address": null,
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": [
+    {
+      "amount": 312.01,
+      "is_fuel_surcharge": true
+    }
+  ]
+}

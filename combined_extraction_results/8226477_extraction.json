@@ -1,0 +1,36 @@
+{
+  "equipment_type": "53FT Dry Van",
+  "reference_number": "8226477",
+  "booking_confirmation_number": "8226477",
+  "total_rate": null,
+  "freight_rate": null,
+  "additional_rate": null,
+  "shipper_section": [
+    {
+      "ship_from_company": "RCCB - SAN LEANDRO CA PRODUCTION",
+      "ship_from_address": "14655 Wicks Boulevard, San Leandro, CA 94577, USA",
+      "pickup_number": "4307832041",
+      "pickup_instructions": "DRIVER IS RESPONSIBLE FOR SECURING THE BACK / TAIL PALLETS WITH LOAD BARS OR LOAD STRAPS. 2 STRAPS ARE REQUIRED. IF THE DRIVER CANNOT USE STRAPS DUE TO EQUIPMENT RESTRICTIONS, 3 LOAD BARS WILL SUFFICE. FACE MASKS AND SAFETY VESTS ARE REQUIRED TO BE WORN AT ALL TIMES. CLOSED TOE SHOES ARE REQUIRED TO BE WORN ON PROPERTY. PLEASE INFORM DRIVER A SEAL MUST BE APPLIED TO ALL LOADS PRIOR TO DEPARTING. 2 straps or 3 load bars required. Seal must be used on all loads. Drivers need to ensure freight is secured before leaving shipper / take pictures prior to departure. Drivers must request air bags from shipper for securement if they deem necessary. Any load where carrier can't provide pictures of the load secured before leaving shipper will not be eligible for re-work reimbursement.",
+      "pickup_appointment_start_datetime": "01/12/25 19:00",
+      "pickup_appointment_end_datetime": null
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "RCCB - SANTA MARIA CA SALES",
+      "receiver_address": "1000 Fairway Dr, Santa Maria, CA 93455-1512, USA",
+      "receiver_delivery_number": "50059801",
+      "receiver_instructions": "Green safety vests & closed toe shoes MUST be worn constantly while on property. Every load MUST have a seal intact - if broken, will be rejected at consignee & claim will be filed. NTG must be notified @ 1.5 HR mark of wait time & POD with IN/OUT times must be submitted w/in 12 HRS. $40/HR for detention if above requirements met & on-time arrival is hit (capped @ $250).",
+      "receiver_appointment_start_datetime": "01/13/25 06:00",
+      "receiver_appointment_end_datetime": null
+    }
+  ],
+  "customer_name": "Nolan Transportation Group",
+  "email_domain": "NTGFREIGHT.COM",
+  "customer_address": "244 Perimeter Center Pkwy NE Fourth Floor, Atlanta, GA 30346",
+  "temperature_present": true,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": null,
+  "additional_rates": []
+}

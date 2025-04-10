@@ -1,0 +1,45 @@
+{
+  "equipment_type": "Van",
+  "reference_number": "3070085",
+  "booking_confirmation_number": "3070085",
+  "total_rate": 270.0,
+  "freight_rate": 0.0,
+  "additional_rate": 270.0,
+  "shipper_section": [
+    {
+      "ship_from_company": "DART/SOLO CONTAINER",
+      "ship_from_address": "9045 POLARIS LN NE, LACEY WA 98516",
+      "pickup_number": null,
+      "pickup_instructions": "DRIVER MUST CHECK INTO SHIPPING OFFICE ON ARRIVAL.",
+      "pickup_appointment_start_datetime": "02/05/25 06:00",
+      "pickup_appointment_end_datetime": "02/05/25 17:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "BWC SYSCO INTERMOUNTAIN",
+      "receiver_address": "9494 SOUTH PROSPERITY ROAD, WEST JORDAN UT 84081",
+      "receiver_delivery_number": "005",
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "02/07/25 10:00",
+      "receiver_appointment_end_datetime": "02/07/25 10:00"
+    }
+  ],
+  "customer_name": "SHARP TRANSPORTATION, INC.",
+  "email_domain": "cheemalogistics.com",
+  "customer_address": "LOGAN UT 84323",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": false,
+  "additional_rates": [
+    {
+      "amount": 150.0,
+      "is_fuel_surcharge": false
+    },
+    {
+      "amount": 120.0,
+      "is_fuel_surcharge": false
+    }
+  ]
+}

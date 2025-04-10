@@ -1,0 +1,36 @@
+{
+  "equipment_type": "Van",
+  "reference_number": "6371326",
+  "booking_confirmation_number": "6371326",
+  "total_rate": 1550.0,
+  "freight_rate": 1550.0,
+  "additional_rate": null,
+  "shipper_section": [
+    {
+      "ship_from_company": "SWIRE CCUSA BELLEVUE WA PROD CTR",
+      "ship_from_address": "1150 124TH AVE NE, Bellevue, WA 98005",
+      "pickup_number": null,
+      "pickup_instructions": "BY APPOINTMENT DO NOT DIVERT - LOAD DESTINATION SHOULD NEVER CHANGE. Carrier agrees that tender rate is the legally binding contract rate for this transaction. Load Locks or Straps are required on all loads. For the safety of the drivers - High-Visibility Safety Vests must be worn on site. All loads must arrive with intact seals. Contact shipping location and transportation planning if carrier needs to break seal prior to delivery. All loads must be protected from EXTREME COLD OR HEAT. Pre-approval from Transportation Planning is required. If approved, Premiums will be paid for protection as stated in our Accessorial Index. If the carrier cannot provide heat/cold protection as necessitated by weather, the load should be refused. Incoming carriers must check in at the guard shack and then immediately check in at the shipping office with their load number/s. Drivers who don\u2019t have their Swire load number must call their dispatch to obtain it, or may be refused loading/unloading.",
+      "pickup_appointment_start_datetime": "01/08/25 15:00",
+      "pickup_appointment_end_datetime": "01/08/25 15:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "SWIRE COCA-COLA USA",
+      "receiver_address": "12634 SOUTH 235 WEST, Draper, UT 84020",
+      "receiver_delivery_number": null,
+      "receiver_instructions": "BY APPOINTMENT",
+      "receiver_appointment_start_datetime": "01/10/25 06:00",
+      "receiver_appointment_end_datetime": "01/10/25 06:00"
+    }
+  ],
+  "customer_name": "Arrive Logistics",
+  "email_domain": "arrivelogistics.com",
+  "customer_address": "7701 Metropolis Dr | Bldg 15, Austin, TX 78744",
+  "temperature_present": true,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

@@ -1,0 +1,36 @@
+{
+  "equipment_type": "53' Dry Van",
+  "reference_number": "4233261",
+  "booking_confirmation_number": "4233261",
+  "total_rate": 1800.0,
+  "freight_rate": 1800.0,
+  "additional_rate": 0.0,
+  "shipper_section": [
+    {
+      "ship_from_company": "Swire Coca-Cola",
+      "ship_from_address": "1150 124th Ave NE, BELLEVUE, WA 98005",
+      "pickup_number": null,
+      "pickup_instructions": "No driver loading or unload",
+      "pickup_appointment_start_datetime": "12/18/24 12:30",
+      "pickup_appointment_end_datetime": "12/18/24 12:30"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "Swire Coca-Cola, USA",
+      "receiver_address": "12634 S 265 W, DRAPER, UT 84020",
+      "receiver_delivery_number": "BM 4307775807, DN 49695285",
+      "receiver_instructions": "No driver loading or unload",
+      "receiver_appointment_start_datetime": "12/20/24 10:00",
+      "receiver_appointment_end_datetime": "12/20/24 10:00"
+    }
+  ],
+  "customer_name": "Visual Pak Logistics, LLC",
+  "email_domain": "swirecc.com",
+  "customer_address": "1550 Bridge Drive, Waukegan, IL 60085",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

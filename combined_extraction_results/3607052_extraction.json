@@ -1,0 +1,41 @@
+{
+  "equipment_type": "Van",
+  "reference_number": "3607052",
+  "booking_confirmation_number": "3607052",
+  "total_rate": 3600.0,
+  "freight_rate": 2880.0,
+  "additional_rate": 720.0,
+  "shipper_section": [
+    {
+      "ship_from_company": "DOMINION PACKAGING INC",
+      "ship_from_address": "5700 AUDUBON DR, Sandston, VA 23150",
+      "pickup_number": "U109543101, 4577728945",
+      "pickup_instructions": "*** EXW \u2013 PRODUCTION LOAD \u2013 COULD SHUT DOWN PRODUCTION LINE ***\u200b \u200b 20% OTD REQUIRED / FOOD GRADE TRAILER REQUIRED \u200b \u200b *** Driver must be able to scale up to 45,500, weight subject to change ***\u200b \u200b Driver must have valid driver\u2019s license \u2013 Photocopy, or company ID is not allowed\u200b \u200b E-TRACK REQUIRED : \u200b MACROPOINT, P44 OR FOURKITES \u2013 Drivers are required to accept tracking, turn location services on and if experiencing issues, reach out to Redwood tracking team. If using a local driver for pick up, the OTR driver information must also be provided, and tracking accepted as well.\u200b \u200b ACCESSORIAL REQUIREMENTS: \u200b \u200b Detention : Must have etrack throughout the entire trip. \u200b \u200b Detention at Consignee : Gate Pass Required with IN/OUT times\u200b \u200b Lumper or Accessorial Receipt must be sent within 7 days for carrier to receive compensation\u200b",
+      "pickup_appointment_start_datetime": "03/03/25 13:00",
+      "pickup_appointment_end_datetime": "03/03/25 13:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "Nestle Frozen Foods",
+      "receiver_address": "815 W. Raymond Klauck Way, Springville, UT 84663",
+      "receiver_delivery_number": "U109543101, 4577728945",
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "03/07/25 11:00",
+      "receiver_appointment_end_datetime": "03/07/25 11:00"
+    }
+  ],
+  "customer_name": "Redwood Multimodal",
+  "email_domain": "redwoodlogistics.com",
+  "customer_address": null,
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": false,
+  "additional_rates": [
+    {
+      "amount": 720.0,
+      "is_fuel_surcharge": false
+    }
+  ]
+}

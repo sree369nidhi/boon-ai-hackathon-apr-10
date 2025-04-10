@@ -1,0 +1,36 @@
+{
+  "equipment_type": "Van 53",
+  "reference_number": "2001824215",
+  "booking_confirmation_number": "2001824215",
+  "total_rate": 325.0,
+  "freight_rate": 325.0,
+  "additional_rate": null,
+  "shipper_section": [
+    {
+      "ship_from_company": "America's Beverage Co.",
+      "ship_from_address": "1331 E. Airport Freeway, Irving, TX 75062",
+      "pickup_number": "00103535923",
+      "pickup_instructions": "***MacroPoint tracking is REQUIRED *** Driver must be on MP tracking in order to qualify for accessorials. Accessorial requests and associated paperwork must be submitted ON THE DAY OF DELIVERY for submission to the customer for approval. Must be able and willing to scale 44,500 lbs; FOOD GRADE trailer, MUST be clean, dry, odor free, no holes or debris, swept out, or recent washout. All load details must be confirmed and double-checked PRIOR to leaving shipper - destination, weight, # of POs, and any other relevant information. Discrepancies between rate confirmation and shipper-provided BOL MUST be reported to MoLo immediately*** **Detention does not apply to FCFS facilities*****",
+      "pickup_appointment_start_datetime": "12/13/24 16:00",
+      "pickup_appointment_end_datetime": "12/13/24 16:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "The Kroger Co. - Kroger - Dallas-035C",
+      "receiver_address": "5801 Kroger Drive, Keller, TX 76248",
+      "receiver_delivery_number": "00103535923, 00103535923, M-00103535923",
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "12/13/24 22:00",
+      "receiver_appointment_end_datetime": "12/13/24 22:00"
+    }
+  ],
+  "customer_name": "MoLo Solutions, LLC",
+  "email_domain": "shipmolo.com",
+  "customer_address": "PO Box 10048, Fort Smith, AR 72917-0048",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

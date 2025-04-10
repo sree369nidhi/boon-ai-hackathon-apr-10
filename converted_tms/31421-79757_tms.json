@@ -1,0 +1,172 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "31421-79757",
+  "customer_id": "NL",
+  "equipment_type_id": "V",
+  "freight_charge": 1250.0,
+  "freight_charge_n": 1250.0,
+  "freight_charge_r": 1,
+  "rate": 1250.0,
+  "rate_type": "F",
+  "rate_units": 1,
+  "otherchargetotal": 927.0,
+  "otherchargetotal_n": 927.0,
+  "otherchargetotal_r": 1,
+  "total_charge": 2177.0,
+  "total_charge_n": 2177.0,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": 2177.0,
+  "totalcharge_and_excisetax_n": 2177.0,
+  "totalcharge_and_excisetax_r": 1,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zz00281ad1b6cd4b93ifgAPP2",
+  "consignee_stop_id": "zz6d3074a7b04d48e8ifgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz00281ad1b6cd4b93ifgAPP2",
+      "address": "815 Houser Way N",
+      "city_name": "",
+      "state": "WA",
+      "zip_code": "98055",
+      "location_name": "JAVA TRADING CO LLC",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "31421-79757",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20241231120000-0700",
+      "sched_arrive_late": "20241231153000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "TRAILER MUST BE CLEAN // DO NOT GO TO ADMIN OFFICE // LIVE TRACKING REQUIRED or $150 PENALTY // ensure that in/out times at receiver is stated on BOL",
+          "sequence": 1,
+          "stop_id": "zz00281ad1b6cd4b93ifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__loadingInstructions": "TRAILER MUST BE CLEAN // DO NOT GO TO ADMIN OFFICE // LIVE TRACKING REQUIRED or $150 PENALTY // ensure that in/out times at receiver is stated on BOL",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "937063",
+          "reference_qual": "POL",
+          "send_to_driver": true,
+          "stop_id": "zz00281ad1b6cd4b93ifgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz6d3074a7b04d48e8ifgAPP2",
+      "address": "620 W 600 N North Salt Lake",
+      "city_name": "",
+      "state": "UT",
+      "zip_code": "84054",
+      "location_name": "Safeway - Salt Lake",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "31421-79757",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20250102153000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "POD required ASAP upon delivery. Must be Clean Trailer.",
+          "sequence": 1,
+          "stop_id": "zz6d3074a7b04d48e8ifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__unloadingInstructions": "POD required ASAP upon delivery. Must be Clean Trailer.",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "856528713",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zz6d3074a7b04d48e8ifgAPP2"
+        }
+      ]
+    }
+  ],
+  "bill_distance": 100,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "3143179757",
+      "origin_stop_id": "zz00281ad1b6cd4b93ifgAPP2",
+      "dest_stop_id": "zz6d3074a7b04d48e8ifgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 100,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "31421-79757"
+    }
+  ],
+  "curr_movement_id": "3143179757",
+  "otherCharges": [
+    {
+      "__type": "other_charge",
+      "company_id": "TMS",
+      "charge_code": "MISC",
+      "charge_description": "Miscellaneous Charge",
+      "charge_amount": 400.0,
+      "charge_amount_c": "USD",
+      "charge_amount_n": 400.0,
+      "charge_amount_r": 1,
+      "sequence": 1
+    },
+    {
+      "__type": "other_charge",
+      "company_id": "TMS",
+      "charge_code": "MISC",
+      "charge_description": "Miscellaneous Charge",
+      "charge_amount": 50.0,
+      "charge_amount_c": "USD",
+      "charge_amount_n": 50.0,
+      "charge_amount_r": 1,
+      "sequence": 2
+    },
+    {
+      "__type": "other_charge",
+      "company_id": "TMS",
+      "charge_code": "MISC",
+      "charge_description": "Miscellaneous Charge",
+      "charge_amount": 477.0,
+      "charge_amount_c": "USD",
+      "charge_amount_n": 477.0,
+      "charge_amount_r": 1,
+      "sequence": 3
+    }
+  ]
+}

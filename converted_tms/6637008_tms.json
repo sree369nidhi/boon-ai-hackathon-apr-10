@@ -1,0 +1,127 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "6637008",
+  "customer_id": "DT",
+  "equipment_type_id": "V",
+  "freight_charge": 1300.0,
+  "freight_charge_n": 1300.0,
+  "freight_charge_r": 1,
+  "rate": 1300.0,
+  "rate_type": "F",
+  "rate_units": 1,
+  "otherchargetotal": 0,
+  "otherchargetotal_n": 0,
+  "otherchargetotal_r": 1,
+  "total_charge": 1300.0,
+  "total_charge_n": 1300.0,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": 1300.0,
+  "totalcharge_and_excisetax_n": 1300.0,
+  "totalcharge_and_excisetax_r": 1,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zzf4bba8c3eb4b4a2cifgAPP2",
+  "consignee_stop_id": "zz20b8b9d3fde84e95ifgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zzf4bba8c3eb4b4a2cifgAPP2",
+      "address": "545 AVERY RD W",
+      "city_name": "",
+      "state": "WA",
+      "zip_code": "98596-9657",
+      "location_name": "CARDINAL FG",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "6637008",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20250304060000-0700",
+      "sched_arrive_late": "20250304200000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "FCFS APPOINTMENT.",
+          "sequence": 1,
+          "stop_id": "zzf4bba8c3eb4b4a2cifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__loadingInstructions": "FCFS APPOINTMENT."
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz20b8b9d3fde84e95ifgAPP2",
+      "address": "5323 Harold Gatty Dr",
+      "city_name": "",
+      "state": "UT",
+      "zip_code": "84116",
+      "location_name": "Cascade Windows",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "6637008",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20250306080000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "BY APPOINTMENT",
+          "sequence": 1,
+          "stop_id": "zz20b8b9d3fde84e95ifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__unloadingInstructions": "BY APPOINTMENT",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "0204618",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zz20b8b9d3fde84e95ifgAPP2"
+        }
+      ]
+    }
+  ],
+  "bill_distance": 100,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "7637008",
+      "origin_stop_id": "zzf4bba8c3eb4b4a2cifgAPP2",
+      "dest_stop_id": "zz20b8b9d3fde84e95ifgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 100,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "6637008"
+    }
+  ],
+  "curr_movement_id": "7637008"
+}

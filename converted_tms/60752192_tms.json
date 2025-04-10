@@ -1,0 +1,138 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "60752192",
+  "customer_id": "EG",
+  "equipment_type_id": "V",
+  "freight_charge": 1600.0,
+  "freight_charge_n": 1600.0,
+  "freight_charge_r": 1,
+  "rate": 1600.0,
+  "rate_type": "F",
+  "rate_units": 1,
+  "otherchargetotal": 0,
+  "otherchargetotal_n": 0,
+  "otherchargetotal_r": 1,
+  "total_charge": 1600.0,
+  "total_charge_n": 1600.0,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": 1600.0,
+  "totalcharge_and_excisetax_n": 1600.0,
+  "totalcharge_and_excisetax_r": 1,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zzf2b3dee3ed914aadifgAPP2",
+  "consignee_stop_id": "zzdef0711b4e6c4e5fifgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zzf2b3dee3ed914aadifgAPP2",
+      "address": "300 FIBRE WAY",
+      "city_name": "",
+      "state": "WA",
+      "zip_code": "98632",
+      "location_name": "LONGVIEW FIBRE PAPER - PACKAGING INC",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "60752192",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20241208130000-0700",
+      "sched_arrive_late": "20241208130000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "MUST BE 53V Swing Door FOOD GRADE DETENTION NOTIFICATION MUST BE RECEIVED 30 min PRIOR TO START TO BE VALID",
+          "sequence": 1,
+          "stop_id": "zzf2b3dee3ed914aadifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__loadingInstructions": "MUST BE 53V Swing Door FOOD GRADE DETENTION NOTIFICATION MUST BE RECEIVED 30 min PRIOR TO START TO BE VALID",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "697848, 11675392",
+          "reference_qual": "POL",
+          "send_to_driver": true,
+          "stop_id": "zzf2b3dee3ed914aadifgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zzdef0711b4e6c4e5fifgAPP2",
+      "address": "451 N 5600 W",
+      "city_name": "",
+      "state": "UT",
+      "zip_code": "84120",
+      "location_name": "PACKAGING CORP OF AMERICA",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "60752192",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20241210000100-0700",
+      "sched_arrive_late": "20241210235900-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "MUST BE 53V Swing Door FOOD GRADE DETENTION NOTIFICATION MUST BE RECEIVED 30 min PRIOR TO START TO BE VALID",
+          "sequence": 1,
+          "stop_id": "zzdef0711b4e6c4e5fifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__unloadingInstructions": "MUST BE 53V Swing Door FOOD GRADE DETENTION NOTIFICATION MUST BE RECEIVED 30 min PRIOR TO START TO BE VALID",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "204-62010, 11675392",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zzdef0711b4e6c4e5fifgAPP2"
+        }
+      ]
+    }
+  ],
+  "bill_distance": 100,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "61752192",
+      "origin_stop_id": "zzf2b3dee3ed914aadifgAPP2",
+      "dest_stop_id": "zzdef0711b4e6c4e5fifgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 100,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "60752192"
+    }
+  ],
+  "curr_movement_id": "61752192"
+}

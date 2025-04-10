@@ -1,0 +1,125 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "70729538",
+  "customer_id": "ST",
+  "equipment_type_id": "V",
+  "freight_charge": 2100.0,
+  "freight_charge_n": 2100.0,
+  "freight_charge_r": 1,
+  "rate": 2100.0,
+  "rate_type": "F",
+  "rate_units": 1,
+  "otherchargetotal": 0,
+  "otherchargetotal_n": 0,
+  "otherchargetotal_r": 1,
+  "total_charge": 2100.0,
+  "total_charge_n": 2100.0,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": 2100.0,
+  "totalcharge_and_excisetax_n": 2100.0,
+  "totalcharge_and_excisetax_r": 1,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zzc670132d6f114fc0ifgAPP2",
+  "consignee_stop_id": "zza5b387cbdb4b41b4ifgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zzc670132d6f114fc0ifgAPP2",
+      "address": "855 E HWY 80",
+      "city_name": "",
+      "state": "",
+      "zip_code": "75126",
+      "location_name": "SMURFIT KAPPA/OCC",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "70729538",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20250224153000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "Trailer must be 10 years or newer*** 53' VAN ONLY. SWING DOORS, WOOD FLOOR ONLY.",
+          "sequence": 1,
+          "stop_id": "zzc670132d6f114fc0ifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__loadingInstructions": "Trailer must be 10 years or newer*** 53' VAN ONLY. SWING DOORS, WOOD FLOOR ONLY.",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "587907",
+          "reference_qual": "POL",
+          "send_to_driver": true,
+          "stop_id": "zzc670132d6f114fc0ifgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zza5b387cbdb4b41b4ifgAPP2",
+      "address": "2200 N. MAIN STREET",
+      "city_name": "",
+      "state": "",
+      "zip_code": "84660",
+      "location_name": "SMURFIT SPANISH FORK",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "70729538",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20250226053000-0700",
+      "sched_arrive_late": "20250226160000-0700",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "587907",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zza5b387cbdb4b41b4ifgAPP2"
+        }
+      ]
+    }
+  ],
+  "bill_distance": 100,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "71729538",
+      "origin_stop_id": "zzc670132d6f114fc0ifgAPP2",
+      "dest_stop_id": "zza5b387cbdb4b41b4ifgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 100,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "70729538"
+    }
+  ],
+  "curr_movement_id": "71729538"
+}

@@ -1,0 +1,36 @@
+{
+  "equipment_type": "Van",
+  "reference_number": "3945196",
+  "booking_confirmation_number": "3945196",
+  "total_rate": 800.0,
+  "freight_rate": 800.0,
+  "additional_rate": null,
+  "shipper_section": [
+    {
+      "ship_from_company": "Blaine County Government",
+      "ship_from_address": "110 Ohio Gulch Rd, Hailey, ID 83333",
+      "pickup_number": "19546",
+      "pickup_instructions": "MUST BE A 53ft dry van with swing doors. USE PO#19546 THERE IS A SCALE ON SITE, PLEASE HAVE DRIVER GET A LIGHT & HEAVY WEIGHT. DRIVER MUST HAVE WEIGHT TICKETS IN ORDER TO GET PAID! DO NOT PUT ADDRESS IN GPS IT WILL TAKE YOU TO THE WRONG LOCATION, PLEASE CALL SHIPPER FOR DIRECTIONS!",
+      "pickup_appointment_start_datetime": "12/24/24 08:00",
+      "pickup_appointment_end_datetime": "12/24/24 15:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "Rocky Mtn. Recycling (South)",
+      "receiver_address": "3110 S 900 W, Salt Lake City, UT 84101",
+      "receiver_delivery_number": "257359",
+      "receiver_instructions": "MUST BE DELIVERED ON THE DATE AND TIME SPECIFIED. SCALE ON SITE. MUST GET LIGHT AND HEAVY WEIGHTS IN ORDER TO GET PAID.",
+      "receiver_appointment_start_datetime": "12/27/24 07:30",
+      "receiver_appointment_end_datetime": "12/27/24 14:00"
+    }
+  ],
+  "customer_name": "Landstar Inway Inc",
+  "email_domain": "landstarmail.com",
+  "customer_address": null,
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

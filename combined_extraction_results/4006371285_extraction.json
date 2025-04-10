@@ -1,0 +1,36 @@
+{
+  "equipment_type": "Van 53",
+  "reference_number": "4006371285",
+  "booking_confirmation_number": "4006371285",
+  "total_rate": 1600.0,
+  "freight_rate": 1600.0,
+  "additional_rate": 0,
+  "shipper_section": [
+    {
+      "ship_from_company": "SOLO CUP CO",
+      "ship_from_address": "9045 POLARIS LN NE STE I, LACEY, WA 98516-7152",
+      "pickup_number": "PO42812",
+      "pickup_instructions": "Loaded equipment type is a OTHER CUSTOMER 53 FOOT VAN TRL MUST BE: FOOD GRADE, CLEAN, DRY, ODOR FREE, NO HOLES OR DEBRIS. NOTIFY SCHNEIDER IF NEARING DETENTION OR ANY DELAYS PRIOR TO DEL. CARRIER SUBJECT TO LATE FEES. LUMPER FEE AT DEL MUST BE APPROVED. SEND RECEIPT AND POD TO: SLCYDART@SCHNEIDER.COM WITHIN 24 HRS OF DEL.",
+      "pickup_appointment_start_datetime": "01/06/25 13:00",
+      "pickup_appointment_end_datetime": "01/06/25 13:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "CARPENTER PAPER CO",
+      "receiver_address": "745 OVERLAND ST, NORTH SALT LAKE, UT 84054-2124",
+      "receiver_delivery_number": "0083502263",
+      "receiver_instructions": "DELIVERY SPECIAL INSTRUCTIONS: KC LDS NOT DHU, NEED 2 PAY CN TO ONLOAD AS LUMPER SERVICE.",
+      "receiver_appointment_start_datetime": "01/08/25 08:00",
+      "receiver_appointment_end_datetime": "01/08/25 08:00"
+    }
+  ],
+  "customer_name": "SHARP TRANSPORTATION INC",
+  "email_domain": "sharptrucking.com",
+  "customer_address": null,
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

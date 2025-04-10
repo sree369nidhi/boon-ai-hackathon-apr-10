@@ -1,0 +1,41 @@
+{
+  "equipment_type": "Van",
+  "reference_number": "504819841",
+  "booking_confirmation_number": "504819841",
+  "total_rate": 820.0,
+  "freight_rate": 820.0,
+  "additional_rate": null,
+  "shipper_section": [
+    {
+      "ship_from_company": "UCI Mill / DS Smith",
+      "ship_from_address": "658 South 7th Street, Reading, PA 19602",
+      "pickup_number": "171351",
+      "pickup_instructions": "Customer does not pay detention at loading or unloading!! Driver must double check their paperwork and confirm that it shows the same address as the CHRW rate con!! (If it does not match, the driver must go back to the guard to get the right shipment).",
+      "pickup_appointment_start_datetime": "02/12/25 10:00",
+      "pickup_appointment_end_datetime": "02/12/25 10:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "SOUTHCORR PACKAGING, LLC",
+      "receiver_address": "3021 Taylor Dr, Asheboro, NC 27203",
+      "receiver_delivery_number": "21758,21759",
+      "receiver_instructions": "There is a large sign with directions for delivery. It\u2019ll explain to put ppwk in mailbox with driver\u2019s phone # on ppwk. The cons will call the driver to dock. Cons fills up their appointments quick - if driver misses original delivery appointment, appt will be reset for cons next available.",
+      "receiver_appointment_start_datetime": "02/13/25 08:00",
+      "receiver_appointment_end_datetime": "02/13/25 08:00"
+    }
+  ],
+  "customer_name": null,
+  "email_domain": "sharptrucking.com",
+  "customer_address": null,
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": [
+    {
+      "amount": 179.99,
+      "is_fuel_surcharge": true
+    }
+  ]
+}

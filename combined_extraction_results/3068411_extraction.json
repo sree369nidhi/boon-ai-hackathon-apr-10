@@ -1,0 +1,36 @@
+{
+  "equipment_type": "Van",
+  "reference_number": "3068411",
+  "booking_confirmation_number": "3068411",
+  "total_rate": 2000.0,
+  "freight_rate": 2000.0,
+  "additional_rate": 0.0,
+  "shipper_section": [
+    {
+      "ship_from_company": "GMA COOS BAY",
+      "ship_from_address": "63776 MULLEN RD, COOS BAY, OR 97420",
+      "pickup_number": null,
+      "pickup_instructions": "MUST HAVE 4 LOAD BARS OR STRAPS TO SECURE PALLETS",
+      "pickup_appointment_start_datetime": "01/16/25 07:00",
+      "pickup_appointment_end_datetime": "01/16/25 15:03"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "ROCKY MOUNTAIN ABRASIVES",
+      "receiver_address": "950 WEST CENTER ST, LINDON, UT 84042",
+      "receiver_delivery_number": null,
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "01/20/25 07:00",
+      "receiver_appointment_end_datetime": "01/20/25 16:00"
+    }
+  ],
+  "customer_name": "CHEEMA LOGISTICS LLC",
+  "email_domain": "cheemalogistics.com",
+  "customer_address": "PO BOX 2234, SUMNER, WA 98390",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

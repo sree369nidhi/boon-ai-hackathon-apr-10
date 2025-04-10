@@ -1,0 +1,36 @@
+{
+  "equipment_type": "Van",
+  "reference_number": "3071603",
+  "booking_confirmation_number": "3071603",
+  "total_rate": 1700.0,
+  "freight_rate": 1700.0,
+  "additional_rate": 0,
+  "shipper_section": [
+    {
+      "ship_from_company": "DART/SOLO CONTAINER",
+      "ship_from_address": "9045 POLARIS LN NE, LACEY WA 98516",
+      "pickup_number": "4B DART CONTAINER, AD=38-270-8353, PO 005840228262, PU=187350412, SCA CHAO, SI 0083544906, TN 220544201, ZZ 1425",
+      "pickup_instructions": "Driver Load: PRELOAD",
+      "pickup_appointment_start_datetime": "03/07/25 06:00",
+      "pickup_appointment_end_datetime": "03/07/25 17:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "COSTCO 584",
+      "receiver_address": "5995 W300S, SALT LAKE CITY UT 84104",
+      "receiver_delivery_number": "PO 005840228262, PU 187350412, SI 0083544906, ZZ 0021001932",
+      "receiver_instructions": "Driver Load: LIVE LOAD/UNLOAD",
+      "receiver_appointment_start_datetime": "03/10/25 05:00",
+      "receiver_appointment_end_datetime": "03/10/25 05:00"
+    }
+  ],
+  "customer_name": "Cheema Logistics LLC",
+  "email_domain": "cheemalogistics.com",
+  "customer_address": "PO BOX 2234, SUMNER, WA 98390",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

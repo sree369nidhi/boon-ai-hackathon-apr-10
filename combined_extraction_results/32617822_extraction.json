@@ -1,0 +1,41 @@
+{
+  "equipment_type": "Van, 53'",
+  "reference_number": "32617822",
+  "booking_confirmation_number": "42896706",
+  "total_rate": 1650.0,
+  "freight_rate": 1324.92,
+  "additional_rate": 325.08,
+  "shipper_section": [
+    {
+      "ship_from_company": "SLD Salem",
+      "ship_from_address": "1610 14TH ST SE, Salem, OR 97302",
+      "pickup_number": "0100189216, 32011",
+      "pickup_instructions": "-NO REEFERS -Clean, dry, no holes, food grade -2 straps or load bars required -Swing Doors only, no roll doors -driver needs driver\u2019s license to check in - must have signed in/out times on BOL to validate detention",
+      "pickup_appointment_start_datetime": "01/10/25 18:00",
+      "pickup_appointment_end_datetime": "01/10/25 18:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "Kroger- Smiths-RFG",
+      "receiver_address": "500 SUGAR ST, Layton, UT 84041",
+      "receiver_delivery_number": "0100189216, 32011",
+      "receiver_instructions": "-$100 late fee -Driver must report all accessorials ASAP -Report detention 30 mins prior to entering - must have signed in/out times on POD to validate detention",
+      "receiver_appointment_start_datetime": "01/13/25 23:59",
+      "receiver_appointment_end_datetime": "01/13/25 23:59"
+    }
+  ],
+  "customer_name": "Coyote Logistics, LLC",
+  "email_domain": "coyote.com",
+  "customer_address": "960 Northpoint Parkway, Suite 150, Alpharetta, GA 30005",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": [
+    {
+      "amount": 325.08,
+      "is_fuel_surcharge": true
+    }
+  ]
+}

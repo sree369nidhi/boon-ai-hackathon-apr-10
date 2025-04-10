@@ -1,0 +1,127 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "0100767",
+  "customer_id": "ST",
+  "equipment_type_id": "V",
+  "freight_charge": 850.0,
+  "freight_charge_n": 850.0,
+  "freight_charge_r": 1,
+  "rate": 850.0,
+  "rate_type": "F",
+  "rate_units": 1,
+  "otherchargetotal": 0,
+  "otherchargetotal_n": 0,
+  "otherchargetotal_r": 1,
+  "total_charge": 850.0,
+  "total_charge_n": 850.0,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": 850.0,
+  "totalcharge_and_excisetax_n": 850.0,
+  "totalcharge_and_excisetax_r": 1,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zzd20d6bb17d804fb1ifgAPP2",
+  "consignee_stop_id": "zze674f466634f4901ifgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zzd20d6bb17d804fb1ifgAPP2",
+      "address": "1933 TOWER ROAD",
+      "city_name": "AURORA",
+      "state": "CO",
+      "zip_code": "80011",
+      "location_name": "KING SOOPERS AURORA",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "0100767",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20241203060000-0700",
+      "sched_arrive_late": "20241203150000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "No driver loading or unload",
+          "sequence": 1,
+          "stop_id": "zzd20d6bb17d804fb1ifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__loadingInstructions": "No driver loading or unload"
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zze674f466634f4901ifgAPP2",
+      "address": "3175 W 500 S",
+      "city_name": "SALT LAKE CITY",
+      "state": "UT",
+      "zip_code": "84104",
+      "location_name": "UTDA - Eco Service - Salt Lake City",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "0100767",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20241203090000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "No driver loading or unload",
+          "sequence": 1,
+          "stop_id": "zze674f466634f4901ifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__unloadingInstructions": "No driver loading or unload",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "ACD 925, Sl 3782199695",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zze674f466634f4901ifgAPP2"
+        }
+      ]
+    }
+  ],
+  "bill_distance": 100,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "1100767",
+      "origin_stop_id": "zzd20d6bb17d804fb1ifgAPP2",
+      "dest_stop_id": "zze674f466634f4901ifgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 100,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "0100767"
+    }
+  ],
+  "curr_movement_id": "1100767"
+}

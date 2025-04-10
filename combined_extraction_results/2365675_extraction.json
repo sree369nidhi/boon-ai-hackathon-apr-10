@@ -1,0 +1,36 @@
+{
+  "equipment_type": "Van or Reefer",
+  "reference_number": "PO 7198720",
+  "booking_confirmation_number": "PO 7198720",
+  "total_rate": 1740.0,
+  "freight_rate": 1740.0,
+  "additional_rate": 0.0,
+  "shipper_section": [
+    {
+      "ship_from_company": "CaptiveAire Systems",
+      "ship_from_address": "6856 Lockheed Drive, REDDING CA 96002",
+      "pickup_number": null,
+      "pickup_instructions": "Trailer must be sealed before the driver leaves the shipping facility and seal number must be on the bill of lading.",
+      "pickup_appointment_start_datetime": "01/22/25 06:00",
+      "pickup_appointment_end_datetime": "01/22/25 17:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "WASATCH HEATING & AIR",
+      "receiver_address": "505 S BRENDA PLACE BLD 605, TOOELE UT 84074",
+      "receiver_delivery_number": "PO 7198720",
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "01/24/25 08:00",
+      "receiver_appointment_end_datetime": "01/24/25 17:00"
+    }
+  ],
+  "customer_name": null,
+  "email_domain": null,
+  "customer_address": null,
+  "temperature_present": true,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

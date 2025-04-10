@@ -1,0 +1,68 @@
+{
+  "equipment_type": "Van",
+  "reference_number": "1931823",
+  "booking_confirmation_number": "1931823",
+  "total_rate": 2730.0,
+  "freight_rate": 2730.0,
+  "additional_rate": 0,
+  "shipper_section": [
+    {
+      "ship_from_company": null,
+      "ship_from_address": "Oakland, CA 94603",
+      "pickup_number": null,
+      "pickup_instructions": null,
+      "pickup_appointment_start_datetime": "01/23/25 08:00",
+      "pickup_appointment_end_datetime": "01/23/25 17:00"
+    },
+    {
+      "ship_from_company": null,
+      "ship_from_address": "San Jose, CA 95136",
+      "pickup_number": null,
+      "pickup_instructions": null,
+      "pickup_appointment_start_datetime": "01/23/25 08:00",
+      "pickup_appointment_end_datetime": "01/23/25 17:00"
+    },
+    {
+      "ship_from_company": null,
+      "ship_from_address": "Los Angeles, CA 90001",
+      "pickup_number": null,
+      "pickup_instructions": null,
+      "pickup_appointment_start_datetime": "01/24/25 08:00",
+      "pickup_appointment_end_datetime": "01/24/25 17:00"
+    },
+    {
+      "ship_from_company": null,
+      "ship_from_address": "Anaheim, CA 92806",
+      "pickup_number": null,
+      "pickup_instructions": null,
+      "pickup_appointment_start_datetime": "01/24/25 08:30",
+      "pickup_appointment_end_datetime": "01/24/25 17:30"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": null,
+      "receiver_address": "Draper, UT 84020",
+      "receiver_delivery_number": null,
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "01/27/25 08:00",
+      "receiver_appointment_end_datetime": "01/27/25 10:30"
+    },
+    {
+      "receiver_company": null,
+      "receiver_address": "Draper, UT 84020",
+      "receiver_delivery_number": null,
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "01/27/25 09:00",
+      "receiver_appointment_end_datetime": "01/27/25 12:00"
+    }
+  ],
+  "customer_name": "Circle Logistics, Inc",
+  "email_domain": "circledelivers.com",
+  "customer_address": "P.O. Box 8067, Fort Wayne, IN 46898-8067",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

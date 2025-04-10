@@ -1,0 +1,27 @@
+{
+  "equipment_type": null,
+  "reference_number": "505337242",
+  "booking_confirmation_number": "505337242",
+  "total_rate": 2400.0,
+  "freight_rate": 2400.0,
+  "additional_rate": 0.0,
+  "shipper_section": [],
+  "receiver_section": [
+    {
+      "receiver_company": "COSTCO WHOLESALE #584 DEPOT",
+      "receiver_address": "5995 West 300 South, Salt Lake City, UT 84104",
+      "receiver_delivery_number": "005840122315",
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "02/19/25 06:00",
+      "receiver_appointment_end_datetime": "02/19/25 06:00"
+    }
+  ],
+  "customer_name": "Sharp Transportation, Inc. - T4284",
+  "email_domain": "chrobinson.com",
+  "customer_address": "P.O. Box 3470, Chicago, IL 60654",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

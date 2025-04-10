@@ -1,0 +1,36 @@
+{
+  "equipment_type": "Van 53'",
+  "reference_number": "61578870",
+  "booking_confirmation_number": "61578870",
+  "total_rate": 1500.0,
+  "freight_rate": 1500.0,
+  "additional_rate": 0,
+  "shipper_section": [
+    {
+      "ship_from_company": "LGE NG2 Warehouse",
+      "ship_from_address": "17613 50th Ave E, TACOMA, WA 98446",
+      "pickup_number": "16231714",
+      "pickup_instructions": null,
+      "pickup_appointment_start_datetime": "02/18/25 16:30",
+      "pickup_appointment_end_datetime": "02/18/25 16:30"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "R.C. WILLEY HOME FURNISHING",
+      "receiver_address": "IDC/FREEPORT CENTER BUILDING D-7 FREEPORT CENTER, CLEARFIELD, UT 84016",
+      "receiver_delivery_number": null,
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "02/20/25 09:00",
+      "receiver_appointment_end_datetime": "02/20/25 09:00"
+    }
+  ],
+  "customer_name": null,
+  "email_domain": "echo.com",
+  "customer_address": null,
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

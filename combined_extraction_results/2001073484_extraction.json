@@ -1,0 +1,44 @@
+{
+  "equipment_type": "Reefer",
+  "reference_number": "2001073484",
+  "booking_confirmation_number": "2001073484",
+  "total_rate": 2800.0,
+  "freight_rate": 2800.0,
+  "additional_rate": null,
+  "shipper_section": [
+    {
+      "ship_from_company": "Vegfresh",
+      "ship_from_address": "1400 W Rincon St, Corona, CA 92878",
+      "pickup_number": "659040",
+      "pickup_instructions": "CARRIER MUST CALL AND SET PICK UP APPT. MUST KEEP CONF#",
+      "pickup_appointment_start_datetime": "01/06/25 00:02",
+      "pickup_appointment_end_datetime": null
+    },
+    {
+      "ship_from_company": "VegCool",
+      "ship_from_address": "1518 E Valencia Dr, Fullerton, CA 92831",
+      "pickup_number": "19834279",
+      "pickup_instructions": null,
+      "pickup_appointment_start_datetime": "01/06/25 14:00",
+      "pickup_appointment_end_datetime": "01/06/25 18:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "Smith's Food & Drug Centers",
+      "receiver_address": "500 Sugar St, Layton, UT 84041",
+      "receiver_delivery_number": "856650557",
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "01/08/25 01:00",
+      "receiver_appointment_end_datetime": null
+    }
+  ],
+  "customer_name": "Werner Logistics",
+  "email_domain": "werner.com",
+  "customer_address": null,
+  "temperature_present": true,
+  "temperature_low": 38.0,
+  "temperature_high": 42.0,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

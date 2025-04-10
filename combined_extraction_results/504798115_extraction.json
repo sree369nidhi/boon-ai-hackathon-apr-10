@@ -1,0 +1,41 @@
+{
+  "equipment_type": null,
+  "reference_number": "504798115",
+  "booking_confirmation_number": "504798115",
+  "total_rate": 526.0,
+  "freight_rate": 526.0,
+  "additional_rate": 106.6,
+  "shipper_section": [
+    {
+      "ship_from_company": "FDC",
+      "ship_from_address": "6657 Oak Grove Rd, FORT WORTH, TX 76134",
+      "pickup_number": "80554203 - RBTW",
+      "pickup_instructions": "RBTW LOAD SECUREMENT IS CRITICAL. MUST HAVE TWO CARGO STRAPS. Drivers are required to have Safety Vest and CDL on premises. Tandems need slid for loading purposes. At check-in, Driver will be provided a plastic bulkhead for the nose of trailer. At loading, shipper provides two plastic panels for the tail of trailer. Driver is to provide two cargo straps and secure the panels snug against the rear pallets ensuring no gaps between pallets, panels, and straps. Driver must scale prior to exiting. Loads above 45,500 can have weight cut. Driver responsible for axle weight. CHR does not pay for rework.",
+      "pickup_appointment_start_datetime": "02/17/25 19:00",
+      "pickup_appointment_end_datetime": "02/17/25 19:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "Faust Distributing",
+      "receiver_address": "10025 Market Street, HOUSTON, TX 77029",
+      "receiver_delivery_number": "80554203",
+      "receiver_instructions": "I-10 to 610 South (by Budweiser) 610 South to Turning Basin Exit. Stay on the feeder street to get back onto 610 North. Take exit 26B (Market St). Turn right at the light and go to the address.",
+      "receiver_appointment_start_datetime": "02/18/25 11:00",
+      "receiver_appointment_end_datetime": "02/18/25 11:00"
+    }
+  ],
+  "customer_name": "C.H. Robinson",
+  "email_domain": "chrobinson.com",
+  "customer_address": "P.O. Box 3470, Chicago, IL 60654",
+  "temperature_present": true,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": [
+    {
+      "amount": 106.6,
+      "is_fuel_surcharge": true
+    }
+  ]
+}

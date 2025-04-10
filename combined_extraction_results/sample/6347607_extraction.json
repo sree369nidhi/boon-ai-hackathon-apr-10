@@ -1,0 +1,36 @@
+{
+  "equipment_type": "Van Only",
+  "reference_number": "0100211029",
+  "booking_confirmation_number": "0100211029",
+  "total_rate": 1550.0,
+  "freight_rate": 1550.0,
+  "additional_rate": 0.0,
+  "shipper_section": [
+    {
+      "ship_from_company": "FINISHED GOODS - PACIFIC FOODS",
+      "ship_from_address": "27255 SW 95TH AVE, Wilsonville, OR 97070",
+      "pickup_number": "42762323",
+      "pickup_instructions": "Carrier? s need to arrive on time for their p/u apts. There are no work in' s app ts must be set. PU appts must be set 48 hours in advance. PU appts are set in carrier portal on the DOCK SCHEDULER for the times available and for resets please email MBTransportation_OR@campbells.com and the new plant contact Kylee Lee -kyle_lee@campbells.com OR for any issues with setting a pick-up appointment Shipper requires PU appt 48 business hours in advance. CASE COUNT: 2214.0",
+      "pickup_appointment_start_datetime": "01/04/25 13:00",
+      "pickup_appointment_end_datetime": "01/04/25 13:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "SMITH'S - LAYTON DIST CNTR",
+      "receiver_address": "500 SUGAR ST, Layton, UT 84041",
+      "receiver_delivery_number": "99",
+      "receiver_instructions": "BY APPOINTMENT ***RELAY FACILITY. PAY LUMPER WITH A RELAY CODE***",
+      "receiver_appointment_start_datetime": "01/06/25 00:30",
+      "receiver_appointment_end_datetime": "01/06/25 00:30"
+    }
+  ],
+  "customer_name": "DM Trans, LLC dba Arrive Logistics",
+  "email_domain": "arrivelogistics.com",
+  "customer_address": "7701 Metropolis Dr | Bldg 15 Austin, TX 78744",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

@@ -1,0 +1,139 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "507294874",
+  "customer_id": "CR",
+  "equipment_type_id": "V",
+  "freight_charge": 710.0,
+  "freight_charge_n": 710.0,
+  "freight_charge_r": 1,
+  "rate": 710.0,
+  "rate_type": "F",
+  "rate_units": 1,
+  "otherchargetotal": 160.31,
+  "otherchargetotal_n": 160.31,
+  "otherchargetotal_r": 1,
+  "total_charge": 710.0,
+  "total_charge_n": 710.0,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": 710.0,
+  "totalcharge_and_excisetax_n": 710.0,
+  "totalcharge_and_excisetax_r": 1,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zz97af3cb52ab44908ifgAPP2",
+  "consignee_stop_id": "zz26d354b5fda3442difgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz97af3cb52ab44908ifgAPP2",
+      "address": "5000 Woodlawn Rd",
+      "city_name": "",
+      "state": "PA",
+      "zip_code": "15001",
+      "location_name": "Stoelzle Glass USA",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "507294874",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20250304070000-0700",
+      "sched_arrive_late": "20250304213000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "Strap or load bar required, North Gate, see sign, call for access. This load requires: 1 straps",
+          "sequence": 1,
+          "stop_id": "zz97af3cb52ab44908ifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__loadingInstructions": "Strap or load bar required, North Gate, see sign, call for access. This load requires: 1 straps",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "830003678",
+          "reference_qual": "POL",
+          "send_to_driver": true,
+          "stop_id": "zz97af3cb52ab44908ifgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz26d354b5fda3442difgAPP2",
+      "address": "4600 Commerce Crossings Dr",
+      "city_name": "",
+      "state": "KY",
+      "zip_code": "40229",
+      "location_name": "The Royal Group",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "507294874",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20250305083000-0700",
+      "sched_arrive_late": "20250305083000-0700",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "830003678",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zz26d354b5fda3442difgAPP2"
+        }
+      ]
+    }
+  ],
+  "bill_distance": 100,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "508294874",
+      "origin_stop_id": "zz97af3cb52ab44908ifgAPP2",
+      "dest_stop_id": "zz26d354b5fda3442difgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 100,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "507294874"
+    }
+  ],
+  "curr_movement_id": "508294874",
+  "otherCharges": [
+    {
+      "__type": "other_charge",
+      "company_id": "TMS",
+      "charge_code": "MISC",
+      "charge_description": "Miscellaneous Charge",
+      "charge_amount": 160.31,
+      "charge_amount_c": "USD",
+      "charge_amount_n": 160.31,
+      "charge_amount_r": 1,
+      "sequence": 1
+    }
+  ]
+}

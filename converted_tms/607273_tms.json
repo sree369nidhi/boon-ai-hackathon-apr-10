@@ -1,0 +1,186 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "#607273",
+  "customer_id": "SL",
+  "equipment_type_id": "R",
+  "freight_charge": 2300.0,
+  "freight_charge_n": 2300.0,
+  "freight_charge_r": 1,
+  "rate": 2300.0,
+  "rate_type": "F",
+  "rate_units": 1,
+  "otherchargetotal": 0,
+  "otherchargetotal_n": 0,
+  "otherchargetotal_r": 1,
+  "total_charge": 2300.0,
+  "total_charge_n": 2300.0,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": 2300.0,
+  "totalcharge_and_excisetax_n": 2300.0,
+  "totalcharge_and_excisetax_r": 1,
+  "temperature_min": -10.0,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zzf143d2b1c43341aeifgAPP2",
+  "consignee_stop_id": "zza51812b539aa42f6ifgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zzf143d2b1c43341aeifgAPP2",
+      "address": "15750 MERIDIAN PKWY RIVERSIDE",
+      "city_name": "",
+      "state": "CA",
+      "zip_code": "15750",
+      "location_name": "SYSCO RIVERSIDE",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "#607273",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20250107090000-0700",
+      "sched_arrive_late": "20250107120000-0700",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "27711390, 27737660",
+          "reference_qual": "POL",
+          "send_to_driver": true,
+          "stop_id": "zzf143d2b1c43341aeifgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zzf323bf44fc194b12ifgAPP2",
+      "address": "20701 EAST CURRIER ROAD WALNUT",
+      "city_name": "",
+      "state": "CA",
+      "zip_code": "20701",
+      "location_name": "SYSCO - LOS ANGELES",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "#607273",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20250107120000-0700",
+      "sched_arrive_late": "20250107140000-0700",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "27711380, 27736010",
+          "reference_qual": "POL",
+          "send_to_driver": true,
+          "stop_id": "zzf323bf44fc194b12ifgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zzbfdd845ea46f4715ifgAPP2",
+      "address": "6201 E CENTENNIAL PKWY Las Vegas",
+      "city_name": "",
+      "state": "NV",
+      "zip_code": "89115",
+      "location_name": "SYSCO LAS VEGAS",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "#607273",
+      "order_sequence": 3,
+      "movement_sequence": 3,
+      "sched_arrive_early": "20250108120000-0700",
+      "sched_arrive_late": "20250108140000-0700",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "27711370, 27741650",
+          "reference_qual": "POL",
+          "send_to_driver": true,
+          "stop_id": "zzbfdd845ea46f4715ifgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zza51812b539aa42f6ifgAPP2",
+      "address": "9494 SOUTH PROSPERITY WAY WEST JORDAN",
+      "city_name": "",
+      "state": "UT",
+      "zip_code": "84081",
+      "location_name": "BWC SYSCO INTERMOUNTAIN",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "#607273",
+      "order_sequence": 4,
+      "movement_sequence": 4,
+      "sched_arrive_early": "20250109100000-0700",
+      "sched_arrive_late": "20250109100000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "Do not pay lumper fees without approval!",
+          "sequence": 1,
+          "stop_id": "zza51812b539aa42f6ifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__unloadingInstructions": "Do not pay lumper fees without approval!"
+    }
+  ],
+  "bill_distance": 300,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "1607273",
+      "origin_stop_id": "zzf143d2b1c43341aeifgAPP2",
+      "dest_stop_id": "zza51812b539aa42f6ifgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 300,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "#607273"
+    }
+  ],
+  "curr_movement_id": "1607273",
+  "otherCharges": [
+    {
+      "__type": "other_charge",
+      "company_id": "TMS",
+      "charge_code": "MISC",
+      "charge_description": "Miscellaneous Charge",
+      "charge_amount": 0,
+      "charge_amount_c": "USD",
+      "charge_amount_n": 0,
+      "charge_amount_r": 1,
+      "sequence": 1
+    }
+  ]
+}

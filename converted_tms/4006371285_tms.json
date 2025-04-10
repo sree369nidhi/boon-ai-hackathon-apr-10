@@ -1,0 +1,138 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "4006371285",
+  "customer_id": "ST",
+  "equipment_type_id": "V",
+  "freight_charge": 1600.0,
+  "freight_charge_n": 1600.0,
+  "freight_charge_r": 1,
+  "rate": 1600.0,
+  "rate_type": "F",
+  "rate_units": 1,
+  "otherchargetotal": 0,
+  "otherchargetotal_n": 0,
+  "otherchargetotal_r": 1,
+  "total_charge": 1600.0,
+  "total_charge_n": 1600.0,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": 1600.0,
+  "totalcharge_and_excisetax_n": 1600.0,
+  "totalcharge_and_excisetax_r": 1,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zz25ea1783b0a9445eifgAPP2",
+  "consignee_stop_id": "zzf4ff2345ecf04a5fifgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz25ea1783b0a9445eifgAPP2",
+      "address": "9045 POLARIS LN NE STE I",
+      "city_name": "",
+      "state": "WA",
+      "zip_code": "98516-7152",
+      "location_name": "SOLO CUP CO",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "4006371285",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20250106130000-0700",
+      "sched_arrive_late": "20250106130000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "Loaded equipment type is a OTHER CUSTOMER 53 FOOT VAN TRL MUST BE: FOOD GRADE, CLEAN, DRY, ODOR FREE, NO HOLES OR DEBRIS. NOTIFY SCHNEIDER IF NEARING DETENTION OR ANY DELAYS PRIOR TO DEL. CARRIER SUBJECT TO LATE FEES. LUMPER FEE AT DEL MUST BE APPROVED. SEND RECEIPT AND POD TO: SLCYDART@SCHNEIDER.COM WITHIN 24 HRS OF DEL.",
+          "sequence": 1,
+          "stop_id": "zz25ea1783b0a9445eifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__loadingInstructions": "Loaded equipment type is a OTHER CUSTOMER 53 FOOT VAN TRL MUST BE: FOOD GRADE, CLEAN, DRY, ODOR FREE, NO HOLES OR DEBRIS. NOTIFY SCHNEIDER IF NEARING DETENTION OR ANY DELAYS PRIOR TO DEL. CARRIER SUBJECT TO LATE FEES. LUMPER FEE AT DEL MUST BE APPROVED. SEND RECEIPT AND POD TO: SLCYDART@SCHNEIDER.COM WITHIN 24 HRS OF DEL.",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "PO42812",
+          "reference_qual": "POL",
+          "send_to_driver": true,
+          "stop_id": "zz25ea1783b0a9445eifgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zzf4ff2345ecf04a5fifgAPP2",
+      "address": "745 OVERLAND ST",
+      "city_name": "",
+      "state": "UT",
+      "zip_code": "84054-2124",
+      "location_name": "CARPENTER PAPER CO",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "4006371285",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20250108080000-0700",
+      "sched_arrive_late": "20250108080000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "DELIVERY SPECIAL INSTRUCTIONS: KC LDS NOT DHU, NEED 2 PAY CN TO ONLOAD AS LUMPER SERVICE.",
+          "sequence": 1,
+          "stop_id": "zzf4ff2345ecf04a5fifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__unloadingInstructions": "DELIVERY SPECIAL INSTRUCTIONS: KC LDS NOT DHU, NEED 2 PAY CN TO ONLOAD AS LUMPER SERVICE.",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "0083502263",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zzf4ff2345ecf04a5fifgAPP2"
+        }
+      ]
+    }
+  ],
+  "bill_distance": 100,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "4007371285",
+      "origin_stop_id": "zz25ea1783b0a9445eifgAPP2",
+      "dest_stop_id": "zzf4ff2345ecf04a5fifgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 100,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "4006371285"
+    }
+  ],
+  "curr_movement_id": "4007371285"
+}

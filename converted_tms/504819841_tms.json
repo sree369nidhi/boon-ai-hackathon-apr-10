@@ -1,0 +1,151 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "504819841",
+  "customer_id": "UNKNOWN",
+  "equipment_type_id": "V",
+  "freight_charge": 820.0,
+  "freight_charge_n": 820.0,
+  "freight_charge_r": 1,
+  "rate": 820.0,
+  "rate_type": "F",
+  "rate_units": 1,
+  "otherchargetotal": 179.99,
+  "otherchargetotal_n": 179.99,
+  "otherchargetotal_r": 1,
+  "total_charge": 820.0,
+  "total_charge_n": 820.0,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": 820.0,
+  "totalcharge_and_excisetax_n": 820.0,
+  "totalcharge_and_excisetax_r": 1,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zz6f0e360151694547ifgAPP2",
+  "consignee_stop_id": "zzfe659e33cd8a4e38ifgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz6f0e360151694547ifgAPP2",
+      "address": "658 South 7th Street",
+      "city_name": "",
+      "state": "PA",
+      "zip_code": "19602",
+      "location_name": "UCI Mill / DS Smith",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "504819841",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20250212100000-0700",
+      "sched_arrive_late": "20250212100000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "Customer does not pay detention at loading or unloading!! Driver must double check their paperwork and confirm that it shows the same address as the CHRW rate con!! (If it does not match, the driver must go back to the guard to get the right shipment).",
+          "sequence": 1,
+          "stop_id": "zz6f0e360151694547ifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__loadingInstructions": "Customer does not pay detention at loading or unloading!! Driver must double check their paperwork and confirm that it shows the same address as the CHRW rate con!! (If it does not match, the driver must go back to the guard to get the right shipment).",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "171351",
+          "reference_qual": "POL",
+          "send_to_driver": true,
+          "stop_id": "zz6f0e360151694547ifgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zzfe659e33cd8a4e38ifgAPP2",
+      "address": "3021 Taylor Dr",
+      "city_name": "",
+      "state": "NC",
+      "zip_code": "27203",
+      "location_name": "SOUTHCORR PACKAGING, LLC",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "504819841",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20250213080000-0700",
+      "sched_arrive_late": "20250213080000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "There is a large sign with directions for delivery. It\u2019ll explain to put ppwk in mailbox with driver\u2019s phone # on ppwk. The cons will call the driver to dock. Cons fills up their appointments quick - if driver misses original delivery appointment, appt will be reset for cons next available.",
+          "sequence": 1,
+          "stop_id": "zzfe659e33cd8a4e38ifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__unloadingInstructions": "There is a large sign with directions for delivery. It\u2019ll explain to put ppwk in mailbox with driver\u2019s phone # on ppwk. The cons will call the driver to dock. Cons fills up their appointments quick - if driver misses original delivery appointment, appt will be reset for cons next available.",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "21758,21759",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zzfe659e33cd8a4e38ifgAPP2"
+        }
+      ]
+    }
+  ],
+  "bill_distance": 100,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "505819841",
+      "origin_stop_id": "zz6f0e360151694547ifgAPP2",
+      "dest_stop_id": "zzfe659e33cd8a4e38ifgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 100,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "504819841"
+    }
+  ],
+  "curr_movement_id": "505819841",
+  "otherCharges": [
+    {
+      "__type": "other_charge",
+      "company_id": "TMS",
+      "charge_code": "MISC",
+      "charge_description": "Miscellaneous Charge",
+      "charge_amount": 179.99,
+      "charge_amount_c": "USD",
+      "charge_amount_n": 179.99,
+      "charge_amount_r": 1,
+      "sequence": 1
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "equipment_type": "Van",
+  "reference_number": "506573704",
+  "booking_confirmation_number": "506573704",
+  "total_rate": 270.0,
+  "freight_rate": 270.0,
+  "additional_rate": 16.81,
+  "shipper_section": [
+    {
+      "ship_from_company": "Gatorade-Dallas",
+      "ship_from_address": "2822 Glenfield Ave, Dallas, TX 75233",
+      "pickup_number": "1088665981",
+      "pickup_instructions": "Pepsi requires loaded trailers to be fully sealed before leaving or delivering to any facility, unsealed trailers may result in a full claim.",
+      "pickup_appointment_start_datetime": "02/26/25 08:00",
+      "pickup_appointment_end_datetime": null
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "SILVERCREEK",
+      "receiver_address": "2251 Silver Creek Rd, Fort Worth, TX 76108",
+      "receiver_delivery_number": "T102190179",
+      "receiver_instructions": "OS&D/Refused product must be reported w/photos immediately. Pepsi requires loaded trailers to be fully sealed before leaving or delivering to any facility, unsealed trailers may result in a full claim.",
+      "receiver_appointment_start_datetime": "02/26/25 10:00",
+      "receiver_appointment_end_datetime": null
+    }
+  ],
+  "customer_name": "C.H. Robinson",
+  "email_domain": "chrobinson.com",
+  "customer_address": "P.O. Box 3470, Chicago, IL 60654",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": [
+    {
+      "amount": 16.81,
+      "is_fuel_surcharge": true
+    }
+  ]
+}

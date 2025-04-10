@@ -1,0 +1,138 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "61579102",
+  "customer_id": "MC",
+  "equipment_type_id": "V",
+  "freight_charge": 500.0,
+  "freight_charge_n": 500.0,
+  "freight_charge_r": 1,
+  "rate": 500.0,
+  "rate_type": "F",
+  "rate_units": 1,
+  "otherchargetotal": 0,
+  "otherchargetotal_n": 0,
+  "otherchargetotal_r": 1,
+  "total_charge": 500.0,
+  "total_charge_n": 500.0,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": 500.0,
+  "totalcharge_and_excisetax_n": 500.0,
+  "totalcharge_and_excisetax_r": 1,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zz39c3668ed29d4586ifgAPP2",
+  "consignee_stop_id": "zzdb1296646198439fifgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz39c3668ed29d4586ifgAPP2",
+      "address": "701 S SANTA CRUZ AVE",
+      "city_name": "",
+      "state": "CA",
+      "zip_code": "95354",
+      "location_name": "Gallo Winery",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "61579102",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20250220181000-0700",
+      "sched_arrive_late": "20250220181000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "CARRIER MUST BE ON MARCOPOINT TRACKING",
+          "sequence": 1,
+          "stop_id": "zz39c3668ed29d4586ifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__loadingInstructions": "CARRIER MUST BE ON MARCOPOINT TRACKING",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "25078714",
+          "reference_qual": "POL",
+          "send_to_driver": true,
+          "stop_id": "zz39c3668ed29d4586ifgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zzdb1296646198439fifgAPP2",
+      "address": "777 S HARBOR BLVD",
+      "city_name": "",
+      "state": "CA",
+      "zip_code": "90631",
+      "location_name": "CVS",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "61579102",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20250221183000-0700",
+      "sched_arrive_late": "20250221183000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "CONF # 4756535 DO NOT PAY LUMPERS",
+          "sequence": 1,
+          "stop_id": "zzdb1296646198439fifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__unloadingInstructions": "CONF # 4756535 DO NOT PAY LUMPERS",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "8406394",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zzdb1296646198439fifgAPP2"
+        }
+      ]
+    }
+  ],
+  "bill_distance": 100,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "62579102",
+      "origin_stop_id": "zz39c3668ed29d4586ifgAPP2",
+      "dest_stop_id": "zzdb1296646198439fifgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 100,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "61579102"
+    }
+  ],
+  "curr_movement_id": "62579102"
+}

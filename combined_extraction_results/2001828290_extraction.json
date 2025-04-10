@@ -1,0 +1,41 @@
+{
+  "equipment_type": "Van 53",
+  "reference_number": "2001828290",
+  "booking_confirmation_number": "2001828290",
+  "total_rate": 551.0,
+  "freight_rate": 386.0,
+  "additional_rate": 165.0,
+  "shipper_section": [
+    {
+      "ship_from_company": "ROYAL OAK #203",
+      "ship_from_address": "7000 Industrial Blvd, Greenville, TX 75402-5713",
+      "pickup_number": "200-085042",
+      "pickup_instructions": null,
+      "pickup_appointment_start_datetime": "12/16/24 13:30",
+      "pickup_appointment_end_datetime": "12/16/24 13:30"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "SAFEWAY DALLAS",
+      "receiver_address": "743 HENRIETTA CREEK RD, ROANOKE, TX 76262",
+      "receiver_delivery_number": "S358874, LD-051663, TD-045222, 396216",
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "12/16/24 22:00",
+      "receiver_appointment_end_datetime": "12/16/24 22:00"
+    }
+  ],
+  "customer_name": "MoLo Solutions",
+  "email_domain": "shipmolo.com",
+  "customer_address": "PO Box 10048, Fort Smith, AR 72917-0048",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": false,
+  "additional_rates": [
+    {
+      "amount": 165.0,
+      "is_fuel_surcharge": false
+    }
+  ]
+}

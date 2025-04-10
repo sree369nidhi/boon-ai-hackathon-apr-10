@@ -1,0 +1,36 @@
+{
+  "equipment_type": "Reefer, Van 53",
+  "reference_number": "2001809674",
+  "booking_confirmation_number": "2001809674",
+  "total_rate": 675.0,
+  "freight_rate": 675.0,
+  "additional_rate": 0.0,
+  "shipper_section": [
+    {
+      "ship_from_company": "Sensient Natural Ingredients",
+      "ship_from_address": "151 S. Walnut Rd., Turlock, CA 95380",
+      "pickup_number": null,
+      "pickup_instructions": null,
+      "pickup_appointment_start_datetime": "12/04/24 12:00",
+      "pickup_appointment_end_datetime": null
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "Spice Producst Co",
+      "receiver_address": "3110 E Miraloma Ave, Anaheim, CA 92806-1906",
+      "receiver_delivery_number": null,
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "12/05/24 05:00",
+      "receiver_appointment_end_datetime": null
+    }
+  ],
+  "customer_name": "Sharp Transportation, Inc.",
+  "email_domain": "shipmolo.com",
+  "customer_address": "PO Box 100048, Fort Smith, AR 72917-0048",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

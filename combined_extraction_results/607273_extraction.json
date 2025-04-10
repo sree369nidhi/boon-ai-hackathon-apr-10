@@ -1,0 +1,57 @@
+{
+  "equipment_type": "Reefer",
+  "reference_number": "#607273",
+  "booking_confirmation_number": "#607273",
+  "total_rate": 2300.0,
+  "freight_rate": 2300.0,
+  "additional_rate": 0,
+  "shipper_section": [
+    {
+      "ship_from_company": "SYSCO RIVERSIDE",
+      "ship_from_address": "15750 MERIDIAN PKWY RIVERSIDE, CA 92518",
+      "pickup_number": "27711390, 27737660",
+      "pickup_instructions": null,
+      "pickup_appointment_start_datetime": "01/07/25 09:00",
+      "pickup_appointment_end_datetime": "01/07/25 12:00"
+    },
+    {
+      "ship_from_company": "SYSCO - LOS ANGELES",
+      "ship_from_address": "20701 EAST CURRIER ROAD WALNUT, CA 91789",
+      "pickup_number": "27711380, 27736010",
+      "pickup_instructions": null,
+      "pickup_appointment_start_datetime": "01/07/25 12:00",
+      "pickup_appointment_end_datetime": "01/07/25 14:00"
+    },
+    {
+      "ship_from_company": "SYSCO LAS VEGAS",
+      "ship_from_address": "6201 E CENTENNIAL PKWY Las Vegas, NV 89115",
+      "pickup_number": "27711370, 27741650",
+      "pickup_instructions": null,
+      "pickup_appointment_start_datetime": "01/08/25 12:00",
+      "pickup_appointment_end_datetime": "01/08/25 14:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "BWC SYSCO INTERMOUNTAIN",
+      "receiver_address": "9494 SOUTH PROSPERITY WAY WEST JORDAN, UT 84081",
+      "receiver_delivery_number": null,
+      "receiver_instructions": "Do not pay lumper fees without approval!",
+      "receiver_appointment_start_datetime": "01/09/25 10:00",
+      "receiver_appointment_end_datetime": "01/09/25 10:00"
+    }
+  ],
+  "customer_name": "Spartan Logistics Services, LLC",
+  "email_domain": "shipspartan.com",
+  "customer_address": "4811 Emerson Ave, Ste 207 Palatine, IL 60067",
+  "temperature_present": true,
+  "temperature_low": -10.0,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": [
+    {
+      "amount": 0,
+      "is_fuel_surcharge": false
+    }
+  ]
+}

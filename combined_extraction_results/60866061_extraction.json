@@ -1,0 +1,36 @@
+{
+  "equipment_type": "Reefer",
+  "reference_number": "60866061",
+  "booking_confirmation_number": "1901242834839097",
+  "total_rate": 1800.0,
+  "freight_rate": 1800.0,
+  "additional_rate": null,
+  "shipper_section": [
+    {
+      "ship_from_company": "TALKINGRAIN - KENT DC",
+      "ship_from_address": "23028 RUSSELL ROAD, KENT, WA 98032",
+      "pickup_number": "TRS-0437663",
+      "pickup_instructions": null,
+      "pickup_appointment_start_datetime": "12/26/24 12:00",
+      "pickup_appointment_end_datetime": "12/26/24 12:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "COSTCO",
+      "receiver_address": "5995 W 300 S, SALT LAKE CITY, UT 84104",
+      "receiver_delivery_number": "See Notes, 005841024277",
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "12/28/24 10:00",
+      "receiver_appointment_end_datetime": "12/28/24 10:00"
+    }
+  ],
+  "customer_name": "Echo Global Logistics",
+  "email_domain": "echo.com",
+  "customer_address": null,
+  "temperature_present": true,
+  "temperature_low": 50.0,
+  "temperature_high": 50.0,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

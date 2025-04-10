@@ -1,0 +1,126 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "2001824215",
+  "customer_id": "MS",
+  "equipment_type_id": "V",
+  "freight_charge": 325.0,
+  "freight_charge_n": 325.0,
+  "freight_charge_r": 1,
+  "rate": 325.0,
+  "rate_type": "F",
+  "rate_units": 1,
+  "otherchargetotal": 0,
+  "otherchargetotal_n": 0,
+  "otherchargetotal_r": 1,
+  "total_charge": 325.0,
+  "total_charge_n": 325.0,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": 325.0,
+  "totalcharge_and_excisetax_n": 325.0,
+  "totalcharge_and_excisetax_r": 1,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zz19697cc234684f77ifgAPP2",
+  "consignee_stop_id": "zz5dd341dbf51f4d53ifgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz19697cc234684f77ifgAPP2",
+      "address": "1331 E. Airport Freeway",
+      "city_name": "",
+      "state": "TX",
+      "zip_code": "75062",
+      "location_name": "America's Beverage Co.",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "2001824215",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20241213160000-0700",
+      "sched_arrive_late": "20241213160000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "***MacroPoint tracking is REQUIRED *** Driver must be on MP tracking in order to qualify for accessorials. Accessorial requests and associated paperwork must be submitted ON THE DAY OF DELIVERY for submission to the customer for approval. Must be able and willing to scale 44,500 lbs; FOOD GRADE trailer, MUST be clean, dry, odor free, no holes or debris, swept out, or recent washout. All load details must be confirmed and double-checked PRIOR to leaving shipper - destination, weight, # of POs, and any other relevant information. Discrepancies between rate confirmation and shipper-provided BOL MUST be reported to MoLo immediately*** **Detention does not apply to FCFS facilities*****",
+          "sequence": 1,
+          "stop_id": "zz19697cc234684f77ifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__loadingInstructions": "***MacroPoint tracking is REQUIRED *** Driver must be on MP tracking in order to qualify for accessorials. Accessorial requests and associated paperwork must be submitted ON THE DAY OF DELIVERY for submission to the customer for approval. Must be able and willing to scale 44,500 lbs; FOOD GRADE trailer, MUST be clean, dry, odor free, no holes or debris, swept out, or recent washout. All load details must be confirmed and double-checked PRIOR to leaving shipper - destination, weight, # of POs, and any other relevant information. Discrepancies between rate confirmation and shipper-provided BOL MUST be reported to MoLo immediately*** **Detention does not apply to FCFS facilities*****",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "00103535923",
+          "reference_qual": "POL",
+          "send_to_driver": true,
+          "stop_id": "zz19697cc234684f77ifgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz5dd341dbf51f4d53ifgAPP2",
+      "address": "5801 Kroger Drive",
+      "city_name": "",
+      "state": "TX",
+      "zip_code": "76248",
+      "location_name": "The Kroger Co. - Kroger - Dallas-035C",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "2001824215",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20241213220000-0700",
+      "sched_arrive_late": "20241213220000-0700",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "00103535923, 00103535923, M-00103535923",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zz5dd341dbf51f4d53ifgAPP2"
+        }
+      ]
+    }
+  ],
+  "bill_distance": 100,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "2002824215",
+      "origin_stop_id": "zz19697cc234684f77ifgAPP2",
+      "dest_stop_id": "zz5dd341dbf51f4d53ifgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 100,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "2001824215"
+    }
+  ],
+  "curr_movement_id": "2002824215"
+}

@@ -1,0 +1,36 @@
+{
+  "equipment_type": "Van",
+  "reference_number": "4502378939",
+  "booking_confirmation_number": "4502378939",
+  "total_rate": 300.0,
+  "freight_rate": 300.0,
+  "additional_rate": 0.0,
+  "shipper_section": [
+    {
+      "ship_from_company": "Blue Ribbon",
+      "ship_from_address": "2115 Exchange Dr., ARLINGTON TX 76011",
+      "pickup_number": null,
+      "pickup_instructions": "No driver loading or unload",
+      "pickup_appointment_start_datetime": "12/18/24 14:00",
+      "pickup_appointment_end_datetime": "12/18/24 14:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "McCormick",
+      "receiver_address": "3300 Century Circle, IRVING TX 75062",
+      "receiver_delivery_number": "26912-1, 26156-94",
+      "receiver_instructions": "No driver loading or unload",
+      "receiver_appointment_start_datetime": "12/18/24 16:00",
+      "receiver_appointment_end_datetime": "12/18/24 16:00"
+    }
+  ],
+  "customer_name": null,
+  "email_domain": "axlelogistics.com",
+  "customer_address": "835 N. Central Street, Knoxville, TN 37917",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

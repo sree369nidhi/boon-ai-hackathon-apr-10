@@ -1,0 +1,49 @@
+{
+  "equipment_type": "Van",
+  "reference_number": "1353403",
+  "booking_confirmation_number": "1353403",
+  "total_rate": 2250.0,
+  "freight_rate": 2250.0,
+  "additional_rate": 0.0,
+  "shipper_section": [
+    {
+      "ship_from_company": "KNAUF INSULATION",
+      "ship_from_address": "3100 ASHBY ROAD, SHASTA LAKE, CA 96019",
+      "pickup_number": null,
+      "pickup_instructions": "Driver must check in with DOT number and have a pickup number. Wear high visibility vest and closed toe shoes.",
+      "pickup_appointment_start_datetime": "01/13/25 07:00",
+      "pickup_appointment_end_datetime": "01/13/25 17:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "TT-029 TONKS INSULATION",
+      "receiver_address": "1410 RIO VIRGIN DRIVE, WASHINGTON, UT 84780",
+      "receiver_delivery_number": null,
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "01/15/25 07:00",
+      "receiver_appointment_end_datetime": null
+    }
+  ],
+  "customer_name": null,
+  "email_domain": "taservices.com",
+  "customer_address": null,
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": [
+    {
+      "amount": 250.0,
+      "is_fuel_surcharge": false
+    },
+    {
+      "amount": 100.0,
+      "is_fuel_surcharge": false
+    },
+    {
+      "amount": 200.0,
+      "is_fuel_surcharge": false
+    }
+  ]
+}

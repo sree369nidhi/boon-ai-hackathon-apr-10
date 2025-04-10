@@ -1,0 +1,36 @@
+{
+  "equipment_type": "Van",
+  "reference_number": "61579102",
+  "booking_confirmation_number": "61579102",
+  "total_rate": 500.0,
+  "freight_rate": 500.0,
+  "additional_rate": 0.0,
+  "shipper_section": [
+    {
+      "ship_from_company": "Gallo Winery",
+      "ship_from_address": "701 S SANTA CRUZ AVE, MODESTO, CA 95354",
+      "pickup_number": "25078714",
+      "pickup_instructions": "CARRIER MUST BE ON MARCOPOINT TRACKING",
+      "pickup_appointment_start_datetime": "02/20/25 18:10",
+      "pickup_appointment_end_datetime": "02/20/25 18:10"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "CVS",
+      "receiver_address": "777 S HARBOR BLVD, LA HABRA, CA 90631",
+      "receiver_delivery_number": "8406394",
+      "receiver_instructions": "CONF # 4756535 DO NOT PAY LUMPERS",
+      "receiver_appointment_start_datetime": "02/21/25 18:30",
+      "receiver_appointment_end_datetime": "02/21/25 18:30"
+    }
+  ],
+  "customer_name": "Michael Cooper",
+  "email_domain": "echo.com",
+  "customer_address": null,
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

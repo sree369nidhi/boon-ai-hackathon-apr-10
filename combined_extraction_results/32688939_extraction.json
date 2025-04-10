@@ -1,0 +1,41 @@
+{
+  "equipment_type": "Reefer",
+  "reference_number": "32688939",
+  "booking_confirmation_number": "32688939",
+  "total_rate": 2000.0,
+  "freight_rate": 1697.72,
+  "additional_rate": 302.28,
+  "shipper_section": [
+    {
+      "ship_from_company": "Sugar River Cold Storage",
+      "ship_from_address": "489 N PRATT RD Monticello, WI 53570",
+      "pickup_number": "38229",
+      "pickup_instructions": "Pickup is set for 1PM",
+      "pickup_appointment_start_datetime": "01/22/25 13:00",
+      "pickup_appointment_end_datetime": null
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "MDS Foods",
+      "receiver_address": "331 JOINT PARK BLVD Tullahoma, TN 37388",
+      "receiver_delivery_number": "38229",
+      "receiver_instructions": "Delivery Appointment set for 11AM",
+      "receiver_appointment_start_datetime": "01/23/25 11:00",
+      "receiver_appointment_end_datetime": null
+    }
+  ],
+  "customer_name": "Sharp Transportation, Inc.",
+  "email_domain": "sharptrucking.com",
+  "customer_address": "960 Northpoint Parkway, Suite 150, Alpharetta, GA 30005",
+  "temperature_present": true,
+  "temperature_low": 35.0,
+  "temperature_high": 35.0,
+  "is_flat_rate": true,
+  "additional_rates": [
+    {
+      "amount": 302.28,
+      "is_fuel_surcharge": true
+    }
+  ]
+}

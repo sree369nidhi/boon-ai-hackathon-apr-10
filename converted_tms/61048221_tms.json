@@ -1,0 +1,197 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "61048221",
+  "customer_id": "MC",
+  "equipment_type_id": "R",
+  "freight_charge": 2330.0,
+  "freight_charge_n": 2330.0,
+  "freight_charge_r": 1,
+  "rate": 2330.0,
+  "rate_type": "M",
+  "rate_units": 1,
+  "otherchargetotal": 485.0,
+  "otherchargetotal_n": 485.0,
+  "otherchargetotal_r": 1,
+  "total_charge": 2815.0,
+  "total_charge_n": 2815.0,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": 2815.0,
+  "totalcharge_and_excisetax_n": 2815.0,
+  "totalcharge_and_excisetax_r": 1,
+  "temperature_min": 32.0,
+  "temperature_max": 32.0,
+  "setpoint_temp": 32.0,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zz2e08ed5425ea4d7cifgAPP2",
+  "consignee_stop_id": "zzce82619eb3cc4b70ifgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz2e08ed5425ea4d7cifgAPP2",
+      "address": "20405 EAST BUSINESS PKWY",
+      "city_name": "",
+      "state": "CA",
+      "zip_code": "20405",
+      "location_name": "TROPICANA DC WALNUT CA",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "61048221",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20250108090000-0700",
+      "sched_arrive_late": "20250108090000-0700",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "134674, 134674",
+          "reference_qual": "POL",
+          "send_to_driver": true,
+          "stop_id": "zz2e08ed5425ea4d7cifgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zzfd8b88645d8c4aa7ifgAPP2",
+      "address": "620 W 600 N",
+      "city_name": "",
+      "state": "UT",
+      "zip_code": "84054",
+      "location_name": "ALBERTSONS C NORTH SALT LAKE UT",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "61048221",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20250110033000-0700",
+      "sched_arrive_late": "20250110033000-0700",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "856648347, 937590",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zzfd8b88645d8c4aa7ifgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zzd026d2a006034831ifgAPP2",
+      "address": "3388 W 1987 S",
+      "city_name": "",
+      "state": "UT",
+      "zip_code": "84104",
+      "location_name": "PBG-SALT LAKE CITY PEPSI COLA BOTTLING COMPANY",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "61048221",
+      "order_sequence": 3,
+      "movement_sequence": 3,
+      "sched_arrive_early": "20250110070000-0700",
+      "sched_arrive_late": "20250110070000-0700",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "871497021/ 920997021, 871497021/ 920997021",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zzd026d2a006034831ifgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zzce82619eb3cc4b70ifgAPP2",
+      "address": "9494 S PROSPERITY RD",
+      "city_name": "",
+      "state": "UT",
+      "zip_code": "84081",
+      "location_name": "BWC SYSCO INTERMOUNT INC",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "61048221",
+      "order_sequence": 4,
+      "movement_sequence": 4,
+      "sched_arrive_early": "20250110110000-0700",
+      "sched_arrive_late": "20250110110000-0700",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "CHK5048562010JAN25, 27705500",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zzce82619eb3cc4b70ifgAPP2"
+        }
+      ]
+    }
+  ],
+  "bill_distance": 300,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "62048221",
+      "origin_stop_id": "zz2e08ed5425ea4d7cifgAPP2",
+      "dest_stop_id": "zzce82619eb3cc4b70ifgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 300,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "61048221"
+    }
+  ],
+  "curr_movement_id": "62048221",
+  "otherCharges": [
+    {
+      "__type": "other_charge",
+      "company_id": "TMS",
+      "charge_code": "MISC",
+      "charge_description": "Miscellaneous Charge",
+      "charge_amount": 237.0,
+      "charge_amount_c": "USD",
+      "charge_amount_n": 237.0,
+      "charge_amount_r": 1,
+      "sequence": 1
+    },
+    {
+      "__type": "other_charge",
+      "company_id": "TMS",
+      "charge_code": "MISC",
+      "charge_description": "Miscellaneous Charge",
+      "charge_amount": 248.0,
+      "charge_amount_c": "USD",
+      "charge_amount_n": 248.0,
+      "charge_amount_r": 1,
+      "sequence": 2
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "equipment_type": "Van 53'",
+  "reference_number": "60847782",
+  "booking_confirmation_number": "60847782",
+  "total_rate": 1587.5,
+  "freight_rate": 1500.0,
+  "additional_rate": 87.5,
+  "shipper_section": [
+    {
+      "ship_from_company": "QUAKER DC TACOMA",
+      "ship_from_address": "2309 MILWAUKEE WAY, TACOMA, WA 98421",
+      "pickup_number": "72336138, 1316961884",
+      "pickup_instructions": "facility is pushing out appts. DO NOT PARK IN THE RIGHT TURNING LANE OUTSIDE OF FACILITY OR YOU WILL BE CITED. THERE IS A SERVICE ROAD BEHIND FAILITY YOU MAY LINE UP IN. TRAILER MUST HAVE SEAL INTACT TO DELIVER. NO SEAL WILL RESULT IN REJECTION OF ENTIRE LOAD AND CARRIER WILL BE LIABLE FOR FULL AMOUNT OF CLAIM. DRIVERS: DO NOT PARK ON NEIGHBORING COMPANY LOT MILGARD. NO OVERNIGHT PARKING ONSITE. TRAILERS ON THE SOUTH SIDE OF FACILITY MUST BE EAST OF DOOR 70. ON THE NORTH SIDE THERE IS A LINE ON THE PAVEMENT AND TRAILERS MUST BE PARKED ON THE EAST SIDE OF THE LINE.",
+      "pickup_appointment_start_datetime": "12/18/24 12:45",
+      "pickup_appointment_end_datetime": "12/18/24 12:45"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "M&M DISTRIBUTING",
+      "receiver_address": "531 W 600 N, SALT LAKE CITY, UT 84116",
+      "receiver_delivery_number": "1316961884 - AJV12112404, 1316961884",
+      "receiver_instructions": "SIGNED BOL / SIGNED DELIVERY RECEIPT / SIGNED RATE CONFIRMATION SHEET. LOAD / UNLOAD / LUMPER RECEIPTS MUST ACCOMPANY INVOICING OR THEY WILL NOT BE PAID. MUST REFERENCE LOAD # ON ALL CORRESPONDENCES. ALL ACCESSORIAL CHARGES MUST BE PRE-APPROVED & BILLED WITH RECEIPT & POD.",
+      "receiver_appointment_start_datetime": "12/20/24 07:30",
+      "receiver_appointment_end_datetime": "12/20/24 07:30"
+    }
+  ],
+  "customer_name": "Echo Global Logistics",
+  "email_domain": "echo.com",
+  "customer_address": null,
+  "temperature_present": true,
+  "temperature_low": 45.0,
+  "temperature_high": null,
+  "is_flat_rate": false,
+  "additional_rates": [
+    {
+      "amount": 87.5,
+      "is_fuel_surcharge": false
+    }
+  ]
+}

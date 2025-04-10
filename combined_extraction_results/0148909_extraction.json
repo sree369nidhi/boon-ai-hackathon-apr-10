@@ -1,0 +1,36 @@
+{
+  "equipment_type": "Container 20 FT",
+  "reference_number": "0148909",
+  "booking_confirmation_number": "0148909",
+  "total_rate": 1550.0,
+  "freight_rate": 1550.0,
+  "additional_rate": 0,
+  "shipper_section": [
+    {
+      "ship_from_company": "Savannah Logistics Warehouse",
+      "ship_from_address": "4050 E Marginal Wy S, SEATTLE WA 98134",
+      "pickup_number": null,
+      "pickup_instructions": null,
+      "pickup_appointment_start_datetime": "02/13/25 08:00",
+      "pickup_appointment_end_datetime": "02/13/25 16:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "KIMBALL RENTALS LLC",
+      "receiver_address": "2839 W California Ave, SALT LAKE CITY UT 84104",
+      "receiver_delivery_number": "019839448",
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "02/17/25 08:00",
+      "receiver_appointment_end_datetime": "02/17/25 08:00"
+    }
+  ],
+  "customer_name": "Coast to Coast Logistics, LLC",
+  "email_domain": "coasttocoastlogistics.com",
+  "customer_address": "570 Lake Cook Road, Deerfield, IL 60015",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

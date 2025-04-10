@@ -1,0 +1,136 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "8226477",
+  "customer_id": "NT",
+  "equipment_type_id": "V",
+  "freight_charge": null,
+  "freight_charge_n": null,
+  "freight_charge_r": 1,
+  "rate": null,
+  "rate_type": "M",
+  "rate_units": 1,
+  "otherchargetotal": 0,
+  "otherchargetotal_n": 0,
+  "otherchargetotal_r": 1,
+  "total_charge": null,
+  "total_charge_n": null,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": null,
+  "totalcharge_and_excisetax_n": null,
+  "totalcharge_and_excisetax_r": 1,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zz3deda529801e49afifgAPP2",
+  "consignee_stop_id": "zz6f410fbe1e7e492fifgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz3deda529801e49afifgAPP2",
+      "address": "14655 Wicks Boulevard",
+      "city_name": "",
+      "state": "CA",
+      "zip_code": "14655",
+      "location_name": "RCCB - SAN LEANDRO CA PRODUCTION",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "8226477",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20250112190000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "DRIVER IS RESPONSIBLE FOR SECURING THE BACK / TAIL PALLETS WITH LOAD BARS OR LOAD STRAPS. 2 STRAPS ARE REQUIRED. IF THE DRIVER CANNOT USE STRAPS DUE TO EQUIPMENT RESTRICTIONS, 3 LOAD BARS WILL SUFFICE. FACE MASKS AND SAFETY VESTS ARE REQUIRED TO BE WORN AT ALL TIMES. CLOSED TOE SHOES ARE REQUIRED TO BE WORN ON PROPERTY. PLEASE INFORM DRIVER A SEAL MUST BE APPLIED TO ALL LOADS PRIOR TO DEPARTING. 2 straps or 3 load bars required. Seal must be used on all loads. Drivers need to ensure freight is secured before leaving shipper / take pictures prior to departure. Drivers must request air bags from shipper for securement if they deem necessary. Any load where carrier can't provide pictures of the load secured before leaving shipper will not be eligible for re-work reimbursement.",
+          "sequence": 1,
+          "stop_id": "zz3deda529801e49afifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__loadingInstructions": "DRIVER IS RESPONSIBLE FOR SECURING THE BACK / TAIL PALLETS WITH LOAD BARS OR LOAD STRAPS. 2 STRAPS ARE REQUIRED. IF THE DRIVER CANNOT USE STRAPS DUE TO EQUIPMENT RESTRICTIONS, 3 LOAD BARS WILL SUFFICE. FACE MASKS AND SAFETY VESTS ARE REQUIRED TO BE WORN AT ALL TIMES. CLOSED TOE SHOES ARE REQUIRED TO BE WORN ON PROPERTY. PLEASE INFORM DRIVER A SEAL MUST BE APPLIED TO ALL LOADS PRIOR TO DEPARTING. 2 straps or 3 load bars required. Seal must be used on all loads. Drivers need to ensure freight is secured before leaving shipper / take pictures prior to departure. Drivers must request air bags from shipper for securement if they deem necessary. Any load where carrier can't provide pictures of the load secured before leaving shipper will not be eligible for re-work reimbursement.",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "4307832041",
+          "reference_qual": "POL",
+          "send_to_driver": true,
+          "stop_id": "zz3deda529801e49afifgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz6f410fbe1e7e492fifgAPP2",
+      "address": "1000 Fairway Dr",
+      "city_name": "",
+      "state": "CA",
+      "zip_code": "93455-1512",
+      "location_name": "RCCB - SANTA MARIA CA SALES",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "8226477",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20250113060000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "Green safety vests & closed toe shoes MUST be worn constantly while on property. Every load MUST have a seal intact - if broken, will be rejected at consignee & claim will be filed. NTG must be notified @ 1.5 HR mark of wait time & POD with IN/OUT times must be submitted w/in 12 HRS. $40/HR for detention if above requirements met & on-time arrival is hit (capped @ $250).",
+          "sequence": 1,
+          "stop_id": "zz6f410fbe1e7e492fifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__unloadingInstructions": "Green safety vests & closed toe shoes MUST be worn constantly while on property. Every load MUST have a seal intact - if broken, will be rejected at consignee & claim will be filed. NTG must be notified @ 1.5 HR mark of wait time & POD with IN/OUT times must be submitted w/in 12 HRS. $40/HR for detention if above requirements met & on-time arrival is hit (capped @ $250).",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "50059801",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zz6f410fbe1e7e492fifgAPP2"
+        }
+      ]
+    }
+  ],
+  "bill_distance": 100,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "9226477",
+      "origin_stop_id": "zz3deda529801e49afifgAPP2",
+      "dest_stop_id": "zz6f410fbe1e7e492fifgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 100,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "8226477"
+    }
+  ],
+  "curr_movement_id": "9226477"
+}

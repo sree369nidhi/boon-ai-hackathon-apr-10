@@ -1,0 +1,138 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "0100211029",
+  "customer_id": "DT",
+  "equipment_type_id": "V",
+  "freight_charge": 1550.0,
+  "freight_charge_n": 1550.0,
+  "freight_charge_r": 1,
+  "rate": 1550.0,
+  "rate_type": "F",
+  "rate_units": 1,
+  "otherchargetotal": 0,
+  "otherchargetotal_n": 0,
+  "otherchargetotal_r": 1,
+  "total_charge": 1550.0,
+  "total_charge_n": 1550.0,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": 1550.0,
+  "totalcharge_and_excisetax_n": 1550.0,
+  "totalcharge_and_excisetax_r": 1,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zz7e481240627345a8ifgAPP2",
+  "consignee_stop_id": "zz152a0611f5084aa4ifgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz7e481240627345a8ifgAPP2",
+      "address": "27255 SW 95TH AVE",
+      "city_name": "",
+      "state": "OR",
+      "zip_code": "27255",
+      "location_name": "FINISHED GOODS - PACIFIC FOODS",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "0100211029",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20250104130000-0700",
+      "sched_arrive_late": "20250104130000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "Carrier? s need to arrive on time for their p/u apts. There are no work in' s app ts must be set. PU appts must be set 48 hours in advance. PU appts are set in carrier portal on the DOCK SCHEDULER for the times available and for resets please email MBTransportation_OR@campbells.com and the new plant contact Kylee Lee -kyle_lee@campbells.com OR for any issues with setting a pick-up appointment Shipper requires PU appt 48 business hours in advance. CASE COUNT: 2214.0",
+          "sequence": 1,
+          "stop_id": "zz7e481240627345a8ifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__loadingInstructions": "Carrier? s need to arrive on time for their p/u apts. There are no work in' s app ts must be set. PU appts must be set 48 hours in advance. PU appts are set in carrier portal on the DOCK SCHEDULER for the times available and for resets please email MBTransportation_OR@campbells.com and the new plant contact Kylee Lee -kyle_lee@campbells.com OR for any issues with setting a pick-up appointment Shipper requires PU appt 48 business hours in advance. CASE COUNT: 2214.0",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "42762323",
+          "reference_qual": "POL",
+          "send_to_driver": true,
+          "stop_id": "zz7e481240627345a8ifgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz152a0611f5084aa4ifgAPP2",
+      "address": "500 SUGAR ST",
+      "city_name": "",
+      "state": "UT",
+      "zip_code": "84041",
+      "location_name": "SMITH'S - LAYTON DIST CNTR",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "0100211029",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20250106003000-0700",
+      "sched_arrive_late": "20250106003000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "BY APPOINTMENT ***RELAY FACILITY. PAY LUMPER WITH A RELAY CODE***",
+          "sequence": 1,
+          "stop_id": "zz152a0611f5084aa4ifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__unloadingInstructions": "BY APPOINTMENT ***RELAY FACILITY. PAY LUMPER WITH A RELAY CODE***",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "99",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zz152a0611f5084aa4ifgAPP2"
+        }
+      ]
+    }
+  ],
+  "bill_distance": 100,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "101211029",
+      "origin_stop_id": "zz7e481240627345a8ifgAPP2",
+      "dest_stop_id": "zz152a0611f5084aa4ifgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 100,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "0100211029"
+    }
+  ],
+  "curr_movement_id": "101211029"
+}

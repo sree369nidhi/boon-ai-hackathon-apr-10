@@ -1,0 +1,138 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "405905693",
+  "customer_id": "ST",
+  "equipment_type_id": "V",
+  "freight_charge": 300.0,
+  "freight_charge_n": 300.0,
+  "freight_charge_r": 1,
+  "rate": 300.0,
+  "rate_type": "F",
+  "rate_units": 1,
+  "otherchargetotal": 0,
+  "otherchargetotal_n": 0,
+  "otherchargetotal_r": 1,
+  "total_charge": 300.0,
+  "total_charge_n": 300.0,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": 300.0,
+  "totalcharge_and_excisetax_n": 300.0,
+  "totalcharge_and_excisetax_r": 1,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zzdcc328b4cc7d47f7ifgAPP2",
+  "consignee_stop_id": "zzd4d84d02427c4c16ifgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zzdcc328b4cc7d47f7ifgAPP2",
+      "address": "4800 LANGDON ROAD SUITE 400",
+      "city_name": "",
+      "state": "TX",
+      "zip_code": "75241",
+      "location_name": "NIAGARA BOTTLING",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "405905693",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20191213080000-0700",
+      "sched_arrive_late": "20191213080000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "WORK IN AT SHIPPER 20 pallets/ 1328 cases/41421.00 LBS ALL COCA-COLA SHIPMENTS ARE CONSIDERED ESSENTIAL GOODS AT THIS TIME BILLS OF LADING ARE MARKED ACCORDINGLY IN CASE DRIVER IS ASKED FOR EVIDENCE PROTECT FROM FREEZING TRAILER MUST BE CLEAN, NO HOLES, NO ODORS. DRIVER MUST DOWNLOAD AND TRACK ON THE LOADSMART APP DRIVER MUST NOT PAY LUMPER FEES WITHOUT PRIOR APPROVAL FROM LOADSMART. NO REIMBURSEMENT WITHOUT APPROVAL. REQUIRES LOAD BARS OR STRAPS TRACKING IS REQUIRED VIA LOADSMART DRIVER APP, P44 ELD OR EDI SEAL APPLIED BY SHIPPER MUST REMAIN INTACT UNTIL DELIVERED. ANY SEAL BROKEN WITHOUT CUSTOMER APPROVAL COULD RESULT IN REJECTION AND CLAIM FOR THE FULL VALUE OF THE SHIPMENT. ***MUST BE ABLE SCALE UP TO LEGAL WEIGHT*** ***DRIVERS MUST PRE-NOTIFY OF ANY ACCESSORIALS PRIOR TO OR AT THE TIME OF OCCURRENCE. EXTRA CHARGES MAY BE DENIED IF NOT NOTIFIED TIMELY*** ***DETENTION APPROVAL WILL BE BASED ON FACILITY'S LOG BOOK*** Facility Notes: Please note, Conn's DC shares the same building with Niagara. If you are asked for a reference number starting with 33, you are at the Niagara pickup.",
+          "sequence": 1,
+          "stop_id": "zzdcc328b4cc7d47f7ifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__loadingInstructions": "WORK IN AT SHIPPER 20 pallets/ 1328 cases/41421.00 LBS ALL COCA-COLA SHIPMENTS ARE CONSIDERED ESSENTIAL GOODS AT THIS TIME BILLS OF LADING ARE MARKED ACCORDINGLY IN CASE DRIVER IS ASKED FOR EVIDENCE PROTECT FROM FREEZING TRAILER MUST BE CLEAN, NO HOLES, NO ODORS. DRIVER MUST DOWNLOAD AND TRACK ON THE LOADSMART APP DRIVER MUST NOT PAY LUMPER FEES WITHOUT PRIOR APPROVAL FROM LOADSMART. NO REIMBURSEMENT WITHOUT APPROVAL. REQUIRES LOAD BARS OR STRAPS TRACKING IS REQUIRED VIA LOADSMART DRIVER APP, P44 ELD OR EDI SEAL APPLIED BY SHIPPER MUST REMAIN INTACT UNTIL DELIVERED. ANY SEAL BROKEN WITHOUT CUSTOMER APPROVAL COULD RESULT IN REJECTION AND CLAIM FOR THE FULL VALUE OF THE SHIPMENT. ***MUST BE ABLE SCALE UP TO LEGAL WEIGHT*** ***DRIVERS MUST PRE-NOTIFY OF ANY ACCESSORIALS PRIOR TO OR AT THE TIME OF OCCURRENCE. EXTRA CHARGES MAY BE DENIED IF NOT NOTIFIED TIMELY*** ***DETENTION APPROVAL WILL BE BASED ON FACILITY'S LOG BOOK*** Facility Notes: Please note, Conn's DC shares the same building with Niagara. If you are asked for a reference number starting with 33, you are at the Niagara pickup.",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "405905693-001",
+          "reference_qual": "POL",
+          "send_to_driver": true,
+          "stop_id": "zzdcc328b4cc7d47f7ifgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zzd4d84d02427c4c16ifgAPP2",
+      "address": "3400 FOSSIL CREEK BLVD",
+      "city_name": "",
+      "state": "TX",
+      "zip_code": "76137",
+      "location_name": "COCA-COLA SW BEVERAGES",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "405905693",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20191213170000-0700",
+      "sched_arrive_late": "20191213170000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "20 pallets/ 1328 cases/41421.00 LBS ALL COCA-COLA SHIPMENTS ARE CONSIDERED ESSENTIAL GOODS AT THIS TIME BILLS OF LADING ARE MARKED ACCORDINGLY IN CASE DRIVER IS ASKED FOR EVIDENCE PROTECT FROM FREEZING TRAILER MUST BE CLEAN, NO HOLES, NO ODORS. DRIVER MUST DOWNLOAD AND TRACK ON THE LOADSMART APP DRIVER MUST NOT PAY LUMPER FEES WITHOUT PRIOR APPROVAL FROM LOADSMART. NO REIMBURSEMENT WITHOUT APPROVAL. REQUIRES LOAD BARS OR STRAPS TRACKING IS REQUIRED VIA LOADSMART DRIVER APP, P44 ELD OR EDI SEAL APPLIED BY SHIPPER MUST REMAIN INTACT UNTIL DELIVERED. ANY SEAL BROKEN WITHOUT CUSTOMER APPROVAL COULD RESULT IN REJECTION AND CLAIM FOR THE FULL VALUE OF THE SHIPMENT. ***MUST BE ABLE SCALE UP TO LEGAL WEIGHT*** ***DRIVERS MUST PRE-NOTIFY OF ANY ACCESSORIALS PRIOR TO OR AT THE TIME OF OCCURRENCE. EXTRA CHARGES MAY BE DENIED IF NOT NOTIFIED TIMELY*** ***DETENTION APPROVAL WILL BE BASED ON FACILITY'S LOG BOOK***",
+          "sequence": 1,
+          "stop_id": "zzd4d84d02427c4c16ifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__unloadingInstructions": "20 pallets/ 1328 cases/41421.00 LBS ALL COCA-COLA SHIPMENTS ARE CONSIDERED ESSENTIAL GOODS AT THIS TIME BILLS OF LADING ARE MARKED ACCORDINGLY IN CASE DRIVER IS ASKED FOR EVIDENCE PROTECT FROM FREEZING TRAILER MUST BE CLEAN, NO HOLES, NO ODORS. DRIVER MUST DOWNLOAD AND TRACK ON THE LOADSMART APP DRIVER MUST NOT PAY LUMPER FEES WITHOUT PRIOR APPROVAL FROM LOADSMART. NO REIMBURSEMENT WITHOUT APPROVAL. REQUIRES LOAD BARS OR STRAPS TRACKING IS REQUIRED VIA LOADSMART DRIVER APP, P44 ELD OR EDI SEAL APPLIED BY SHIPPER MUST REMAIN INTACT UNTIL DELIVERED. ANY SEAL BROKEN WITHOUT CUSTOMER APPROVAL COULD RESULT IN REJECTION AND CLAIM FOR THE FULL VALUE OF THE SHIPMENT. ***MUST BE ABLE SCALE UP TO LEGAL WEIGHT*** ***DRIVERS MUST PRE-NOTIFY OF ANY ACCESSORIALS PRIOR TO OR AT THE TIME OF OCCURRENCE. EXTRA CHARGES MAY BE DENIED IF NOT NOTIFIED TIMELY*** ***DETENTION APPROVAL WILL BE BASED ON FACILITY'S LOG BOOK***",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "49397473",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zzd4d84d02427c4c16ifgAPP2"
+        }
+      ]
+    }
+  ],
+  "bill_distance": 100,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "406905693",
+      "origin_stop_id": "zzdcc328b4cc7d47f7ifgAPP2",
+      "dest_stop_id": "zzd4d84d02427c4c16ifgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 100,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "405905693"
+    }
+  ],
+  "curr_movement_id": "406905693"
+}

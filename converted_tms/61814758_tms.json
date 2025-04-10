@@ -1,0 +1,127 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "61814758",
+  "customer_id": "UNKNOWN",
+  "equipment_type_id": "V",
+  "freight_charge": 1500.0,
+  "freight_charge_n": 1500.0,
+  "freight_charge_r": 1,
+  "rate": 1500.0,
+  "rate_type": "F",
+  "rate_units": 1,
+  "otherchargetotal": 0,
+  "otherchargetotal_n": 0,
+  "otherchargetotal_r": 1,
+  "total_charge": 1500.0,
+  "total_charge_n": 1500.0,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": 1500.0,
+  "totalcharge_and_excisetax_n": 1500.0,
+  "totalcharge_and_excisetax_r": 1,
+  "temperature_min": 45.0,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zz8d7f982c82254280ifgAPP2",
+  "consignee_stop_id": "zz4d8beccf2c8541acifgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz8d7f982c82254280ifgAPP2",
+      "address": "12005 STEELE ST S",
+      "city_name": "",
+      "state": "WA",
+      "zip_code": "12005",
+      "location_name": "GATORADE DC TACOMA WA OVERFLOW",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "61814758",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20250311124500-0700",
+      "sched_arrive_late": "20250311124500-0700",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "73201351, 1320426774",
+          "reference_qual": "POL",
+          "send_to_driver": true,
+          "stop_id": "zz8d7f982c82254280ifgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz4d8beccf2c8541acifgAPP2",
+      "address": "714 W SUNNYSIDE RD",
+      "city_name": "",
+      "state": "ID",
+      "zip_code": "83402",
+      "location_name": "ADMIRAL BEV/OLD FAITHFUL",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "61814758",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20250313070000-0700",
+      "sched_arrive_late": "20250313140000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "FCFS mon-fri 0700-1400",
+          "sequence": 1,
+          "stop_id": "zz4d8beccf2c8541acifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__unloadingInstructions": "FCFS mon-fri 0700-1400",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "1320426774, 1320426774, 1320426774",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zz4d8beccf2c8541acifgAPP2"
+        }
+      ]
+    }
+  ],
+  "bill_distance": 100,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "62814758",
+      "origin_stop_id": "zz8d7f982c82254280ifgAPP2",
+      "dest_stop_id": "zz4d8beccf2c8541acifgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 100,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "61814758"
+    }
+  ],
+  "curr_movement_id": "62814758"
+}

@@ -1,0 +1,127 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "2001828290",
+  "customer_id": "MS",
+  "equipment_type_id": "V",
+  "freight_charge": 386.0,
+  "freight_charge_n": 386.0,
+  "freight_charge_r": 1,
+  "rate": 386.0,
+  "rate_type": "M",
+  "rate_units": 1,
+  "otherchargetotal": 165.0,
+  "otherchargetotal_n": 165.0,
+  "otherchargetotal_r": 1,
+  "total_charge": 551.0,
+  "total_charge_n": 551.0,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": 551.0,
+  "totalcharge_and_excisetax_n": 551.0,
+  "totalcharge_and_excisetax_r": 1,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zzc0033ae69bf94e53ifgAPP2",
+  "consignee_stop_id": "zzac4d287ad65e4ef2ifgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zzc0033ae69bf94e53ifgAPP2",
+      "address": "7000 Industrial Blvd",
+      "city_name": "",
+      "state": "TX",
+      "zip_code": "75402-5713",
+      "location_name": "ROYAL OAK #203",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "2001828290",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20241216133000-0700",
+      "sched_arrive_late": "20241216133000-0700",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "200-085042",
+          "reference_qual": "POL",
+          "send_to_driver": true,
+          "stop_id": "zzc0033ae69bf94e53ifgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zzac4d287ad65e4ef2ifgAPP2",
+      "address": "743 HENRIETTA CREEK RD",
+      "city_name": "",
+      "state": "TX",
+      "zip_code": "76262",
+      "location_name": "SAFEWAY DALLAS",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "2001828290",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20241216220000-0700",
+      "sched_arrive_late": "20241216220000-0700",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "S358874, LD-051663, TD-045222, 396216",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zzac4d287ad65e4ef2ifgAPP2"
+        }
+      ]
+    }
+  ],
+  "bill_distance": 100,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "2002828290",
+      "origin_stop_id": "zzc0033ae69bf94e53ifgAPP2",
+      "dest_stop_id": "zzac4d287ad65e4ef2ifgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 100,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "2001828290"
+    }
+  ],
+  "curr_movement_id": "2002828290",
+  "otherCharges": [
+    {
+      "__type": "other_charge",
+      "company_id": "TMS",
+      "charge_code": "MISC",
+      "charge_description": "Miscellaneous Charge",
+      "charge_amount": 165.0,
+      "charge_amount_c": "USD",
+      "charge_amount_n": 165.0,
+      "charge_amount_r": 1,
+      "sequence": 1
+    }
+  ]
+}

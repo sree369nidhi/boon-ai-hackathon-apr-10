@@ -1,0 +1,45 @@
+{
+  "equipment_type": "Van",
+  "reference_number": "31440-90145",
+  "booking_confirmation_number": "31440-90145",
+  "total_rate": 1100.0,
+  "freight_rate": 800.0,
+  "additional_rate": 300.0,
+  "shipper_section": [
+    {
+      "ship_from_company": "Johnstone Supply",
+      "ship_from_address": "4875 E Cheyenne Ave, Las Vegas, NV 89115",
+      "pickup_number": "573178 / 352021",
+      "pickup_instructions": "Door 23 - Pedro Ypina (702) 812-1657",
+      "pickup_appointment_start_datetime": "12/04/24 09:00",
+      "pickup_appointment_end_datetime": "12/04/24 18:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "Supanaturals",
+      "receiver_address": "1325 Spring Creek PI, Springville, UT 84663",
+      "receiver_delivery_number": "573178 / 352021",
+      "receiver_instructions": "Waiting to confirm Appt",
+      "receiver_appointment_start_datetime": "12/05/24 08:00",
+      "receiver_appointment_end_datetime": null
+    }
+  ],
+  "customer_name": "Jackson Coup",
+  "email_domain": "neor-logistics.com",
+  "customer_address": "6900 E Camelback Rd, Suite 1100, Scottsdale, AZ 85251",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": [
+    {
+      "amount": 250.0,
+      "is_fuel_surcharge": false
+    },
+    {
+      "amount": 50.0,
+      "is_fuel_surcharge": false
+    }
+  ]
+}

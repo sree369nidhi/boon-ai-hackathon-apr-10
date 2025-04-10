@@ -1,0 +1,36 @@
+{
+  "equipment_type": "53' Van",
+  "reference_number": "70729538",
+  "booking_confirmation_number": "70729538",
+  "total_rate": 2100.0,
+  "freight_rate": 2100.0,
+  "additional_rate": 0.0,
+  "shipper_section": [
+    {
+      "ship_from_company": "SMURFIT KAPPA/OCC",
+      "ship_from_address": "855 E HWY 80, FORNEY, TX, 75126",
+      "pickup_number": "587907",
+      "pickup_instructions": "Trailer must be 10 years or newer*** 53' VAN ONLY. SWING DOORS, WOOD FLOOR ONLY.",
+      "pickup_appointment_start_datetime": "02/24/25 15:30",
+      "pickup_appointment_end_datetime": null
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "SMURFIT SPANISH FORK",
+      "receiver_address": "2200 N. MAIN STREET, SPANISH FORK, UT, 84660",
+      "receiver_delivery_number": "587907",
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "02/26/25 05:30",
+      "receiver_appointment_end_datetime": "02/26/25 16:00"
+    }
+  ],
+  "customer_name": "SHARP TRANSPORTATION, INC.",
+  "email_domain": "avenuelogistics.com",
+  "customer_address": "ELLSVILLE, UT",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

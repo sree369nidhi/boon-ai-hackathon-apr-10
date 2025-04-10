@@ -1,0 +1,112 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "31483-42812",
+  "customer_id": "SF",
+  "equipment_type_id": "V",
+  "freight_charge": 300.0,
+  "freight_charge_n": 300.0,
+  "freight_charge_r": 1,
+  "rate": 300.0,
+  "rate_type": "F",
+  "rate_units": 1,
+  "otherchargetotal": 0,
+  "otherchargetotal_n": 0,
+  "otherchargetotal_r": 1,
+  "total_charge": 300.0,
+  "total_charge_n": 300.0,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": 300.0,
+  "totalcharge_and_excisetax_n": 300.0,
+  "totalcharge_and_excisetax_r": 1,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zz9b23a5844e7e4514ifgAPP2",
+  "consignee_stop_id": "zzc2cf776a98c04c8bifgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz9b23a5844e7e4514ifgAPP2",
+      "address": "803 N Carrier Pkwy",
+      "city_name": "",
+      "state": "TX",
+      "zip_code": "75050",
+      "location_name": "POWER PACKAGING A DHL COMPANY",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "31483-42812",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20250221080000-0700",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "2094241830",
+          "reference_qual": "POL",
+          "send_to_driver": true,
+          "stop_id": "zz9b23a5844e7e4514ifgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zzc2cf776a98c04c8bifgAPP2",
+      "address": "90 Tradewind Dr",
+      "city_name": "",
+      "state": "TX",
+      "zip_code": "76177",
+      "location_name": "FT WORTH TX DRY MC",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "31483-42812",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20250221143000-0700",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "3563704255",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zzc2cf776a98c04c8bifgAPP2"
+        }
+      ]
+    }
+  ],
+  "bill_distance": 100,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "3149342812",
+      "origin_stop_id": "zz9b23a5844e7e4514ifgAPP2",
+      "dest_stop_id": "zzc2cf776a98c04c8bifgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 100,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "31483-42812"
+    }
+  ],
+  "curr_movement_id": "3149342812"
+}

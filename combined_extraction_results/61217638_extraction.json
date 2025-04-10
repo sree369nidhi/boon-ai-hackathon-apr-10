@@ -1,0 +1,40 @@
+{
+  "equipment_type": "Van",
+  "reference_number": "61217638",
+  "booking_confirmation_number": "61217638",
+  "total_rate": 1500.0,
+  "freight_rate": 1500.0,
+  "additional_rate": 0,
+  "shipper_section": [
+    {
+      "ship_from_company": "QUAKER DC TACOMA",
+      "ship_from_address": "2309 MILWAUKEE WAY, TACOMA, WA 98421",
+      "pickup_number": "72683222, 1318747741",
+      "pickup_instructions": "facility is pushing out appts. DO NOT PARK IN THE RIGHT TURNING LANE OUTSIDE OF FACILITY OR YOU WILL BE CITED. THERE IS A SERVICE ROAD BEHIND FAILITY YOU MAY LINE UP IN. TRAILER MUST HAVE SEAL INTACT TO DELIVER. NO SEAL WILL RESULT IN REJECTION OF ENTIRE LOAD AND CARRIER WILL BE LIABLE FOR FULL AMOUNT OF CLAIM. DRIVERS: DO NOT PARK ON NEIGHBORING COMPANY LOT MILGARD. NO OVERNIGHT PARKING ONSITE. TRAILERS ON THE SOUTH SIDE OF FACILITY MUST BE EAST OF DOOR 70. ON THE NORTH SIDE THERE IS A LINE ON THE PAVEMENT AND TRAILERS MUST BE PARKED ON THE EAST SIDE OF THE LINE.",
+      "pickup_appointment_start_datetime": "01/24/25 11:45",
+      "pickup_appointment_end_datetime": "01/24/25 11:45"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "M&M DISTRIBUTING",
+      "receiver_address": "531 W 600 N, SALT LAKE CITY, UT 84116",
+      "receiver_delivery_number": "1318747741 - AJV01152501, 1318747741",
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "01/27/25 09:00",
+      "receiver_appointment_end_datetime": "01/27/25 09:00"
+    }
+  ],
+  "customer_name": null,
+  "email_domain": "echo.com",
+  "customer_address": null,
+  "temperature_related": {
+    "temperature_present": true,
+    "temperature_low": 45,
+    "temperature_high": null
+  },
+  "additional_fields": {
+    "is_flat_rate": true,
+    "additional_rates": []
+  }
+}

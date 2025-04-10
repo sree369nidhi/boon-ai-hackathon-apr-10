@@ -1,0 +1,36 @@
+{
+  "equipment_type": "Van",
+  "reference_number": "3070046",
+  "booking_confirmation_number": "3070046",
+  "total_rate": 1700.0,
+  "freight_rate": 1700.0,
+  "additional_rate": 0,
+  "shipper_section": [
+    {
+      "ship_from_company": "DART/SOLO CONTAINER",
+      "ship_from_address": "9045 POLARIS LN NE, LACEY WA 98516",
+      "pickup_number": null,
+      "pickup_instructions": "DRIVER MUST CHECK INTO SHIPPING OFFICE ON ARRIVAL",
+      "pickup_appointment_start_datetime": "02/12/25 06:00",
+      "pickup_appointment_end_datetime": "02/12/25 17:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "CORE MARK",
+      "receiver_address": "1635 S 5070 WEST STE B, SALT LAKE CTY UT 84104",
+      "receiver_delivery_number": "PO 0714231690, PU = 186328364., Sl 0083527039, ZZ 0011000738",
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "02/14/25 06:00",
+      "receiver_appointment_end_datetime": "02/14/25 06:00"
+    }
+  ],
+  "customer_name": "CHEEMA LOGISTICS LLC",
+  "email_domain": "cheemalogistics.com",
+  "customer_address": "PO BOX 2234, SUMNER, WA 98390",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

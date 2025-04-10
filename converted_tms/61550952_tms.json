@@ -1,0 +1,127 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "61550952",
+  "customer_id": "MC",
+  "equipment_type_id": "V",
+  "freight_charge": 1500.0,
+  "freight_charge_n": 1500.0,
+  "freight_charge_r": 1,
+  "rate": 1500.0,
+  "rate_type": "F",
+  "rate_units": 1,
+  "otherchargetotal": 0,
+  "otherchargetotal_n": 0,
+  "otherchargetotal_r": 1,
+  "total_charge": 1500.0,
+  "total_charge_n": 1500.0,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": 1500.0,
+  "totalcharge_and_excisetax_n": 1500.0,
+  "totalcharge_and_excisetax_r": 1,
+  "temperature_min": 45.0,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zz8932dd3ad5c344d4ifgAPP2",
+  "consignee_stop_id": "zz773af524d4064d87ifgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz8932dd3ad5c344d4ifgAPP2",
+      "address": "2309 MILWAUKEE WAY",
+      "city_name": "",
+      "state": "WA",
+      "zip_code": "98421",
+      "location_name": "QUAKER DC TACOMA",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "61550952",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20250219154500-0700",
+      "sched_arrive_late": "20250219154500-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "facility is pushing out appts DO NOT PARK IN THE RIGHT TURNING LANE OUTSIDE OF FACILITY OR YOU WILL BE CITED. THERE IS A SERVICE ROAD BEHIND FAILITY YOU MAY LINE UP IN. TRAILER MUST HAVE SEAL INTACT TO DELIVER. NO SEAL WILL RESULT IN REJECTION OF ENTIRE LOAD AND CARRIER WILL BE LIABLE FOR FULL AMOUNT OF CLAIM DRIVERS: DO NOT PARK ON NEIGHBORING COMPANY LOT MILGARD. NO OVERNIGHT PARKING ONSITE. TRAILERS ON THE SOUTH SIDE OF FACILITY MUST BE EAST OF DOOR 70. ON THE NORTH SIDE THERE IS A LINE ON THE PAVEMENT AND TRAILERS MUST BE PARKED ON THE EAST SIDE OF THE LINE.",
+          "sequence": 1,
+          "stop_id": "zz8932dd3ad5c344d4ifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__loadingInstructions": "facility is pushing out appts DO NOT PARK IN THE RIGHT TURNING LANE OUTSIDE OF FACILITY OR YOU WILL BE CITED. THERE IS A SERVICE ROAD BEHIND FAILITY YOU MAY LINE UP IN. TRAILER MUST HAVE SEAL INTACT TO DELIVER. NO SEAL WILL RESULT IN REJECTION OF ENTIRE LOAD AND CARRIER WILL BE LIABLE FOR FULL AMOUNT OF CLAIM DRIVERS: DO NOT PARK ON NEIGHBORING COMPANY LOT MILGARD. NO OVERNIGHT PARKING ONSITE. TRAILERS ON THE SOUTH SIDE OF FACILITY MUST BE EAST OF DOOR 70. ON THE NORTH SIDE THERE IS A LINE ON THE PAVEMENT AND TRAILERS MUST BE PARKED ON THE EAST SIDE OF THE LINE.",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "72977802, 1319588623",
+          "reference_qual": "POL",
+          "send_to_driver": true,
+          "stop_id": "zz8932dd3ad5c344d4ifgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz773af524d4064d87ifgAPP2",
+      "address": "531 W 600 N",
+      "city_name": "",
+      "state": "UT",
+      "zip_code": "84116",
+      "location_name": "M&M DISTRIBUTING",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "61550952",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20250221090000-0700",
+      "sched_arrive_late": "20250221090000-0700",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "1319588623 - AJV02112502, 1319588623",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zz773af524d4064d87ifgAPP2"
+        }
+      ]
+    }
+  ],
+  "bill_distance": 100,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "62550952",
+      "origin_stop_id": "zz8932dd3ad5c344d4ifgAPP2",
+      "dest_stop_id": "zz773af524d4064d87ifgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 100,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "61550952"
+    }
+  ],
+  "curr_movement_id": "62550952"
+}

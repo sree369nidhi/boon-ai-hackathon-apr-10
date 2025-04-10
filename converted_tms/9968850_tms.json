@@ -1,0 +1,138 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "9968850",
+  "customer_id": "ST",
+  "equipment_type_id": "V",
+  "freight_charge": null,
+  "freight_charge_n": null,
+  "freight_charge_r": 1,
+  "rate": null,
+  "rate_type": "F",
+  "rate_units": 1,
+  "otherchargetotal": 0,
+  "otherchargetotal_n": 0,
+  "otherchargetotal_r": 1,
+  "total_charge": 700.0,
+  "total_charge_n": 700.0,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": 700.0,
+  "totalcharge_and_excisetax_n": 700.0,
+  "totalcharge_and_excisetax_r": 1,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zz1816b67556324cffifgAPP2",
+  "consignee_stop_id": "zza54c095c5e834159ifgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz1816b67556324cffifgAPP2",
+      "address": "14655 WICKS BLVD",
+      "city_name": "",
+      "state": "CA",
+      "zip_code": "14655",
+      "location_name": "RCCB - SAN LEANDRO CA PRODUCTION",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "9968850",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20200209130000-0700",
+      "sched_arrive_late": "20200209130000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "DRIVER IS RESPONSIBLE FOR SECURING THE BACK / TAIL PALLETS WITH LOAD BARS OR LOAD STRAPS. 2 STRAPS ARE REQUIRED. IF THE DRIVER CANNOT USE STRAPS DUE TO EQUIPMENT RESTRICTIONS, 3 LOAD BARS WILL SUFFICE. FACE MASKS AND SAFETY VESTS ARE REQUIRED TO BE WORN AT ALL TIMES. CLOSED TOE SHOES ARE REQUIRED TO BE WORN ON PROPERTY. PLEASE INFORM DRIVER A SEAL MUST BE APPLIED TO ALL LOADS PRIOR TO DEPARTING. LATE FEE PICKUP POLICY $100 FOR OVER 1 HOUR LATE TO APPT., $150 FOR EVERY BUSINESS DAY LATE. LATE FEE AT PICKUP OF $100 IF DRIVERS ARE OVER 2HRS LATE TO THEIR APPT. THIS WILL BE DEDUCTED FROM CARRIER\u2019S RATE CON. THERE WILL ALSO BE A $150 DEDUCTION FOR EVERY BUSINESS DAY THEY ARE LATE. DRIVER IS RESPONSIBLE FOR STRAPPING THE LOAD TIGHTLY SIMILAR TO A BELT OR A BUNGIE CORD. ALL ACCESORIAL REQUESTS MUST BE SUBMITTED TO LOADSMART AT THE TIME OF THE DELIVERY CHECKOUT WITH ALL THE PAPERWORK NEEDED. FAILURE TO SEND OVER PAPERWORK WITHIN THIS TIME FRAME WILL LEAD TO THE REQUEST BEING DENIED. FOR ALL LUMPERS, OVERAGES, SHORTAGES, DAMAGES, SHIFTED OR REJECTED LOADS, DRIVERS MUST TAKE AT LEAST 2 PHOTOS SHOWING HOW THE PRODUCT WAS SECURED AND SEND IT TO LOADSMART INFORMING. FAILURE TO SEND THESE PICTURES WILL LEAD TO THE REJECTION OF THE FEES INVOLVED.",
+          "sequence": 1,
+          "stop_id": "zz1816b67556324cffifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__loadingInstructions": "DRIVER IS RESPONSIBLE FOR SECURING THE BACK / TAIL PALLETS WITH LOAD BARS OR LOAD STRAPS. 2 STRAPS ARE REQUIRED. IF THE DRIVER CANNOT USE STRAPS DUE TO EQUIPMENT RESTRICTIONS, 3 LOAD BARS WILL SUFFICE. FACE MASKS AND SAFETY VESTS ARE REQUIRED TO BE WORN AT ALL TIMES. CLOSED TOE SHOES ARE REQUIRED TO BE WORN ON PROPERTY. PLEASE INFORM DRIVER A SEAL MUST BE APPLIED TO ALL LOADS PRIOR TO DEPARTING. LATE FEE PICKUP POLICY $100 FOR OVER 1 HOUR LATE TO APPT., $150 FOR EVERY BUSINESS DAY LATE. LATE FEE AT PICKUP OF $100 IF DRIVERS ARE OVER 2HRS LATE TO THEIR APPT. THIS WILL BE DEDUCTED FROM CARRIER\u2019S RATE CON. THERE WILL ALSO BE A $150 DEDUCTION FOR EVERY BUSINESS DAY THEY ARE LATE. DRIVER IS RESPONSIBLE FOR STRAPPING THE LOAD TIGHTLY SIMILAR TO A BELT OR A BUNGIE CORD. ALL ACCESORIAL REQUESTS MUST BE SUBMITTED TO LOADSMART AT THE TIME OF THE DELIVERY CHECKOUT WITH ALL THE PAPERWORK NEEDED. FAILURE TO SEND OVER PAPERWORK WITHIN THIS TIME FRAME WILL LEAD TO THE REQUEST BEING DENIED. FOR ALL LUMPERS, OVERAGES, SHORTAGES, DAMAGES, SHIFTED OR REJECTED LOADS, DRIVERS MUST TAKE AT LEAST 2 PHOTOS SHOWING HOW THE PRODUCT WAS SECURED AND SEND IT TO LOADSMART INFORMING. FAILURE TO SEND THESE PICTURES WILL LEAD TO THE REJECTION OF THE FEES INVOLVED.",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "186338823",
+          "reference_qual": "POL",
+          "send_to_driver": true,
+          "stop_id": "zz1816b67556324cffifgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zza54c095c5e834159ifgAPP2",
+      "address": "11900 CABERNET DRIVE FONTANA",
+      "city_name": "",
+      "state": "CA",
+      "zip_code": "11900",
+      "location_name": "RCCB - RANCHO CUCAMONGA CA SALES",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "9968850",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20200210123000-0700",
+      "sched_arrive_late": "20200210123000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "Customer Reference # 186338823 PO # 4307913346 Weight 44141lb Pieces 2112 Quantity 2112 Pallets 2112 LATE FEE AT PICKUP OF $100 IF DRIVERS ARE OVER 2HRS LATE TO THEIR APPT. THIS WILL BE DEDUCTED FROM CARRIER\u2019S RATE CON. THERE WILL ALSO BE A $150 DEDUCTION FOR EVERY BUSINESS DAY THEY ARE LATE. DRIVER IS RESPONSIBLE FOR STRAPPING THE LOAD TIGHTLY SIMILAR TO A BELT OR A BUNGIE CORD. ALL ACCESORIAL REQUESTS MUST BE SUBMITTED TO LOADSMART AT THE TIME OF THE DELIVERY CHECKOUT WITH ALL THE PAPERWORK NEEDED. FAILURE TO SEND OVER PAPERWORK WITHIN THIS TIME FRAME WILL LEAD TO THE REQUEST BEING DENIED. FOR ALL LUMPERS, OVERAGES, SHORTAGES, DAMAGES, SHIFTED OR REJECTED LOADS, DRIVERS MUST TAKE AT LEAST 2 PHOTOS SHOWING HOW THE PRODUCT WAS SECURED AND SEND IT TO LOADSMART INFORMING. FAILURE TO SEND THESE PICTURES WILL LEAD TO THE REJECTION OF THE FEES INVOLVED.",
+          "sequence": 1,
+          "stop_id": "zza54c095c5e834159ifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__unloadingInstructions": "Customer Reference # 186338823 PO # 4307913346 Weight 44141lb Pieces 2112 Quantity 2112 Pallets 2112 LATE FEE AT PICKUP OF $100 IF DRIVERS ARE OVER 2HRS LATE TO THEIR APPT. THIS WILL BE DEDUCTED FROM CARRIER\u2019S RATE CON. THERE WILL ALSO BE A $150 DEDUCTION FOR EVERY BUSINESS DAY THEY ARE LATE. DRIVER IS RESPONSIBLE FOR STRAPPING THE LOAD TIGHTLY SIMILAR TO A BELT OR A BUNGIE CORD. ALL ACCESORIAL REQUESTS MUST BE SUBMITTED TO LOADSMART AT THE TIME OF THE DELIVERY CHECKOUT WITH ALL THE PAPERWORK NEEDED. FAILURE TO SEND OVER PAPERWORK WITHIN THIS TIME FRAME WILL LEAD TO THE REQUEST BEING DENIED. FOR ALL LUMPERS, OVERAGES, SHORTAGES, DAMAGES, SHIFTED OR REJECTED LOADS, DRIVERS MUST TAKE AT LEAST 2 PHOTOS SHOWING HOW THE PRODUCT WAS SECURED AND SEND IT TO LOADSMART INFORMING. FAILURE TO SEND THESE PICTURES WILL LEAD TO THE REJECTION OF THE FEES INVOLVED.",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "186338823",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zza54c095c5e834159ifgAPP2"
+        }
+      ]
+    }
+  ],
+  "bill_distance": 100,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "10968850",
+      "origin_stop_id": "zz1816b67556324cffifgAPP2",
+      "dest_stop_id": "zza54c095c5e834159ifgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 100,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "9968850"
+    }
+  ],
+  "curr_movement_id": "10968850"
+}

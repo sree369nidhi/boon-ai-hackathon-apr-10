@@ -1,0 +1,41 @@
+{
+  "equipment_type": "Dry Van",
+  "reference_number": "7363582",
+  "booking_confirmation_number": "7363582",
+  "total_rate": 875.0,
+  "freight_rate": 775.0,
+  "additional_rate": 100.0,
+  "shipper_section": [
+    {
+      "ship_from_company": "ARDENT MILLS LLC",
+      "ship_from_address": "1200 PUTMAN AVENUE, YUBA CITY, CA 95991",
+      "pickup_number": null,
+      "pickup_instructions": null,
+      "pickup_appointment_start_datetime": "12/27/24 13:00",
+      "pickup_appointment_end_datetime": null
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "MIRA LOMA DRY #960",
+      "receiver_address": "11600 RIVERSIDE DR, MIRA LOMA, CA 91752",
+      "receiver_delivery_number": null,
+      "receiver_instructions": "COSTCO RECEIVES LOADS BY APPOINTMENT ONLY. IF YOU ARE GOING TO MISS YOUR DELIVERY APPOINTMENT YOU MUST CONTACT THE OFFICE/ BROKER THAT YOU BOOKED THE LOAD WITH ASAP.",
+      "receiver_appointment_start_datetime": "12/28/24 03:30",
+      "receiver_appointment_end_datetime": null
+    }
+  ],
+  "customer_name": "Allen Lund Company",
+  "email_domain": "allenlund.com",
+  "customer_address": "PO BOX 3452, LOGAN, UT",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": [
+    {
+      "amount": 100.0,
+      "is_fuel_surcharge": false
+    }
+  ]
+}

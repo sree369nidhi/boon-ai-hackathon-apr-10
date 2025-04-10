@@ -1,0 +1,36 @@
+{
+  "equipment_type": "53' Dry Van",
+  "reference_number": "4231282",
+  "booking_confirmation_number": "4231282",
+  "total_rate": 1800.0,
+  "freight_rate": 1800.0,
+  "additional_rate": 0,
+  "shipper_section": [
+    {
+      "ship_from_company": "Swire Coca-Cola",
+      "ship_from_address": "1150 124th Ave NE, BELLEVUE WA 98005",
+      "pickup_number": null,
+      "pickup_instructions": "No driver loading or unload",
+      "pickup_appointment_start_datetime": "12/12/24 12:30",
+      "pickup_appointment_end_datetime": null
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "Swire Coca-Cola, USA",
+      "receiver_address": "12634 S 265 W, DRAPER UT 84020",
+      "receiver_delivery_number": "BM 4307747041, DN 49513542",
+      "receiver_instructions": "No driver loading or unload",
+      "receiver_appointment_start_datetime": "12/14/24 12:00",
+      "receiver_appointment_end_datetime": null
+    }
+  ],
+  "customer_name": "Swire Coca-Cola",
+  "email_domain": "swirecc.com",
+  "customer_address": null,
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

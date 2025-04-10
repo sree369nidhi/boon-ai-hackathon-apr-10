@@ -1,0 +1,36 @@
+{
+  "equipment_type": "Reefer",
+  "reference_number": "5001712233",
+  "booking_confirmation_number": "5001712233",
+  "total_rate": 1650.0,
+  "freight_rate": 1650.0,
+  "additional_rate": 0,
+  "shipper_section": [
+    {
+      "ship_from_company": "SOUTHWEST CHEESE",
+      "ship_from_address": "1141 CURRY RD#4, CLOVIS, NM 88101",
+      "pickup_number": null,
+      "pickup_instructions": "Shipper Load & Count",
+      "pickup_appointment_start_datetime": "12/17/24 15:00",
+      "pickup_appointment_end_datetime": "12/17/24 15:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "GREAT LAKES CHEESE",
+      "receiver_address": "780 W 1400 S, FILLMORE, UT 84631",
+      "receiver_delivery_number": null,
+      "receiver_instructions": "Lumper Unload Driver Count",
+      "receiver_appointment_start_datetime": "12/19/24 12:00",
+      "receiver_appointment_end_datetime": "12/19/24 12:00"
+    }
+  ],
+  "customer_name": "Prime, Inc",
+  "email_domain": "primeinc.com",
+  "customer_address": "2740 North Mayfair, Springfield, MO 65803",
+  "temperature_present": true,
+  "temperature_low": 34.0,
+  "temperature_high": 40.0,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

@@ -1,0 +1,132 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "0245658",
+  "customer_id": "FT",
+  "equipment_type_id": "R",
+  "freight_charge": 2200.0,
+  "freight_charge_n": 2200.0,
+  "freight_charge_r": 1,
+  "rate": 2200.0,
+  "rate_type": "M",
+  "rate_units": 1,
+  "otherchargetotal": 200.0,
+  "otherchargetotal_n": 200.0,
+  "otherchargetotal_r": 1,
+  "total_charge": 2400.0,
+  "total_charge_n": 2400.0,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": 2400.0,
+  "totalcharge_and_excisetax_n": 2400.0,
+  "totalcharge_and_excisetax_r": 1,
+  "temperature_min": -10.0,
+  "temperature_max": -10.0,
+  "setpoint_temp": -10.0,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zzbff6ff04a4414827ifgAPP2",
+  "consignee_stop_id": "zzfc98b5e4e923436difgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zzbff6ff04a4414827ifgAPP2",
+      "address": "1355 Railroad Ave",
+      "city_name": "",
+      "state": "AL",
+      "zip_code": "35951",
+      "location_name": "Americold Logistics",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "0245658",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20241220100000-0700",
+      "sched_arrive_late": "20241220100000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "** Must have 2 Load Locks *** *** Must have 1 Pad Lock *** *** Must Pre Cool to -10 Degrees ***",
+          "sequence": 1,
+          "stop_id": "zzbff6ff04a4414827ifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__loadingInstructions": "** Must have 2 Load Locks *** *** Must have 1 Pad Lock *** *** Must Pre Cool to -10 Degrees ***"
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zzfc98b5e4e923436difgAPP2",
+      "address": "5520 Harold Gatty Dr",
+      "city_name": "",
+      "state": "UT",
+      "zip_code": "84116",
+      "location_name": "Nicholas and Company",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "0245658",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20241224090000-0700",
+      "sched_arrive_late": "20241224090000-0700",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "CG 459938, PO 88602392",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zzfc98b5e4e923436difgAPP2"
+        }
+      ]
+    }
+  ],
+  "bill_distance": 100,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "1245658",
+      "origin_stop_id": "zzbff6ff04a4414827ifgAPP2",
+      "dest_stop_id": "zzfc98b5e4e923436difgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 100,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "0245658"
+    }
+  ],
+  "curr_movement_id": "1245658",
+  "otherCharges": [
+    {
+      "__type": "other_charge",
+      "company_id": "TMS",
+      "charge_code": "MISC",
+      "charge_description": "Miscellaneous Charge",
+      "charge_amount": 200.0,
+      "charge_amount_c": "USD",
+      "charge_amount_n": 200.0,
+      "charge_amount_r": 1,
+      "sequence": 1
+    }
+  ]
+}

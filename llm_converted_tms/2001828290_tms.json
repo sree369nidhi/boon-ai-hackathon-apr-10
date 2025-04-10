@@ -1,0 +1,7 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "error": "Failed to parse LLM response",
+  "blnum": "2001828290",
+  "customer_id": "UNKNOWN"
+}

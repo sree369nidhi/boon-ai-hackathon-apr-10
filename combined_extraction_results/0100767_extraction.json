@@ -1,0 +1,36 @@
+{
+  "equipment_type": "Van",
+  "reference_number": "0100767",
+  "booking_confirmation_number": "0100767",
+  "total_rate": 850.0,
+  "freight_rate": 850.0,
+  "additional_rate": 0.0,
+  "shipper_section": [
+    {
+      "ship_from_company": "KING SOOPERS AURORA",
+      "ship_from_address": "1933 TOWER ROAD, AURORA CO 80011",
+      "pickup_number": null,
+      "pickup_instructions": "No driver loading or unload",
+      "pickup_appointment_start_datetime": "12/03/24 06:00",
+      "pickup_appointment_end_datetime": "12/03/24 15:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "UTDA - Eco Service - Salt Lake City",
+      "receiver_address": "3175 W 500 S, SALT LAKE CITY UT 84104",
+      "receiver_delivery_number": "ACD 925, Sl 3782199695",
+      "receiver_instructions": "No driver loading or unload",
+      "receiver_appointment_start_datetime": "12/03/24 09:00",
+      "receiver_appointment_end_datetime": null
+    }
+  ],
+  "customer_name": "SHARP TRANSPORTATION, INC.",
+  "email_domain": "mvlogistics.org",
+  "customer_address": "WELLSVILLE UT 84339",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

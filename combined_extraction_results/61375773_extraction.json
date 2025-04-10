@@ -1,0 +1,36 @@
+{
+  "equipment_type": "Reefer 53'",
+  "reference_number": "61375773",
+  "booking_confirmation_number": "1931160502941651",
+  "total_rate": 1800.0,
+  "freight_rate": 1800.0,
+  "additional_rate": 0,
+  "shipper_section": [
+    {
+      "ship_from_company": "TALKINGRAIN - KENT DC",
+      "ship_from_address": "23028 RUSSELL ROAD, KENT, WA 98032",
+      "pickup_number": "TRS-0442560",
+      "pickup_instructions": null,
+      "pickup_appointment_start_datetime": "02/03/25 12:00",
+      "pickup_appointment_end_datetime": "02/03/25 12:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "COSTCO SALT LAKE CITY #584",
+      "receiver_address": "5995 W 300 S, SALT LAKE CITY, UT 84104",
+      "receiver_delivery_number": "005841210236",
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "02/05/25 07:30",
+      "receiver_appointment_end_datetime": "02/05/25 07:30"
+    }
+  ],
+  "customer_name": null,
+  "email_domain": "echo.com",
+  "customer_address": null,
+  "temperature_present": true,
+  "temperature_low": 50.0,
+  "temperature_high": 50.0,
+  "is_flat_rate": false,
+  "additional_rates": []
+}

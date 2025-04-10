@@ -1,0 +1,36 @@
+{
+  "equipment_type": "Van",
+  "reference_number": "504102841",
+  "booking_confirmation_number": "504102841",
+  "total_rate": 800.0,
+  "freight_rate": 800.0,
+  "additional_rate": 0,
+  "shipper_section": [
+    {
+      "ship_from_company": "UCI Mill / DS Smith",
+      "ship_from_address": "658 South 7th Street, Reading, PA 19602",
+      "pickup_number": "171203",
+      "pickup_instructions": "53'L x 102'W x 110'H VANS W/ WOOD FLOORS AND SWING DOORS & NO TRAILERS OVER 10 YRS OLD. Customer does not pay detention at loading or unloading!! Driver must double check their paperwork and confirm that it shows the same address as the CHRW rate con!! (If it does not match, the driver must go back to the guard to get the right shipment).",
+      "pickup_appointment_start_datetime": "02/05/25 12:00",
+      "pickup_appointment_end_datetime": "02/05/25 12:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "SOUTHCORR PACKAGING, LLC",
+      "receiver_address": "3021 Taylor Dr, Asheboro, NC 27203",
+      "receiver_delivery_number": "21758,23471461",
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "02/06/25 12:30",
+      "receiver_appointment_end_datetime": "02/06/25 12:30"
+    }
+  ],
+  "customer_name": "C.H. Robinson",
+  "email_domain": "chrobinson.com",
+  "customer_address": "P.O. Box 3470, Chicago, IL 60654",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

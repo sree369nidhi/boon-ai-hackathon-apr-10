@@ -1,0 +1,41 @@
+{
+  "equipment_type": "Van",
+  "reference_number": "14530945",
+  "booking_confirmation_number": "14530945",
+  "total_rate": 1650.0,
+  "freight_rate": 1650.0,
+  "additional_rate": 0,
+  "shipper_section": [
+    {
+      "ship_from_company": "FXI",
+      "ship_from_address": "1205 PRUDENTIAL BLVD, LONGVIEW, WA 98632",
+      "pickup_number": "191-255",
+      "pickup_instructions": "Macro point is required with this customer. A fee of -250.00 will be charged for not accepting throughout the entire trip. Please send over POD within 48hrs. Failure to do so will result in $50.00 fee per day after that.",
+      "pickup_appointment_start_datetime": "03/03/25 06:00",
+      "pickup_appointment_end_datetime": "03/03/25 10:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "Salt Lake Mattress Co/ Serta",
+      "receiver_address": "1620 S EMPIRE RD, SALT LAKE CITY, UT 84104",
+      "receiver_delivery_number": null,
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "03/05/25 08:00",
+      "receiver_appointment_end_datetime": "03/05/25 10:00"
+    }
+  ],
+  "customer_name": "SUNTECK TRANSPORT CO., LLC",
+  "email_domain": "modeglobal.com",
+  "customer_address": "14785 PRESTON RD, SUITE 850, DALLAS, TX 75254",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": [
+    {
+      "amount": 0,
+      "is_fuel_surcharge": false
+    }
+  ]
+}

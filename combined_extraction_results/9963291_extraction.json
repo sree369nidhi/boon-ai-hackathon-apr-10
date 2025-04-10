@@ -1,0 +1,41 @@
+{
+  "equipment_type": "Dry Van",
+  "reference_number": "9963291",
+  "booking_confirmation_number": "9963291",
+  "total_rate": 1608.77,
+  "freight_rate": 1277.38,
+  "additional_rate": 331.39,
+  "shipper_section": [
+    {
+      "ship_from_company": "RENTON WAREHOUSE",
+      "ship_from_address": "300 SOUTHWEST 27TH STREET, Renton, WA 98055",
+      "pickup_number": null,
+      "pickup_instructions": "Appointments pending",
+      "pickup_appointment_start_datetime": "01/31/25 00:00",
+      "pickup_appointment_end_datetime": null
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "SWIRE DRAPER",
+      "receiver_address": "12634 S 265 W, Draper, UT 84020",
+      "receiver_delivery_number": "309952723, 4506004854",
+      "receiver_instructions": "Appointments pending",
+      "receiver_appointment_start_datetime": "02/03/25 00:00",
+      "receiver_appointment_end_datetime": null
+    }
+  ],
+  "customer_name": null,
+  "email_domain": "loadsmart.com",
+  "customer_address": "175 W. Jackson Blvd Suite 1400, Chicago, IL 60604",
+  "temperature_present": true,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": false,
+  "additional_rates": [
+    {
+      "amount": 331.39,
+      "is_fuel_surcharge": true
+    }
+  ]
+}

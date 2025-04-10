@@ -1,0 +1,36 @@
+{
+  "equipment_type": "Van",
+  "reference_number": "3072177",
+  "booking_confirmation_number": "3072177",
+  "total_rate": 1700.0,
+  "freight_rate": 1700.0,
+  "additional_rate": 0,
+  "shipper_section": [
+    {
+      "ship_from_company": "DART/SOLO CONTAINER",
+      "ship_from_address": "9045 Polaris Ln NE, Lacey, WA 98516",
+      "pickup_number": null,
+      "pickup_instructions": "Driver must check into shipping office on arrival. ***OSD must be reported within 24 hours of delivery. Failure to report OSD will result in minimum $50 fine to carrier.***",
+      "pickup_appointment_start_datetime": "03/17/25 06:00",
+      "pickup_appointment_end_datetime": "03/17/25 17:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "BWC SYSCO INTERMOUNTAIN 005",
+      "receiver_address": "9494 South Prosperity Road, West Jordan, UT 84081",
+      "receiver_delivery_number": "PO 27912610, PU 187754860, Sl 0083551719, ZZ 0011000578, DO CHK5155175319MAR25",
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "03/19/25 06:00",
+      "receiver_appointment_end_datetime": "03/19/25 06:00"
+    }
+  ],
+  "customer_name": "SHARP TRANSPORTATION ING",
+  "email_domain": "cheemalogistics.com",
+  "customer_address": "LOGAN UT 84323",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

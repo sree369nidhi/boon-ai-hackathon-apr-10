@@ -1,0 +1,36 @@
+{
+  "equipment_type": "Van",
+  "reference_number": "S965843",
+  "booking_confirmation_number": "S965843",
+  "total_rate": 1850.0,
+  "freight_rate": 1850.0,
+  "additional_rate": 0.0,
+  "shipper_section": [
+    {
+      "ship_from_company": "Timber Products",
+      "ship_from_address": "1418 Sage Rd, Medford, OR 97501",
+      "pickup_number": "325901",
+      "pickup_instructions": "Tarps and Trailer must be in good condition with no holes. DO NOT get wet under ANY circumstance! Call ASAP if any material is wet. Must use V-boards!",
+      "pickup_appointment_start_datetime": "02/17/25 17:00",
+      "pickup_appointment_end_datetime": null
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "Steves & Sons",
+      "receiver_address": "1080 N Main St, Brigham City, UT 84302",
+      "receiver_delivery_number": "167969",
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "02/19/25 10:00",
+      "receiver_appointment_end_datetime": null
+    }
+  ],
+  "customer_name": "Central Oregon Truck Company",
+  "email_domain": "cotruck.net",
+  "customer_address": "PO BOX 889, Redmond, OR 97756",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": false,
+  "additional_rates": []
+}

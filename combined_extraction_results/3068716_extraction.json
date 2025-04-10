@@ -1,0 +1,36 @@
+{
+  "equipment_type": "Van",
+  "reference_number": "3068716",
+  "booking_confirmation_number": "3068716",
+  "total_rate": 1700.0,
+  "freight_rate": 1700.0,
+  "additional_rate": 0,
+  "shipper_section": [
+    {
+      "ship_from_company": "DART/SOLO CONTAINER",
+      "ship_from_address": "9045 Polaris Ln NE, Lacey, WA 98516",
+      "pickup_number": "185514091",
+      "pickup_instructions": "Driver Must Check Into Shipping Office On Arrival",
+      "pickup_appointment_start_datetime": "01/23/25 06:00",
+      "pickup_appointment_end_datetime": "01/23/25 17:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "WALMART DC 6080",
+      "receiver_address": "5400 W Hwy 83, Corinne, UT 84307",
+      "receiver_delivery_number": "AO 31403683, PO 4582590814, PU 185514091, Sl 0083513757, ZZ 0021000913",
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "01/25/25 05:15",
+      "receiver_appointment_end_datetime": "01/25/25 05:15"
+    }
+  ],
+  "customer_name": "CHEEMA LOGISTICS LLC",
+  "email_domain": "cheemalogistics.com",
+  "customer_address": "PO Box 2234, Sumner, WA 98390",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

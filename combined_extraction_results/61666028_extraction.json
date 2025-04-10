@@ -1,0 +1,36 @@
+{
+  "equipment_type": "Van 53'",
+  "reference_number": "61666028",
+  "booking_confirmation_number": "61666028",
+  "total_rate": 1500.0,
+  "freight_rate": 1500.0,
+  "additional_rate": 0,
+  "shipper_section": [
+    {
+      "ship_from_company": "CMS c/o MrPEX Systems",
+      "ship_from_address": "1613 132ND AVE E, SUMNER WA 98390",
+      "pickup_number": null,
+      "pickup_instructions": "c/o MrPEX Systems",
+      "pickup_appointment_start_datetime": "02/21/25 07:00",
+      "pickup_appointment_end_datetime": "02/21/25 13:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "Winnelson Company - Salt Lake #373",
+      "receiver_address": "4332 S 500 W, SALT LAKE CITY UT 84123",
+      "receiver_delivery_number": null,
+      "receiver_instructions": "FCFS PER BRANDON",
+      "receiver_appointment_start_datetime": "02/24/25 07:00",
+      "receiver_appointment_end_datetime": "02/24/25 10:00"
+    }
+  ],
+  "customer_name": null,
+  "email_domain": "echo.com",
+  "customer_address": null,
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

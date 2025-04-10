@@ -1,0 +1,41 @@
+{
+  "equipment_type": "Van",
+  "reference_number": "507294874",
+  "booking_confirmation_number": "507294874",
+  "total_rate": 710.0,
+  "freight_rate": 710.0,
+  "additional_rate": 0.0,
+  "shipper_section": [
+    {
+      "ship_from_company": "Stoelzle Glass USA",
+      "ship_from_address": "5000 Woodlawn Rd, Aliquippa, PA 15001",
+      "pickup_number": "830003678",
+      "pickup_instructions": "Strap or load bar required, North Gate, see sign, call for access. This load requires: 1 straps",
+      "pickup_appointment_start_datetime": "03/04/25 07:00",
+      "pickup_appointment_end_datetime": "03/04/25 21:30"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "The Royal Group",
+      "receiver_address": "4600 Commerce Crossings Dr, Louisville, KY 40229",
+      "receiver_delivery_number": "830003678",
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "03/05/25 08:30",
+      "receiver_appointment_end_datetime": "03/05/25 08:30"
+    }
+  ],
+  "customer_name": "C.H. Robinson",
+  "email_domain": "chrobinson.com",
+  "customer_address": "P.O. Box 3470, Chicago, IL 60654",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": [
+    {
+      "amount": 160.31,
+      "is_fuel_surcharge": true
+    }
+  ]
+}

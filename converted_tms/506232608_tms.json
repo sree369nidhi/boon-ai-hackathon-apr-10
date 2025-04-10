@@ -1,0 +1,150 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "506232608",
+  "customer_id": "UNKNOWN",
+  "equipment_type_id": "V",
+  "freight_charge": 250.0,
+  "freight_charge_n": 250.0,
+  "freight_charge_r": 1,
+  "rate": 250.0,
+  "rate_type": "F",
+  "rate_units": 1,
+  "otherchargetotal": 9.02,
+  "otherchargetotal_n": 9.02,
+  "otherchargetotal_r": 1,
+  "total_charge": 250.0,
+  "total_charge_n": 250.0,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": 250.0,
+  "totalcharge_and_excisetax_n": 250.0,
+  "totalcharge_and_excisetax_r": 1,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zz44b0d0e4b2d64a3difgAPP2",
+  "consignee_stop_id": "zz6f6791df646e4c3bifgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz44b0d0e4b2d64a3difgAPP2",
+      "address": "15200 Trinity Blvd",
+      "city_name": "",
+      "state": "TX",
+      "zip_code": "15200",
+      "location_name": "Refresco - Ft. Worth, TX",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "506232608",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20250304080000-0700",
+      "sched_arrive_late": "20250304140000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "MUST HAVE 2 LOAD LOCKS TO GET LOADED!!!! MUST SECURE THE FREIGHT. This facility has check-in restrictions; please contact C.H. Robinson for Customer's detailed requirements.",
+          "sequence": 1,
+          "stop_id": "zz44b0d0e4b2d64a3difgAPP2",
+          "system_added": false
+        }
+      ],
+      "__loadingInstructions": "MUST HAVE 2 LOAD LOCKS TO GET LOADED!!!! MUST SECURE THE FREIGHT. This facility has check-in restrictions; please contact C.H. Robinson for Customer's detailed requirements.",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "53365196",
+          "reference_qual": "POL",
+          "send_to_driver": true,
+          "stop_id": "zz44b0d0e4b2d64a3difgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz6f6791df646e4c3bifgAPP2",
+      "address": "743 henrietta creek road",
+      "city_name": "",
+      "state": "TX",
+      "zip_code": "76262",
+      "location_name": "RANDALLS FOOD & DRUG LP A SUB. OF ALBERTSONS COMPA",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "506232608",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20250304210000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "$500 charge for missed delivery. Carrier may be required to handle and/or count the shipment at this stop.",
+          "sequence": 1,
+          "stop_id": "zz6f6791df646e4c3bifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__unloadingInstructions": "$500 charge for missed delivery. Carrier may be required to handle and/or count the shipment at this stop.",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "411762, 857095186",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zz6f6791df646e4c3bifgAPP2"
+        }
+      ]
+    }
+  ],
+  "bill_distance": 100,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "507232608",
+      "origin_stop_id": "zz44b0d0e4b2d64a3difgAPP2",
+      "dest_stop_id": "zz6f6791df646e4c3bifgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 100,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "506232608"
+    }
+  ],
+  "curr_movement_id": "507232608",
+  "otherCharges": [
+    {
+      "__type": "other_charge",
+      "company_id": "TMS",
+      "charge_code": "MISC",
+      "charge_description": "Miscellaneous Charge",
+      "charge_amount": 9.02,
+      "charge_amount_c": "USD",
+      "charge_amount_n": 9.02,
+      "charge_amount_r": 1,
+      "sequence": 1
+    }
+  ]
+}

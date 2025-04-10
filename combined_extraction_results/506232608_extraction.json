@@ -1,0 +1,41 @@
+{
+  "equipment_type": "53",
+  "reference_number": "506232608",
+  "booking_confirmation_number": "506232608",
+  "total_rate": 250.0,
+  "freight_rate": 250.0,
+  "additional_rate": null,
+  "shipper_section": [
+    {
+      "ship_from_company": "Refresco - Ft. Worth, TX",
+      "ship_from_address": "15200 Trinity Blvd, Fort Worth, TX 76155-2707",
+      "pickup_number": "53365196",
+      "pickup_instructions": "MUST HAVE 2 LOAD LOCKS TO GET LOADED!!!! MUST SECURE THE FREIGHT. This facility has check-in restrictions; please contact C.H. Robinson for Customer's detailed requirements.",
+      "pickup_appointment_start_datetime": "03/04/25 08:00",
+      "pickup_appointment_end_datetime": "03/04/25 14:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "RANDALLS FOOD & DRUG LP A SUB. OF ALBERTSONS COMPA",
+      "receiver_address": "743 henrietta creek road, ROANOKE, TX 76262",
+      "receiver_delivery_number": "411762, 857095186",
+      "receiver_instructions": "$500 charge for missed delivery. Carrier may be required to handle and/or count the shipment at this stop.",
+      "receiver_appointment_start_datetime": "03/04/25 21:00",
+      "receiver_appointment_end_datetime": null
+    }
+  ],
+  "customer_name": null,
+  "email_domain": "sharptrucking.com",
+  "customer_address": null,
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": [
+    {
+      "amount": 9.02,
+      "is_fuel_surcharge": true
+    }
+  ]
+}

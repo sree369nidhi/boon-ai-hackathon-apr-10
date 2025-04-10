@@ -1,0 +1,126 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "504102841",
+  "customer_id": "CR",
+  "equipment_type_id": "V",
+  "freight_charge": 800.0,
+  "freight_charge_n": 800.0,
+  "freight_charge_r": 1,
+  "rate": 800.0,
+  "rate_type": "F",
+  "rate_units": 1,
+  "otherchargetotal": 0,
+  "otherchargetotal_n": 0,
+  "otherchargetotal_r": 1,
+  "total_charge": 800.0,
+  "total_charge_n": 800.0,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": 800.0,
+  "totalcharge_and_excisetax_n": 800.0,
+  "totalcharge_and_excisetax_r": 1,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zzafeef54b60e64095ifgAPP2",
+  "consignee_stop_id": "zz4053fa55365641bdifgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zzafeef54b60e64095ifgAPP2",
+      "address": "658 South 7th Street",
+      "city_name": "",
+      "state": "PA",
+      "zip_code": "19602",
+      "location_name": "UCI Mill / DS Smith",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "504102841",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20250205120000-0700",
+      "sched_arrive_late": "20250205120000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "53'L x 102'W x 110'H VANS W/ WOOD FLOORS AND SWING DOORS & NO TRAILERS OVER 10 YRS OLD. Customer does not pay detention at loading or unloading!! Driver must double check their paperwork and confirm that it shows the same address as the CHRW rate con!! (If it does not match, the driver must go back to the guard to get the right shipment).",
+          "sequence": 1,
+          "stop_id": "zzafeef54b60e64095ifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__loadingInstructions": "53'L x 102'W x 110'H VANS W/ WOOD FLOORS AND SWING DOORS & NO TRAILERS OVER 10 YRS OLD. Customer does not pay detention at loading or unloading!! Driver must double check their paperwork and confirm that it shows the same address as the CHRW rate con!! (If it does not match, the driver must go back to the guard to get the right shipment).",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "171203",
+          "reference_qual": "POL",
+          "send_to_driver": true,
+          "stop_id": "zzafeef54b60e64095ifgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz4053fa55365641bdifgAPP2",
+      "address": "3021 Taylor Dr",
+      "city_name": "",
+      "state": "NC",
+      "zip_code": "27203",
+      "location_name": "SOUTHCORR PACKAGING, LLC",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "504102841",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20250206123000-0700",
+      "sched_arrive_late": "20250206123000-0700",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "21758,23471461",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zz4053fa55365641bdifgAPP2"
+        }
+      ]
+    }
+  ],
+  "bill_distance": 100,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "505102841",
+      "origin_stop_id": "zzafeef54b60e64095ifgAPP2",
+      "dest_stop_id": "zz4053fa55365641bdifgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 100,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "504102841"
+    }
+  ],
+  "curr_movement_id": "505102841"
+}

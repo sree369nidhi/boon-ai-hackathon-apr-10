@@ -1,0 +1,151 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "9984413",
+  "customer_id": "ST",
+  "equipment_type_id": "V",
+  "freight_charge": 1277.38,
+  "freight_charge_n": 1277.38,
+  "freight_charge_r": 1,
+  "rate": 1277.38,
+  "rate_type": "M",
+  "rate_units": 1,
+  "otherchargetotal": 339.89,
+  "otherchargetotal_n": 339.89,
+  "otherchargetotal_r": 1,
+  "total_charge": 1617.27,
+  "total_charge_n": 1617.27,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": 1617.27,
+  "totalcharge_and_excisetax_n": 1617.27,
+  "totalcharge_and_excisetax_r": 1,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zza9ac814fdb644d2fifgAPP2",
+  "consignee_stop_id": "zz1cd3c301903b4815ifgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zza9ac814fdb644d2fifgAPP2",
+      "address": "300 SOUTHWEST 27TH STREET",
+      "city_name": "",
+      "state": "WA",
+      "zip_code": "98055",
+      "location_name": "RENTON WAREHOUSE",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "9984413",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20240317160000-0700",
+      "sched_arrive_late": "20240317160000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "APPT # 51216920 Order ID: 12896549 Customer Reference # 310045329 PO # 4506083030 Weight 41801lb Quantity 22 ALL COCA-COLA SHIPMENTS ARE CONSIDERED ESSENTIAL GOODS AT THIS TIME BILLS OF LADING ARE MARKED ACCORDINGLY IN CASE DRIVER IS ASKED FOR EVIDENCE PROTECT FROM FREEZING TRAILER MUST BE CLEAN, NO HOLES, NO ODORS. DRIVER MUST DOWNLOAD AND TRACK ON THE LOADSMART APP DRIVER MUST NOT PAY LUMPER FEES WITHOUT PRIOR APPROVAL FROM LOADSMART. NO REIMBURSEMENT WITHOUT APPROVAL. REQUIRES LOAD BARS OR STRAPS TRACKING IS REQUIRED VIA LOADSMART DRIVER APP, P44 ELD OR EDI SEAL APPLIED BY SHIPPER MUST REMAIN INTACT UNTIL DELIVERED. ANY SEAL BROKEN WITHOUT CUSTOMER APPROVAL COULD RESULT IN REJECTION AND CLAIM FOR THE FULL VALUE OF THE SHIPMENT. ***MUST BE ABLE SCALE UP TO LEGAL WEIGHT*** ***DRIVERS MUST PRE-NOTIFY OF ANY ACCESSORIALS PRIOR TO OR AT THE TIME OF OCCURRENCE. EXTRA CHARGES MAY BE DENIED IF NOT NOTIFIED TIMELY*** ***DETENTION APPROVAL WILL BE BASED ON FACILITY'S LOG BOOK***",
+          "sequence": 1,
+          "stop_id": "zza9ac814fdb644d2fifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__loadingInstructions": "APPT # 51216920 Order ID: 12896549 Customer Reference # 310045329 PO # 4506083030 Weight 41801lb Quantity 22 ALL COCA-COLA SHIPMENTS ARE CONSIDERED ESSENTIAL GOODS AT THIS TIME BILLS OF LADING ARE MARKED ACCORDINGLY IN CASE DRIVER IS ASKED FOR EVIDENCE PROTECT FROM FREEZING TRAILER MUST BE CLEAN, NO HOLES, NO ODORS. DRIVER MUST DOWNLOAD AND TRACK ON THE LOADSMART APP DRIVER MUST NOT PAY LUMPER FEES WITHOUT PRIOR APPROVAL FROM LOADSMART. NO REIMBURSEMENT WITHOUT APPROVAL. REQUIRES LOAD BARS OR STRAPS TRACKING IS REQUIRED VIA LOADSMART DRIVER APP, P44 ELD OR EDI SEAL APPLIED BY SHIPPER MUST REMAIN INTACT UNTIL DELIVERED. ANY SEAL BROKEN WITHOUT CUSTOMER APPROVAL COULD RESULT IN REJECTION AND CLAIM FOR THE FULL VALUE OF THE SHIPMENT. ***MUST BE ABLE SCALE UP TO LEGAL WEIGHT*** ***DRIVERS MUST PRE-NOTIFY OF ANY ACCESSORIALS PRIOR TO OR AT THE TIME OF OCCURRENCE. EXTRA CHARGES MAY BE DENIED IF NOT NOTIFIED TIMELY*** ***DETENTION APPROVAL WILL BE BASED ON FACILITY'S LOG BOOK***",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "51216920",
+          "reference_qual": "POL",
+          "send_to_driver": true,
+          "stop_id": "zza9ac814fdb644d2fifgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz1cd3c301903b4815ifgAPP2",
+      "address": "12634 S 265 W",
+      "city_name": "",
+      "state": "UT",
+      "zip_code": "12634",
+      "location_name": "SWIRE DRAPER",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "9984413",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20240319120000-0700",
+      "sched_arrive_late": "20240319120000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "APPT # 51216944 Order ID: 12896549 Customer Reference # 310045329 PO # 4506083030 Weight 41801lb Quantity 22 ALL COCA-COLA SHIPMENTS ARE CONSIDERED ESSENTIAL GOODS AT THIS TIME BILLS OF LADING ARE MARKED ACCORDINGLY IN CASE DRIVER IS ASKED FOR EVIDENCE PROTECT FROM FREEZING TRAILER MUST BE CLEAN, NO HOLES, NO ODORS. DRIVER MUST DOWNLOAD AND TRACK ON THE LOADSMART APP DRIVER MUST NOT PAY LUMPER FEES WITHOUT PRIOR APPROVAL FROM LOADSMART. NO REIMBURSEMENT WITHOUT APPROVAL. REQUIRES LOAD BARS OR STRAPS TRACKING IS REQUIRED VIA LOADSMART DRIVER APP, P44 ELD OR EDI SEAL APPLIED BY SHIPPER MUST REMAIN INTACT UNTIL DELIVERED. ANY SEAL BROKEN WITHOUT CUSTOMER APPROVAL COULD RESULT IN REJECTION AND CLAIM FOR THE FULL VALUE OF THE SHIPMENT. ***MUST BE ABLE SCALE UP TO LEGAL WEIGHT*** ***DRIVERS MUST PRE-NOTIFY OF ANY ACCESSORIALS PRIOR TO OR AT THE TIME OF OCCURRENCE. EXTRA CHARGES MAY BE DENIED IF NOT NOTIFIED TIMELY*** ***DETENTION APPROVAL WILL BE BASED ON FACILITY'S LOG BOOK***",
+          "sequence": 1,
+          "stop_id": "zz1cd3c301903b4815ifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__unloadingInstructions": "APPT # 51216944 Order ID: 12896549 Customer Reference # 310045329 PO # 4506083030 Weight 41801lb Quantity 22 ALL COCA-COLA SHIPMENTS ARE CONSIDERED ESSENTIAL GOODS AT THIS TIME BILLS OF LADING ARE MARKED ACCORDINGLY IN CASE DRIVER IS ASKED FOR EVIDENCE PROTECT FROM FREEZING TRAILER MUST BE CLEAN, NO HOLES, NO ODORS. DRIVER MUST DOWNLOAD AND TRACK ON THE LOADSMART APP DRIVER MUST NOT PAY LUMPER FEES WITHOUT PRIOR APPROVAL FROM LOADSMART. NO REIMBURSEMENT WITHOUT APPROVAL. REQUIRES LOAD BARS OR STRAPS TRACKING IS REQUIRED VIA LOADSMART DRIVER APP, P44 ELD OR EDI SEAL APPLIED BY SHIPPER MUST REMAIN INTACT UNTIL DELIVERED. ANY SEAL BROKEN WITHOUT CUSTOMER APPROVAL COULD RESULT IN REJECTION AND CLAIM FOR THE FULL VALUE OF THE SHIPMENT. ***MUST BE ABLE SCALE UP TO LEGAL WEIGHT*** ***DRIVERS MUST PRE-NOTIFY OF ANY ACCESSORIALS PRIOR TO OR AT THE TIME OF OCCURRENCE. EXTRA CHARGES MAY BE DENIED IF NOT NOTIFIED TIMELY*** ***DETENTION APPROVAL WILL BE BASED ON FACILITY'S LOG BOOK***",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "51216944",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zz1cd3c301903b4815ifgAPP2"
+        }
+      ]
+    }
+  ],
+  "bill_distance": 100,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "10984413",
+      "origin_stop_id": "zza9ac814fdb644d2fifgAPP2",
+      "dest_stop_id": "zz1cd3c301903b4815ifgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 100,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "9984413"
+    }
+  ],
+  "curr_movement_id": "10984413",
+  "otherCharges": [
+    {
+      "__type": "other_charge",
+      "company_id": "TMS",
+      "charge_code": "MISC",
+      "charge_description": "Miscellaneous Charge",
+      "charge_amount": 339.89,
+      "charge_amount_c": "USD",
+      "charge_amount_n": 339.89,
+      "charge_amount_r": 1,
+      "sequence": 1
+    }
+  ]
+}

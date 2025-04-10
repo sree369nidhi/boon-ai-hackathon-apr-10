@@ -1,0 +1,41 @@
+{
+  "equipment_type": "Van",
+  "reference_number": "507337554",
+  "booking_confirmation_number": "507337554",
+  "total_rate": 3976.5,
+  "freight_rate": 3195.0,
+  "additional_rate": 781.5,
+  "shipper_section": [
+    {
+      "ship_from_company": null,
+      "ship_from_address": "Plainfield, IN 46168",
+      "pickup_number": null,
+      "pickup_instructions": null,
+      "pickup_appointment_start_datetime": null,
+      "pickup_appointment_end_datetime": null
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "Wal-Mart #7026",
+      "receiver_address": "Grantsville, UT 84029",
+      "receiver_delivery_number": "5260003738, 3630158754, 4381855574, 4383070483, 4110421025, 4383070486, 4383070481, 3182137717, 2021131042, 4381855573, 9962515452, 9737830217, 6682515465, 6682515457, 9282681850, 9537544312, 9031729906",
+      "receiver_instructions": "Early delivery could result in fines. Warehouse has strict appointments.",
+      "receiver_appointment_start_datetime": null,
+      "receiver_appointment_end_datetime": null
+    }
+  ],
+  "customer_name": "C.H. Robinson",
+  "email_domain": "sharptrucking.com",
+  "customer_address": "P.O. Box 3470, Chicago, IL 60654",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": false,
+  "additional_rates": [
+    {
+      "amount": 781.5,
+      "is_fuel_surcharge": true
+    }
+  ]
+}

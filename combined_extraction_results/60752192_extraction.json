@@ -1,0 +1,36 @@
+{
+  "equipment_type": "Van",
+  "reference_number": "60752192",
+  "booking_confirmation_number": "60752192",
+  "total_rate": 1600.0,
+  "freight_rate": 1600.0,
+  "additional_rate": null,
+  "shipper_section": [
+    {
+      "ship_from_company": "LONGVIEW FIBRE PAPER - PACKAGING INC",
+      "ship_from_address": "300 FIBRE WAY, LONGVIEW, WA 98632",
+      "pickup_number": "697848, 11675392",
+      "pickup_instructions": "MUST BE 53V Swing Door FOOD GRADE DETENTION NOTIFICATION MUST BE RECEIVED 30 min PRIOR TO START TO BE VALID",
+      "pickup_appointment_start_datetime": "12/08/24 13:00",
+      "pickup_appointment_end_datetime": "12/08/24 13:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "PACKAGING CORP OF AMERICA",
+      "receiver_address": "451 N 5600 W, SALT LAKE CITY, UT 84120",
+      "receiver_delivery_number": "204-62010, 11675392",
+      "receiver_instructions": "MUST BE 53V Swing Door FOOD GRADE DETENTION NOTIFICATION MUST BE RECEIVED 30 min PRIOR TO START TO BE VALID",
+      "receiver_appointment_start_datetime": "12/10/24 00:01",
+      "receiver_appointment_end_datetime": "12/10/24 23:59"
+    }
+  ],
+  "customer_name": "Echo Global Logistics",
+  "email_domain": "echo.com",
+  "customer_address": null,
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

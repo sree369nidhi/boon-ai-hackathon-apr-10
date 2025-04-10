@@ -1,0 +1,36 @@
+{
+  "equipment_type": null,
+  "reference_number": "505566798",
+  "booking_confirmation_number": "505566798",
+  "total_rate": 1750.0,
+  "freight_rate": 1750.0,
+  "additional_rate": 0.0,
+  "shipper_section": [
+    {
+      "ship_from_company": "NRI Distribution",
+      "ship_from_address": "13169 Slover Ave Suite A, Fontana, CA 92337",
+      "pickup_number": "37171630-TRUCK 2",
+      "pickup_instructions": null,
+      "pickup_appointment_start_datetime": "02/18/25 14:00",
+      "pickup_appointment_end_datetime": "02/18/25 14:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "Pacific Flyway DC - Inbound",
+      "receiver_address": "1630 S 5070 W, Salt Lake City, UT 84104",
+      "receiver_delivery_number": "SW202502141043",
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "02/19/25 17:00",
+      "receiver_appointment_end_datetime": "02/19/25 17:00"
+    }
+  ],
+  "customer_name": "C.H. Robinson",
+  "email_domain": "chrobinson.com",
+  "customer_address": "P.O. Box 3470, Chicago, IL 60654",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

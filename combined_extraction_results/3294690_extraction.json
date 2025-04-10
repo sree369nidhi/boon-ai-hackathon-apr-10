@@ -1,0 +1,41 @@
+{
+  "equipment_type": "Van",
+  "reference_number": "3294690",
+  "booking_confirmation_number": "3294690",
+  "total_rate": 2100.0,
+  "freight_rate": 2100.0,
+  "additional_rate": 0,
+  "shipper_section": [
+    {
+      "ship_from_company": "NOVA CONTAINER FREIGHT",
+      "ship_from_address": "1710 E SEPULVEDA BLVD, CARSON, CA 90745",
+      "pickup_number": "A43632",
+      "pickup_instructions": "Driver must check in between Doors 47-56. Drivers must have a full clock to run these loads. Loads showing up early will result in a service failure. No exceptions!!",
+      "pickup_appointment_start_datetime": "12/04/24 16:00",
+      "pickup_appointment_end_datetime": "12/04/24 16:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "EXPEDITORS SALT LAKE CITY",
+      "receiver_address": "350 N JOHN GLENN RD, SALT LAKE CITY, UT",
+      "receiver_delivery_number": null,
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "12/05/24 09:00",
+      "receiver_appointment_end_datetime": "12/05/24 17:00"
+    }
+  ],
+  "customer_name": "Kyle Friason",
+  "email_domain": "swiftirans.com",
+  "customer_address": "2200 S 75th Avenue, Phoenix, AZ 85043",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": false,
+  "additional_rates": [
+    {
+      "amount": 250.0,
+      "is_fuel_surcharge": false
+    }
+  ]
+}

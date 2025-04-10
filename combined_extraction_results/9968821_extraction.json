@@ -1,0 +1,36 @@
+{
+  "equipment_type": "Dryvan 53''",
+  "reference_number": "9968821",
+  "booking_confirmation_number": "9968821",
+  "total_rate": 2550.0,
+  "freight_rate": null,
+  "additional_rate": null,
+  "shipper_section": [
+    {
+      "ship_from_company": "EXEL LOGISTICS (P&G)",
+      "ship_from_address": "800 N Rice Ave, Oxnard, CA 93030",
+      "pickup_number": "320183339",
+      "pickup_instructions": "***DROP TRAILER AT PU AND DEL REQUIRED*** Invalid Email Provided: NO EMAIL",
+      "pickup_appointment_start_datetime": "02/08/20 13:00",
+      "pickup_appointment_end_datetime": "02/08/20 21:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "BOXELDER PLANT",
+      "receiver_address": "5000 N. IOWA STRING ROAD, Bear River City, UT 84301",
+      "receiver_delivery_number": "320183339",
+      "receiver_instructions": "***DROP TRAILER AT PU AND DEL REQUIRED***",
+      "receiver_appointment_start_datetime": "02/10/20 00:01",
+      "receiver_appointment_end_datetime": "02/10/20 23:59"
+    }
+  ],
+  "customer_name": "SHARP TRANSPORTATION, INC.",
+  "email_domain": null,
+  "customer_address": "175 W. Jackson Blvd Suite 1400, Chicago, IL 60604",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

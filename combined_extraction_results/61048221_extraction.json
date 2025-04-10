@@ -1,0 +1,61 @@
+{
+  "equipment_type": "Reefer",
+  "reference_number": "61048221",
+  "booking_confirmation_number": "61048221",
+  "total_rate": 2815.0,
+  "freight_rate": 2330.0,
+  "additional_rate": 485.0,
+  "shipper_section": [
+    {
+      "ship_from_company": "TROPICANA DC WALNUT CA",
+      "ship_from_address": "20405 EAST BUSINESS PKWY, WALNUT, CA 91789",
+      "pickup_number": "134674, 134674",
+      "pickup_instructions": null,
+      "pickup_appointment_start_datetime": "01/08/25 09:00",
+      "pickup_appointment_end_datetime": "01/08/25 09:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "ALBERTSONS C NORTH SALT LAKE UT",
+      "receiver_address": "620 W 600 N, NORTH SALT LAKE, UT 84054",
+      "receiver_delivery_number": "856648347, 937590",
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "01/10/25 03:30",
+      "receiver_appointment_end_datetime": "01/10/25 03:30"
+    },
+    {
+      "receiver_company": "PBG-SALT LAKE CITY PEPSI COLA BOTTLING COMPANY",
+      "receiver_address": "3388 W 1987 S, SALT LAKE CITY, UT 84104",
+      "receiver_delivery_number": "871497021/ 920997021, 871497021/ 920997021",
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "01/10/25 07:00",
+      "receiver_appointment_end_datetime": "01/10/25 07:00"
+    },
+    {
+      "receiver_company": "BWC SYSCO INTERMOUNT INC",
+      "receiver_address": "9494 S PROSPERITY RD, WEST JORDAN, UT 84081",
+      "receiver_delivery_number": "CHK5048562010JAN25, 27705500",
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "01/10/25 11:00",
+      "receiver_appointment_end_datetime": "01/10/25 11:00"
+    }
+  ],
+  "customer_name": "Michael Cooper",
+  "email_domain": "echo.com",
+  "customer_address": null,
+  "temperature_present": true,
+  "temperature_low": 32.0,
+  "temperature_high": 32.0,
+  "is_flat_rate": false,
+  "additional_rates": [
+    {
+      "amount": 237.0,
+      "is_fuel_surcharge": false
+    },
+    {
+      "amount": 248.0,
+      "is_fuel_surcharge": false
+    }
+  ]
+}

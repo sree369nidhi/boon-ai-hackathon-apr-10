@@ -1,0 +1,41 @@
+{
+  "equipment_type": "Dryvan 53''",
+  "reference_number": "9979590",
+  "booking_confirmation_number": "9979590",
+  "total_rate": 1617.27,
+  "freight_rate": 1277.38,
+  "additional_rate": 339.89,
+  "shipper_section": [
+    {
+      "ship_from_company": "Renton Warehouse",
+      "ship_from_address": "300 Southwest 27th Street, Renton, WA 98055",
+      "pickup_number": "51034554",
+      "pickup_instructions": "All Coca-Cola shipments are considered essential goods at this time. Bills of lading are marked accordingly in case driver is asked for evidence. Protect from freezing. Trailer must be clean, no holes, no odors. Driver must download and track on the Loadsmart app. Driver must not pay lumper fees without prior approval from Loadsmart. No reimbursement without approval. Requires load bars or straps. Tracking is required via Loadsmart Driver App, P44 ELD or EDI. Seal applied by shipper must remain intact until delivered. Any seal broken without customer approval could result in rejection and claim for the full value of the shipment. ***Must be able to scale up to legal weight. Drivers must pre-notify of any accessorials prior to or at the time of occurrence. Extra charges may be denied if not notified timely. Detention approval will be based on facility's logbook.***",
+      "pickup_appointment_start_datetime": "03/10/24 13:00",
+      "pickup_appointment_end_datetime": "03/10/24 13:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "Swire Draper",
+      "receiver_address": "12634 S 265 W, Draper, UT 84020",
+      "receiver_delivery_number": "51034706",
+      "receiver_instructions": "All Coca-Cola shipments are considered essential goods at this time. Bills of lading are marked accordingly in case driver is asked for evidence. Protect from freezing. Trailer must be clean, no holes, no odors. Driver must download and track on the Loadsmart app. Driver must not pay lumper fees without prior approval from Loadsmart. No reimbursement without approval. Requires load bars or straps. Tracking is required via Loadsmart Driver App, P44 ELD or EDI. Seal applied by shipper must remain intact until delivered. Any seal broken without customer approval could result in rejection and claim for the full value of the shipment. ***Must be able to scale up to legal weight. Drivers must pre-notify of any accessorials prior to or at the time of occurrence. Extra charges may be denied if not notified timely. Detention approval will be based on facility's logbook.***",
+      "receiver_appointment_start_datetime": "03/12/24 09:00",
+      "receiver_appointment_end_datetime": "03/12/24 09:00"
+    }
+  ],
+  "customer_name": "Sharp Transportation, Inc.",
+  "email_domain": "loadsmart.com",
+  "customer_address": "175 W. Jackson Blvd Suite 1400, Chicago, IL 60604",
+  "temperature_present": true,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": false,
+  "additional_rates": [
+    {
+      "amount": 339.89,
+      "is_fuel_surcharge": true
+    }
+  ]
+}

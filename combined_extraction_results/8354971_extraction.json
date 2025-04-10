@@ -1,0 +1,36 @@
+{
+  "equipment_type": "53FT Dry Van",
+  "reference_number": "8354971",
+  "booking_confirmation_number": "8354971",
+  "total_rate": null,
+  "freight_rate": null,
+  "additional_rate": null,
+  "shipper_section": [
+    {
+      "ship_from_company": "SCHIRM USA INC",
+      "ship_from_address": "2801 South Oak Grove Road, Ennis, TX 75119, USA",
+      "pickup_number": null,
+      "pickup_instructions": "oakgrovesr@schirmusa.com for appt, M-F 0800-1400",
+      "pickup_appointment_start_datetime": "03/06/25 08:00",
+      "pickup_appointment_end_datetime": "03/06/25 14:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "CENTRAL LIFE SCIENCES DALLAS",
+      "receiver_address": "12111 Ford Road, Dallas, TX 75234-7203, USA",
+      "receiver_delivery_number": null,
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "03/06/25 13:00",
+      "receiver_appointment_end_datetime": null
+    }
+  ],
+  "customer_name": "Nolan Transportation Group",
+  "email_domain": "ntgfreight.com",
+  "customer_address": "244 Perimeter Center Pkwy NE Fourth Floor, Atlanta, GA 30346",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": null,
+  "additional_rates": []
+}

@@ -1,0 +1,41 @@
+{
+  "equipment_type": "Van",
+  "reference_number": "504104411",
+  "booking_confirmation_number": "504104411",
+  "total_rate": 1960.0,
+  "freight_rate": 1960.0,
+  "additional_rate": 0.0,
+  "shipper_section": [
+    {
+      "ship_from_company": "GREIF DALLAS - DBA MULTI CORRCHOICE",
+      "ship_from_address": "3737 Dan Morton Dr STE 150, Dallas, TX 75236",
+      "pickup_number": "713921",
+      "pickup_instructions": "DRIVER MUST CHECK BOL AND CONFIRM PO NUMBER IS LISTED ON PAPERWORK BEFORE ROLLING",
+      "pickup_appointment_start_datetime": "02/03/25 07:00",
+      "pickup_appointment_end_datetime": "02/03/25 22:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "PREMIER PKG % INTERWEST TRANSPORTATION - IDSLC",
+      "receiver_address": "6195 S 300 W STE 300, Salt Lake City, UT 84104-6013",
+      "receiver_delivery_number": "713921",
+      "receiver_instructions": "Please have your driver check in between doors 26 & 27 and reference the following confirmation number 9238-SF10 IF the driver does not have 9238-SF10 when checking in it will delay the driver from being unloaded in a timely manner.",
+      "receiver_appointment_start_datetime": "02/05/25 10:00",
+      "receiver_appointment_end_datetime": "02/05/25 10:00"
+    }
+  ],
+  "customer_name": "C.H. Robinson",
+  "email_domain": "chrobinson.com",
+  "customer_address": "P.O. Box 3470, Chicago, IL 60654",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": [
+    {
+      "amount": 502.66,
+      "is_fuel_surcharge": true
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "equipment_type": null,
+  "reference_number": "503076074",
+  "booking_confirmation_number": "503076074",
+  "total_rate": 3316.4,
+  "freight_rate": 2295.0,
+  "additional_rate": 751.4,
+  "shipper_section": [
+    {
+      "ship_from_company": null,
+      "ship_from_address": null,
+      "pickup_number": null,
+      "pickup_instructions": null,
+      "pickup_appointment_start_datetime": null,
+      "pickup_appointment_end_datetime": null
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "Wal-Mart #7026",
+      "receiver_address": "945 North State Road 138, Grantsville, UT 84029",
+      "receiver_delivery_number": "31502225",
+      "receiver_instructions": "Receiver does not permit early delivery and requires advance notice from carrier if shipment will deliver late.",
+      "receiver_appointment_start_datetime": "01/31/YY 03:00",
+      "receiver_appointment_end_datetime": "01/31/YY 23:59"
+    }
+  ],
+  "customer_name": "Sharp Transportation, Inc.",
+  "email_domain": "chrobinson.com",
+  "customer_address": "CHRW Billing, P.O. Box 3470, Chicago, IL 60654",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": [
+    {
+      "amount": 751.4,
+      "is_fuel_surcharge": false
+    },
+    {
+      "amount": 270.0,
+      "is_fuel_surcharge": true
+    }
+  ]
+}

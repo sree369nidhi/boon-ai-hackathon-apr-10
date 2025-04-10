@@ -1,0 +1,151 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "504798115",
+  "customer_id": "CR",
+  "equipment_type_id": "V",
+  "freight_charge": 526.0,
+  "freight_charge_n": 526.0,
+  "freight_charge_r": 1,
+  "rate": 526.0,
+  "rate_type": "F",
+  "rate_units": 1,
+  "otherchargetotal": 106.6,
+  "otherchargetotal_n": 106.6,
+  "otherchargetotal_r": 1,
+  "total_charge": 526.0,
+  "total_charge_n": 526.0,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": 526.0,
+  "totalcharge_and_excisetax_n": 526.0,
+  "totalcharge_and_excisetax_r": 1,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zz920e013df6ae4d83ifgAPP2",
+  "consignee_stop_id": "zz686b78e3b1be437cifgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz920e013df6ae4d83ifgAPP2",
+      "address": "6657 Oak Grove Rd",
+      "city_name": "",
+      "state": "TX",
+      "zip_code": "76134",
+      "location_name": "FDC",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "504798115",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20250217190000-0700",
+      "sched_arrive_late": "20250217190000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "RBTW LOAD SECUREMENT IS CRITICAL. MUST HAVE TWO CARGO STRAPS. Drivers are required to have Safety Vest and CDL on premises. Tandems need slid for loading purposes. At check-in, Driver will be provided a plastic bulkhead for the nose of trailer. At loading, shipper provides two plastic panels for the tail of trailer. Driver is to provide two cargo straps and secure the panels snug against the rear pallets ensuring no gaps between pallets, panels, and straps. Driver must scale prior to exiting. Loads above 45,500 can have weight cut. Driver responsible for axle weight. CHR does not pay for rework.",
+          "sequence": 1,
+          "stop_id": "zz920e013df6ae4d83ifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__loadingInstructions": "RBTW LOAD SECUREMENT IS CRITICAL. MUST HAVE TWO CARGO STRAPS. Drivers are required to have Safety Vest and CDL on premises. Tandems need slid for loading purposes. At check-in, Driver will be provided a plastic bulkhead for the nose of trailer. At loading, shipper provides two plastic panels for the tail of trailer. Driver is to provide two cargo straps and secure the panels snug against the rear pallets ensuring no gaps between pallets, panels, and straps. Driver must scale prior to exiting. Loads above 45,500 can have weight cut. Driver responsible for axle weight. CHR does not pay for rework.",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "80554203 - RBTW",
+          "reference_qual": "POL",
+          "send_to_driver": true,
+          "stop_id": "zz920e013df6ae4d83ifgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zz686b78e3b1be437cifgAPP2",
+      "address": "10025 Market Street",
+      "city_name": "",
+      "state": "TX",
+      "zip_code": "10025",
+      "location_name": "Faust Distributing",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "504798115",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20250218110000-0700",
+      "sched_arrive_late": "20250218110000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "I-10 to 610 South (by Budweiser) 610 South to Turning Basin Exit. Stay on the feeder street to get back onto 610 North. Take exit 26B (Market St). Turn right at the light and go to the address.",
+          "sequence": 1,
+          "stop_id": "zz686b78e3b1be437cifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__unloadingInstructions": "I-10 to 610 South (by Budweiser) 610 South to Turning Basin Exit. Stay on the feeder street to get back onto 610 North. Take exit 26B (Market St). Turn right at the light and go to the address.",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "80554203",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zz686b78e3b1be437cifgAPP2"
+        }
+      ]
+    }
+  ],
+  "bill_distance": 100,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "505798115",
+      "origin_stop_id": "zz920e013df6ae4d83ifgAPP2",
+      "dest_stop_id": "zz686b78e3b1be437cifgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 100,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "504798115"
+    }
+  ],
+  "curr_movement_id": "505798115",
+  "otherCharges": [
+    {
+      "__type": "other_charge",
+      "company_id": "TMS",
+      "charge_code": "MISC",
+      "charge_description": "Miscellaneous Charge",
+      "charge_amount": 106.6,
+      "charge_amount_c": "USD",
+      "charge_amount_n": 106.6,
+      "charge_amount_r": 1,
+      "sequence": 1
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "equipment_type": "Van",
+  "reference_number": "61814758",
+  "booking_confirmation_number": "61814758",
+  "total_rate": 1500.0,
+  "freight_rate": 1500.0,
+  "additional_rate": 0.0,
+  "shipper_section": [
+    {
+      "ship_from_company": "GATORADE DC TACOMA WA OVERFLOW",
+      "ship_from_address": "12005 STEELE ST S, TACOMA, WA 98444",
+      "pickup_number": "73201351, 1320426774",
+      "pickup_instructions": null,
+      "pickup_appointment_start_datetime": "03/11/25 12:45",
+      "pickup_appointment_end_datetime": "03/11/25 12:45"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "ADMIRAL BEV/OLD FAITHFUL",
+      "receiver_address": "714 W SUNNYSIDE RD, IDAHO FALLS, ID 83402",
+      "receiver_delivery_number": "1320426774, 1320426774, 1320426774",
+      "receiver_instructions": "FCFS mon-fri 0700-1400",
+      "receiver_appointment_start_datetime": "03/13/25 07:00",
+      "receiver_appointment_end_datetime": "03/13/25 14:00"
+    }
+  ],
+  "customer_name": null,
+  "email_domain": "echo.com",
+  "customer_address": null,
+  "temperature_present": true,
+  "temperature_low": 45.0,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

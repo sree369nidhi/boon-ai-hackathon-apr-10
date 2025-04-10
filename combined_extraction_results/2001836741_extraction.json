@@ -1,0 +1,36 @@
+{
+  "equipment_type": "Van 53",
+  "reference_number": "2001836741",
+  "booking_confirmation_number": "2001836741",
+  "total_rate": 325.0,
+  "freight_rate": 325.0,
+  "additional_rate": 0.0,
+  "shipper_section": [
+    {
+      "ship_from_company": "Absopure Waters - Absopure",
+      "ship_from_address": "10409 Sanden Drive, Dallas, TX 75238",
+      "pickup_number": "LD002786574, SN574538, 9024887, 1221453",
+      "pickup_instructions": "***CVS DELIVERIES*** !!!DRIVER MUST BE ON TIME TO DELIVERY!!! CARRIERS MUST NOT PAY LUMPERS - CVS SHIPMENTS ARE COLLECT LOADS - EACH CVS DC HAS THE RIGHT TO REFUSE DRIVER'S FOR WHICHEVER REASON. IF DRIVER IS 30MINS - 1 HR LATE, A NEW DEL REQ NEEDS TO BE SENT. CVS DC RESCHEDULES CAN TAKE SEVERAL DAYS TO COME BACK AND CAN BE PUSHED OUT UP TO A WEEK. IF CARRIER IS AT FAULT FOR MISSING DEL APPT NO ADDITIONAL COMPENTSATION WILL BE APPROVED AT CARRIER'S EXPENSE.",
+      "pickup_appointment_start_datetime": "01/06/25 11:00",
+      "pickup_appointment_end_datetime": "01/06/25 11:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "CVS TEXAS DIST L P",
+      "receiver_address": "700 CVS DRIVE, Ennis, TX 75119",
+      "receiver_delivery_number": "LD002786574, SN574538, 9024887",
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "01/06/25 15:00",
+      "receiver_appointment_end_datetime": "01/06/25 15:00"
+    }
+  ],
+  "customer_name": null,
+  "email_domain": "mastery.net",
+  "customer_address": null,
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

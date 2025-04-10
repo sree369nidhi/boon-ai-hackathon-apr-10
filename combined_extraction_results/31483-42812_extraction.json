@@ -1,0 +1,36 @@
+{
+  "equipment_type": "Van - dry",
+  "reference_number": "31483-42812",
+  "booking_confirmation_number": "31483-42812",
+  "total_rate": 300.0,
+  "freight_rate": 300.0,
+  "additional_rate": null,
+  "shipper_section": [
+    {
+      "ship_from_company": "POWER PACKAGING A DHL COMPANY",
+      "ship_from_address": "803 N Carrier Pkwy, Grand Prairie, TX 75050-530",
+      "pickup_number": "2094241830",
+      "pickup_instructions": null,
+      "pickup_appointment_start_datetime": "02/21/25 08:00",
+      "pickup_appointment_end_datetime": null
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "FT WORTH TX DRY MC",
+      "receiver_address": "90 Tradewind Dr, Fort Worth, TX 76177",
+      "receiver_delivery_number": "3563704255",
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "02/21/25 14:30",
+      "receiver_appointment_end_datetime": null
+    }
+  ],
+  "customer_name": "Sage Freight",
+  "email_domain": "sagefreight.com",
+  "customer_address": "8 Cadillac Dr, Brentwood, TN, 37027",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

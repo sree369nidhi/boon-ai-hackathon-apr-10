@@ -1,0 +1,18 @@
+{
+  "equipment_type": null,
+  "reference_number": "3376118-1",
+  "booking_confirmation_number": "3376118-1",
+  "total_rate": 1100.0,
+  "freight_rate": null,
+  "additional_rate": null,
+  "shipper_section": [],
+  "receiver_section": [],
+  "customer_name": null,
+  "email_domain": "armstrongtransport.com",
+  "customer_address": null,
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": null,
+  "additional_rates": []
+}

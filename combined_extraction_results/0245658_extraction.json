@@ -1,0 +1,41 @@
+{
+  "equipment_type": "Reefer",
+  "reference_number": "0245658",
+  "booking_confirmation_number": "0245658",
+  "total_rate": 2400.0,
+  "freight_rate": 2200.0,
+  "additional_rate": 200.0,
+  "shipper_section": [
+    {
+      "ship_from_company": "Americold Logistics",
+      "ship_from_address": "1355 Railroad Ave, ALBERTVILLE, AL 35951",
+      "pickup_number": null,
+      "pickup_instructions": "** Must have 2 Load Locks *** *** Must have 1 Pad Lock *** *** Must Pre Cool to -10 Degrees ***",
+      "pickup_appointment_start_datetime": "12/20/24 10:00",
+      "pickup_appointment_end_datetime": "12/20/24 10:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "Nicholas and Company",
+      "receiver_address": "5520 Harold Gatty Dr, SALT LAKE CITY, UT 84116",
+      "receiver_delivery_number": "CG 459938, PO 88602392",
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "12/24/24 09:00",
+      "receiver_appointment_end_datetime": "12/24/24 09:00"
+    }
+  ],
+  "customer_name": "Freedom Trans USA, LLC",
+  "email_domain": "freedomtransusa.com",
+  "customer_address": "905 Grove St, Gainesville, GA 30501",
+  "temperature_present": true,
+  "temperature_low": -10.0,
+  "temperature_high": -10.0,
+  "is_flat_rate": false,
+  "additional_rates": [
+    {
+      "amount": 200.0,
+      "is_fuel_surcharge": false
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "505151336",
+  "customer_id": "UNKNOWN",
+  "equipment_type_id": "V",
+  "freight_charge": 1255.0,
+  "freight_charge_n": 1255.0,
+  "freight_charge_r": 1,
+  "rate": 1255.0,
+  "rate_type": "F",
+  "rate_units": 1,
+  "otherchargetotal": 312.01,
+  "otherchargetotal_n": 312.01,
+  "otherchargetotal_r": 1,
+  "total_charge": 1255.0,
+  "total_charge_n": 1255.0,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": 1255.0,
+  "totalcharge_and_excisetax_n": 1255.0,
+  "totalcharge_and_excisetax_r": 1,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zzfce17bfb57314180ifgAPP2",
+  "consignee_stop_id": "zzb36cd0fcdad045b7ifgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zzfce17bfb57314180ifgAPP2",
+      "address": "191 RT 31 North",
+      "city_name": "",
+      "state": "NJ",
+      "zip_code": "07882",
+      "location_name": "Albea Washington",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "505151336",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20250211090000-0700",
+      "sched_arrive_late": "20250211140000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "TRAILER MUST BE CLEAN, DRY & ODOR FREE. DRIVER MUST HAVE LOAD BARS OR STRAPS TO SECURE LOAD.",
+          "sequence": 1,
+          "stop_id": "zzfce17bfb57314180ifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__loadingInstructions": "TRAILER MUST BE CLEAN, DRY & ODOR FREE. DRIVER MUST HAVE LOAD BARS OR STRAPS TO SECURE LOAD.",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "56530331",
+          "reference_qual": "POL",
+          "send_to_driver": true,
+          "stop_id": "zzfce17bfb57314180ifgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zzb36cd0fcdad045b7ifgAPP2",
+      "address": "960 Wauhatchie Pike",
+      "city_name": "",
+      "state": "TN",
+      "zip_code": "37419-2432",
+      "location_name": "Chattem",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "505151336",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20250213080000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "TRAILER MUST BE CLEAN, DRY & ODOR FREE. DRIVER MUST HAVE LOAD BARS OR STRAPS TO SECURE LOAD.",
+          "sequence": 1,
+          "stop_id": "zzb36cd0fcdad045b7ifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__unloadingInstructions": "TRAILER MUST BE CLEAN, DRY & ODOR FREE. DRIVER MUST HAVE LOAD BARS OR STRAPS TO SECURE LOAD.",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "DR25798",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zzb36cd0fcdad045b7ifgAPP2"
+        }
+      ]
+    }
+  ],
+  "bill_distance": 100,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "506151336",
+      "origin_stop_id": "zzfce17bfb57314180ifgAPP2",
+      "dest_stop_id": "zzb36cd0fcdad045b7ifgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 100,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "505151336"
+    }
+  ],
+  "curr_movement_id": "506151336",
+  "otherCharges": [
+    {
+      "__type": "other_charge",
+      "company_id": "TMS",
+      "charge_code": "MISC",
+      "charge_description": "Miscellaneous Charge",
+      "charge_amount": 312.01,
+      "charge_amount_c": "USD",
+      "charge_amount_n": 312.01,
+      "charge_amount_r": 1,
+      "sequence": 1
+    }
+  ]
+}

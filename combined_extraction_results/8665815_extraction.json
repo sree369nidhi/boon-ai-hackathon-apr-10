@@ -1,0 +1,36 @@
+{
+  "equipment_type": "53V",
+  "reference_number": "8665815",
+  "booking_confirmation_number": "8665815",
+  "total_rate": 350.0,
+  "freight_rate": 350.0,
+  "additional_rate": 0,
+  "shipper_section": [
+    {
+      "ship_from_company": "JOHNS MANVILLE",
+      "ship_from_address": "200 WEST INDUSTRIAL BLV, CLEBURNE, TX 76033",
+      "pickup_number": "102777790 & 102779025-001",
+      "pickup_instructions": null,
+      "pickup_appointment_start_datetime": "12/11/24 09:00",
+      "pickup_appointment_end_datetime": "12/11/24 09:00"
+    }
+  ],
+  "receiver_section": [
+    {
+      "receiver_company": "PAMACO INSULATION, LLC",
+      "receiver_address": "3104 OAK LANE, DALLAS, TX 75226",
+      "receiver_delivery_number": null,
+      "receiver_instructions": null,
+      "receiver_appointment_start_datetime": "12/11/24 10:00",
+      "receiver_appointment_end_datetime": "12/11/24 13:30"
+    }
+  ],
+  "customer_name": "SHARP TRANSPORTATION INC",
+  "email_domain": "trinitylogistics.com",
+  "customer_address": "390 NORTH 900 EAST, WELLSVILLE, UT 84339",
+  "temperature_present": false,
+  "temperature_low": null,
+  "temperature_high": null,
+  "is_flat_rate": true,
+  "additional_rates": []
+}

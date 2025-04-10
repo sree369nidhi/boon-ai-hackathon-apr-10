@@ -1,0 +1,161 @@
+{
+  "__type": "orders",
+  "company_id": "TMS",
+  "allow_relay": true,
+  "collection_method": "P",
+  "commodity": "DRY",
+  "commodity_id": "DRY",
+  "status": "A",
+  "operational_status": "CLIN",
+  "order_mode": "T",
+  "ordered_method": "M",
+  "bill_distance_um": "MI",
+  "freight_charge_c": "USD",
+  "total_charge_c": "USD",
+  "otherchargetotal_c": "USD",
+  "totalcharge_and_excisetax_c": "USD",
+  "blnum": "31440-90145",
+  "customer_id": "JC",
+  "equipment_type_id": "V",
+  "freight_charge": 800.0,
+  "freight_charge_n": 800.0,
+  "freight_charge_r": 1,
+  "rate": 800.0,
+  "rate_type": "F",
+  "rate_units": 1,
+  "otherchargetotal": 300.0,
+  "otherchargetotal_n": 300.0,
+  "otherchargetotal_r": 1,
+  "total_charge": 1100.0,
+  "total_charge_n": 1100.0,
+  "total_charge_r": 1,
+  "totalcharge_and_excisetax": 1100.0,
+  "totalcharge_and_excisetax_n": 1100.0,
+  "totalcharge_and_excisetax_r": 1,
+  "ordered_date": "20250410120550-0700",
+  "shipper_stop_id": "zzb47c1ccd912844a6ifgAPP2",
+  "consignee_stop_id": "zzc22f0c5e40eb477fifgAPP2",
+  "stops": [
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zzb47c1ccd912844a6ifgAPP2",
+      "address": "4875 E Cheyenne Ave",
+      "city_name": "",
+      "state": "NV",
+      "zip_code": "89115",
+      "location_name": "Johnstone Supply",
+      "stop_type": "PU",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "31440-90145",
+      "order_sequence": 1,
+      "movement_sequence": 1,
+      "sched_arrive_early": "20241204090000-0700",
+      "sched_arrive_late": "20241204180000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "Door 23 - Pedro Ypina (702) 812-1657",
+          "sequence": 1,
+          "stop_id": "zzb47c1ccd912844a6ifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__loadingInstructions": "Door 23 - Pedro Ypina (702) 812-1657",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "573178 / 352021",
+          "reference_qual": "POL",
+          "send_to_driver": true,
+          "stop_id": "zzb47c1ccd912844a6ifgAPP2"
+        }
+      ]
+    },
+    {
+      "__type": "stop",
+      "company_id": "TMS",
+      "id": "zzc22f0c5e40eb477fifgAPP2",
+      "address": "1325 Spring Creek PI",
+      "city_name": "",
+      "state": "UT",
+      "zip_code": "84663",
+      "location_name": "Supanaturals",
+      "stop_type": "SO",
+      "driver_load_unload": "N",
+      "status": "A",
+      "order_id": "31440-90145",
+      "order_sequence": 2,
+      "movement_sequence": 2,
+      "sched_arrive_early": "20241205080000-0700",
+      "stopNotes": [
+        {
+          "__type": "stop_note",
+          "company_id": "TMS",
+          "comment_type": "DC",
+          "comments": "Waiting to confirm Appt",
+          "sequence": 1,
+          "stop_id": "zzc22f0c5e40eb477fifgAPP2",
+          "system_added": false
+        }
+      ],
+      "__unloadingInstructions": "Waiting to confirm Appt",
+      "referenceNumbers": [
+        {
+          "__type": "reference_number",
+          "company_id": "TMS",
+          "reference_number": "573178 / 352021",
+          "reference_qual": "ON",
+          "send_to_driver": true,
+          "stop_id": "zzc22f0c5e40eb477fifgAPP2"
+        }
+      ]
+    }
+  ],
+  "bill_distance": 100,
+  "movement": [
+    {
+      "__type": "movement",
+      "company_id": "TMS",
+      "id": "3145090145",
+      "origin_stop_id": "zzb47c1ccd912844a6ifgAPP2",
+      "dest_stop_id": "zzc22f0c5e40eb477fifgAPP2",
+      "loaded": "L",
+      "movement_type": "TKLD",
+      "status": "A",
+      "move_distance": 100,
+      "move_distance_um": "MI",
+      "authorized": true,
+      "order_id": "31440-90145"
+    }
+  ],
+  "curr_movement_id": "3145090145",
+  "otherCharges": [
+    {
+      "__type": "other_charge",
+      "company_id": "TMS",
+      "charge_code": "MISC",
+      "charge_description": "Miscellaneous Charge",
+      "charge_amount": 250.0,
+      "charge_amount_c": "USD",
+      "charge_amount_n": 250.0,
+      "charge_amount_r": 1,
+      "sequence": 1
+    },
+    {
+      "__type": "other_charge",
+      "company_id": "TMS",
+      "charge_code": "MISC",
+      "charge_description": "Miscellaneous Charge",
+      "charge_amount": 50.0,
+      "charge_amount_c": "USD",
+      "charge_amount_n": 50.0,
+      "charge_amount_r": 1,
+      "sequence": 2
+    }
+  ]
+}
