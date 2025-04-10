@@ -2,7 +2,7 @@
 
 ## Prerequisites
 - Python 3.10 or higher
-- Poetry (for dependency management) or pip
+- Poetry (for dependency management)
 
 ## Setup Instructions
 
@@ -19,36 +19,29 @@ OPENAI_API_KEY=your_openai_api_key_here
 BOON_DB_ENDPOINT=your_db_endpoint_here
 ```
 
-### 3. Install Dependencies
+### 3. Set Up Virtual Environment and Install Dependencies
 
-#### Option 1: Using Poetry (Recommended)
 ```bash
-# Install Poetry if you haven't already
-curl -sSL https://install.python-poetry.org | python3 -
-
-# Install dependencies
-poetry install
-```
-
-#### Option 2: Using pip
-```bash
-# Create a virtual environment (recommended)
+# Create a Python virtual environment
 python -m venv venv
+
+# Activate the virtual environment
 source venv/bin/activate  # On Windows, use: venv\Scripts\activate
 
-# Install dependencies
-pip install -r requirements.txt
+# Install Poetry in the virtual environment
+pip install poetry
+
+# Install project dependencies using Poetry
+poetry install
 ```
 
 ### 4. Running the Code
 
-#### With Poetry
 ```bash
-poetry run python src/test.py
-```
+# Make sure your virtual environment is activated
+source venv/bin/activate  # On Windows, use: venv\Scripts\activate
 
-#### With pip (if using virtual environment)
-```bash
+# Run the code
 python src/test.py
 ```
 
@@ -59,6 +52,7 @@ boon-ai-hackathon-apr-10/
 │   └── test.py          # Main application file
 ├── .env                 # Environment variables (create this)
 ├── pyproject.toml       # Poetry project configuration
+├── poetry.lock         # Poetry lock file (dependency versions)
 ├── requirements.txt     # pip requirements file
 └── README.md           # This file
 ```
